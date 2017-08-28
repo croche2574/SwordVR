@@ -1,9 +1,9 @@
-﻿Log file open, 08/28/17 14:36:47
+﻿Log file open, 08/28/17 14:49:28
 LogInit:Display: Running engine for game: SwordVR
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-281463537) SRandInit(-281463537).
+LogInit:Display: RandInit(-1979695174) SRandInit(-1979695174).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.095819
+LogStats: Stats thread started at 0.110500
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,281 +50,482 @@ LogInit: Base directory: F:/Unreal 4.16.2/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.28-18.36.48:047][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.28-18.36.48:047][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.28-18.36.48:058][  0]LogInit: Computer: IST1022-14
-[2017.08.28-18.36.48:058][  0]LogInit: User: croche2574
-[2017.08.28-18.36.48:058][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.28-18.36.48:058][  0]LogInit: High frequency timer resolution =3.410073 MHz
-[2017.08.28-18.36.48:059][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2017.08.28-18.36.48:059][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.28-18.36.48:059][  0]LogMemory: Process Physical Memory: 273.32 MB used, 273.32 MB peak
-[2017.08.28-18.36.48:059][  0]LogMemory: Process Virtual Memory: 261.12 MB used, 261.12 MB peak
-[2017.08.28-18.36.48:059][  0]LogMemory: Physical Memory: 9812.23 MB used,  22872.06 MB free, 32684.29 MB total
-[2017.08.28-18.36.48:059][  0]LogMemory: Virtual Memory: 638.62 MB used,  22872.06 MB free, 134217728.00 MB total
-[2017.08.28-18.36.48:124][  0]LogInit: Using OS detected language (en-US).
-[2017.08.28-18.36.48:124][  0]LogInit: Using OS detected locale (en-US).
-[2017.08.28-18.36.48:126][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.08.28-18.36.49:128][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.28-18.36.49:166][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2017.08.28-18.36.49:166][  0]LogD3D11RHI:       8076/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.08.28-18.36.49:168][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.28-18.36.49:168][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.28-18.36.49:168][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.28-18.36.49:173][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.28-18.36.49:173][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.28-18.36.49:173][  0]LogWindows: EnumDisplayDevices:
-[2017.08.28-18.36.49:173][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2017.08.28-18.36.49:174][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2017.08.28-18.36.49:174][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.08.28-18.36.49:174][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2017.08.28-18.36.49:174][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.08.28-18.36.49:174][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2017.08.28-18.36.49:174][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
-[2017.08.28-18.36.49:174][  0]LogD3D11RHI:      Driver Date: 6-27-2017
-[2017.08.28-18.36.49:174][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.28-18.36.49:197][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.28-18.36.49:213][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.08.28-18.36.49:257][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (C:/Users/croche2574/Downloads/SwordVR/SwordVR/Intermediate/Shaders/WorkingDirectory/10844/).
-[2017.08.28-18.36.49:257][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croche2574/AppData/Local/Temp/UnrealShaderWorkingDir/998AD4974B470D4F8F19DEBC8E3700CC/'.
-[2017.08.28-18.36.49:257][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.28-18.36.50:396][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.28-18.36.50:440][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.28-18.36.50:485][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.28-18.36.50:528][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.28-18.36.50:589][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.28-18.36.50:647][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.28-18.36.50:690][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.28-18.36.50:735][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.28-18.36.50:774][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.28-18.36.50:820][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.28-18.36.50:861][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.28-18.36.50:906][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.28-18.36.50:946][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.28-18.36.50:989][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.28-18.36.51:033][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.28-18.36.51:145][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.28-18.36.51:145][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.28-18.36.51:191][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.28-18.36.51:275][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.28-18.36.51:302][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.28-18.36.51:347][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.28-18.36.51:390][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.28-18.36.51:432][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.28-18.36.51:476][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.28-18.36.51:476][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.28-18.36.51:934][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.28-18.36.52:050][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.28-18.36.52:050][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.28-18.36.52:050][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/croche2574/Downloads/SwordVR/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.28-18.36.52:050][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.28-18.36.52:050][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/croche2574/Downloads/SwordVR/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.28-18.36.52:050][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.28-18.36.52:070][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.28-18.36.52:082][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croche2574/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.28-18.36.52:093][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.28-18.36.52:093][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.28-18.36.52:094][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.28-18.36.52:094][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.28-18.36.52:457][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.28-18.36.52:536][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.28-18.36.52:682][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.28-18.36.52:736][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.28-18.36.52:794][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.28-18.36.52:794][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.28-18.36.52:794][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.28-18.36.53:360][  0]LogNetVersion: SwordVR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1496206902)
-[2017.08.28-18.36.53:420][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
-[2017.08.28-18.36.53:502][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.059991 seconds
-[2017.08.28-18.36.53:508][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.28-18.36.53:508][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.08.28-18.36.53:508][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.28-18.36.53:562][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.28-18.36.55:836][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.28-18.36.55:869][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.28-18.36.56:359][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.28-18.36.56:743][  0]SourceControl: Info Source control is disabled
-[2017.08.28-18.36.56:785][  0]SourceControl: Info Source control is disabled
-[2017.08.28-18.36.56:825][  0]SourceControl: Info Source control is disabled
-[2017.08.28-18.36.56:862][  0]SourceControl: Info Source control is disabled
-[2017.08.28-18.36.57:563][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.28-18.36.58:095][  0]LogEngine: Initializing Engine...
-[2017.08.28-18.36.58:673][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-3D9A73B8
-[2017.08.28-18.36.58:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.28-18.36.58:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.28-18.36.59:000][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.28-18.36.59:018][  0]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.28-18.36.59:027][  0]LogInit: FAudioDevice initialized.
-[2017.08.28-18.36.59:078][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.28-18.36.59:089][  0]LogInit: Texture streaming: Enabled
-[2017.08.28-18.36.59:166][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.28-18.36.59:166][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={484D5589-4B0E-CAFC-2E3D-20AA41B1775B}
-[2017.08.28-18.36.59:379][  0]LogInit: Transaction tracking system initialized
-[2017.08.28-18.36.59:631][  0]BlueprintLog: New page: Editor Load
-[2017.08.28-18.37.00:455][  0]LocalizationService: Info Localization service is disabled
-[2017.08.28-18.37.01:030][  0]LogConsoleResponse:Display: 
-[2017.08.28-18.37.01:158][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.28-18.37.01:158][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.28-18.37.01:583][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/' took 0.01s
-[2017.08.28-18.37.02:014][  0]SourceControl: Info Source control is disabled
-[2017.08.28-18.37.02:014][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.28-18.37.02:015][  0]LightingResults: New page: Lighting Build
-[2017.08.28-18.37.02:046][  0]MapCheck: New page: Map Check
-[2017.08.28-18.37.02:046][  0]LightingResults: New page: Lighting Build
-[2017.08.28-18.37.02:226][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.28-18.37.02:227][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.08.28-18.37.02:231][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.28-18.37.02:249][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.28-18.37.02:289][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.418ms to complete.
-[2017.08.28-18.37.02:289][  0]LogFileHelpers: Loading map 'Template_Default' took 0.275
-[2017.08.28-18.37.02:362][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.08.28-18.37.02:439][  0]LogCollectionManager: Loaded 0 collections in 0.000910 seconds
-[2017.08.28-18.37.02:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/Collections/' took 0.01s
-[2017.08.28-18.37.02:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Developers/croche2574/Collections/' took 0.01s
-[2017.08.28-18.37.02:529][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Collections/' took 0.01s
-[2017.08.28-18.37.02:529][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.28-18.37.02:542][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 2342 classes and 497 folders.
-[2017.08.28-18.37.02:594][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.08.28-18.37.02:628][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.08.28-18.37.02:662][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.08.28-18.37.02:694][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.28-18.37.02:699][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.28-18.37.02:701][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.28-18.37.02:707][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.28-18.37.02:794][  0]LogRenderer: Reallocating scene render targets to support 1616x916 NumSamples 1 (Frame:1).
-[2017.08.28-18.37.02:994][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.08.28-18.37.02:994][  0]LogLoad: (Engine Initialization) Total time: 16.64 seconds
-[2017.08.28-18.37.02:994][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
-[2017.08.28-18.37.02:994][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.28-18.37.02:994][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.28-18.37.03:004][  0]LogOcInput: OculusInput pre-init called
-[2017.08.28-18.37.03:004][  0]LogHMD: Starting GearVRController plugin
-[2017.08.28-18.37.03:004][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
-[2017.08.28-18.37.03:004][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'right'.
-[2017.08.28-18.37.03:004][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 1 (left=0, right=1).
-[2017.08.28-18.37.03:004][  0]LogSteamVRController: Controller role for device 4 is 1 (invalid=0, left=1, right=2).
-[2017.08.28-18.37.03:004][  0]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
-[2017.08.28-18.37.03:004][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 0 (left=0, right=1).
-[2017.08.28-18.37.03:025][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.28-18.37.03:096][  1]LogAssetRegistry: Asset discovery search completed in 9.6975 seconds
-[2017.08.28-18.37.03:097][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.28-18.37.03:097][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2017.08.28-18.37.04:023][104]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.28-18.37.05:202][227]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.28-18.37.05:552][227]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
-[2017.08.28-18.37.06:133][227]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.28-18.37.06:196][227]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.08.28-18.37.06:427][228]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.08.28-18.37.15:008][754]LogTemp: Repeting last play command: VR Preview
-[2017.08.28-18.37.15:044][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.28-18.37.15:045][754]PIE: New page: PIE session: Untitled_1 (Aug 28, 2017, 10:37:15 AM)
-[2017.08.28-18.37.15:045][754]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2017.08.28-18.37.15:047][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002112s)
-[2017.08.28-18.37.15:048][754]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.28-18.37.15:048][754]LogPlayLevel: PIE: World Init took: (0.000794s)
-[2017.08.28-18.37.15:048][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003130s)
-[2017.08.28-18.37.15:081][754]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.28-18.37.15:089][754]LogInit: FAudioDevice initialized.
-[2017.08.28-18.37.15:224][754]LogLoad: Game class is 'VR_GameMode_C'
-[2017.08.28-18.37.15:227][754]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.28-14.37.15
-[2017.08.28-18.37.15:227][754]LogWorld: Bringing up level for play took: 0.000867
-[2017.08.28-18.37.15:262][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2017.08.28-18.37.15:278][754]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.204
-[2017.08.28-18.37.15:323][755]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
-[2017.08.28-18.37.21:433][196]LogTemp: Repeting last play command: VR Preview
-[2017.08.28-18.37.21:455][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.28-18.37.21:455][196]PIE: New page: PIE session: Untitled_1 (Aug 28, 2017, 10:37:21 AM)
-[2017.08.28-18.37.21:455][196]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2017.08.28-18.37.21:458][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002435s)
-[2017.08.28-18.37.21:458][196]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.28-18.37.21:458][196]LogPlayLevel: PIE: World Init took: (0.000842s)
-[2017.08.28-18.37.21:459][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003547s)
-[2017.08.28-18.37.21:497][196]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.28-18.37.21:506][196]LogInit: FAudioDevice initialized.
-[2017.08.28-18.37.21:613][196]LogLoad: Game class is 'VR_GameMode_C'
-[2017.08.28-18.37.21:615][196]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.08.28-14.37.21
-[2017.08.28-18.37.21:615][196]LogWorld: Bringing up level for play took: 0.001013
-[2017.08.28-18.37.21:632][196]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.442
-[2017.08.28-18.37.44:109][255]LogAIModule: Creating AISystem for world synth_Level
-[2017.08.28-18.37.44:134][255]Cmd: MAP LOAD FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.28-18.37.44:134][255]LightingResults: New page: Lighting Build
-[2017.08.28-18.37.44:135][255]LoadErrors: New page: Loading map: synth_Level.umap
-[2017.08.28-18.37.44:135][255]MapCheck: New page: Map Check
-[2017.08.28-18.37.44:135][255]LightingResults: New page: Lighting Build
-[2017.08.28-18.37.44:154][255]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.28-18.37.44:207][255]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.28-18.37.44:262][255]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.611ms to complete.
-[2017.08.28-18.37.44:262][255]LogFileHelpers: Loading map 'synth_Level' took 0.129
-[2017.08.28-18.37.45:735][424]LogTemp: Repeting last play command: VR Preview
-[2017.08.28-18.37.45:750][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.28-18.37.45:750][424]PIE: New page: PIE session: synth_Level (Aug 28, 2017, 10:37:45 AM)
-[2017.08.28-18.37.45:751][424]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
-[2017.08.28-18.37.45:755][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004331s)
-[2017.08.28-18.37.45:756][424]LogAIModule: Creating AISystem for world synth_Level
-[2017.08.28-18.37.45:756][424]LogPlayLevel: PIE: World Init took: (0.000993s)
-[2017.08.28-18.37.45:756][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.005532s)
-[2017.08.28-18.37.45:791][424]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.28-18.37.45:800][424]LogInit: FAudioDevice initialized.
-[2017.08.28-18.37.45:899][424]LogLoad: Game class is 'VR_GameMode_C'
-[2017.08.28-18.37.45:901][424]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.08.28-14.37.45
-[2017.08.28-18.37.45:901][424]LogWorld: Bringing up level for play took: 0.001031
-[2017.08.28-18.37.45:903][424]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.37.45:903][424]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.37.45:903][424]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.37.45:903][424]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.37.45:907][424]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level -0.167
-[2017.08.28-18.39.10:135][534]BlueprintLog: New page: Compile MyRunebergVR_Pawn
-[2017.08.28-18.39.10:919][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
-[2017.08.28-18.39.11:054][574]LogSavePackage: Save=120.39ms
-[2017.08.28-18.39.11:054][574]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/MyRunebergVR_PawnB17F2BDE49428D9F70AC97AB9905ABD9.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset'
-[2017.08.28-18.39.11:057][574]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset
-[2017.08.28-18.39.12:054][648]LogTemp: Repeting last play command: VR Preview
-[2017.08.28-18.39.12:071][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.28-18.39.12:071][648]PIE: New page: PIE session: synth_Level (Aug 28, 2017, 10:39:12 AM)
-[2017.08.28-18.39.12:071][648]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
-[2017.08.28-18.39.12:075][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003898s)
-[2017.08.28-18.39.12:075][648]LogAIModule: Creating AISystem for world synth_Level
-[2017.08.28-18.39.12:076][648]LogPlayLevel: PIE: World Init took: (0.000738s)
-[2017.08.28-18.39.12:076][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.004839s)
-[2017.08.28-18.39.12:108][648]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.28-18.39.12:116][648]LogInit: FAudioDevice initialized.
-[2017.08.28-18.39.12:231][648]LogLoad: Game class is 'VR_GameMode_C'
-[2017.08.28-18.39.12:234][648]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.08.28-14.39.12
-[2017.08.28-18.39.12:234][648]LogWorld: Bringing up level for play took: 0.001110
-[2017.08.28-18.39.12:236][648]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.39.12:236][648]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.39.12:236][648]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.39.12:236][648]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
-[2017.08.28-18.39.12:251][648]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.176
-[2017.08.28-18.39.29:579][189]LogUObjectBase:Warning: NULL object
-[2017.08.28-18.39.42:233][195]BlueprintLog: New page: Compile MyRunebergVR_Pawn
-[2017.08.28-18.39.42:991][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
-[2017.08.28-18.39.43:123][231]LogSavePackage: Save=124.40ms
-[2017.08.28-18.39.43:123][231]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/MyRunebergVR_Pawn721B5F204D83C750E5C737927BB6B58A.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset'
-[2017.08.28-18.39.43:126][231]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset
-[2017.08.28-18.40.06:270][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gesture_DB" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Gesture_DB.uasset" SILENT=true
-[2017.08.28-18.40.06:283][631]LogSavePackage: Save=5.13ms
-[2017.08.28-18.40.06:283][631]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/Gesture_DB5852C6074E23349DC4FA33A3FBD64C5D.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Gesture_DB.uasset'
-[2017.08.28-18.40.06:286][631]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Gesture_DB.uasset
-[2017.08.28-18.40.30:868][241]BlueprintLog: New page: Compile MyRunebergVR_Pawn
-[2017.08.28-18.40.32:618][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
-[2017.08.28-18.40.32:767][336]LogSavePackage: Save=138.96ms
-[2017.08.28-18.40.32:767][336]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/MyRunebergVR_Pawn890991F54427D356CE2DA58849E89DE0.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset'
-[2017.08.28-18.40.32:769][336]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset
-[2017.08.28-18.40.41:000][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gesture_DB" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Gesture_DB.uasset" SILENT=true
-[2017.08.28-18.40.41:012][110]LogSavePackage: Save=5.17ms
-[2017.08.28-18.40.41:012][110]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/Gesture_DB1FE0ED1B4585BCF799989DB41F17A35E.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Gesture_DB.uasset'
-[2017.08.28-18.40.41:014][110]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Gesture_DB.uasset
-[2017.08.28-18.44.43:212][941]BlueprintLog: New page: Compile MyRunebergVR_Pawn
-[2017.08.28-18.44.44:601][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
-[2017.08.28-18.44.44:739][ 29]LogSavePackage: Save=122.80ms
-[2017.08.28-18.44.44:740][ 29]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/MyRunebergVR_PawnA4F5BF9C41B52BBE191D38A04C8D8C0C.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset'
-[2017.08.28-18.44.44:743][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/MyRunebergVR_Pawn.uasset
-[2017.08.28-18.44.49:706][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.28-18.44.49:796][449]LogSavePackage: Save=61.95ms
-[2017.08.28-18.44.49:796][449]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/synth_Level479E26AC4FB9DFC7D16011A133EEFEC8.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level.umap'
-[2017.08.28-18.44.49:797][449]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level.umap
-[2017.08.28-18.44.49:821][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
-[2017.08.28-18.44.49:846][449]LogSavePackage: Save=11.79ms
-[2017.08.28-18.44.49:846][449]LogSavePackage: Moving 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/synth_Level_BuiltDataAEA60CDA4C6F01A7E9AB7D94EA80E5DC.tmp' to 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
-[2017.08.28-18.44.49:848][449]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.28-18.49.29:406][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.28-18.49.29:406][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.28-18.49.29:417][  0]LogInit: Computer: IST1022-14
+[2017.08.28-18.49.29:417][  0]LogInit: User: croche2574
+[2017.08.28-18.49.29:417][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.28-18.49.29:417][  0]LogInit: High frequency timer resolution =3.410073 MHz
+[2017.08.28-18.49.29:418][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.08.28-18.49.29:418][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.28-18.49.29:418][  0]LogMemory: Process Physical Memory: 273.42 MB used, 273.42 MB peak
+[2017.08.28-18.49.29:418][  0]LogMemory: Process Virtual Memory: 261.26 MB used, 261.26 MB peak
+[2017.08.28-18.49.29:418][  0]LogMemory: Physical Memory: 9870.24 MB used,  22814.04 MB free, 32684.29 MB total
+[2017.08.28-18.49.29:418][  0]LogMemory: Virtual Memory: 638.62 MB used,  22814.04 MB free, 134217728.00 MB total
+[2017.08.28-18.49.29:500][  0]LogInit: Using OS detected language (en-US).
+[2017.08.28-18.49.29:500][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.28-18.49.29:504][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.28-18.49.30:476][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.28-18.49.30:513][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.08.28-18.49.30:513][  0]LogD3D11RHI:       8076/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.28-18.49.30:514][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.28-18.49.30:514][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.28-18.49.30:514][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.28-18.49.30:519][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.28-18.49.30:519][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.28-18.49.30:519][  0]LogWindows: EnumDisplayDevices:
+[2017.08.28-18.49.30:519][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.08.28-18.49.30:519][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.08.28-18.49.30:519][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.28-18.49.30:519][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.28-18.49.30:519][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.28-18.49.30:520][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.08.28-18.49.30:520][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.08.28-18.49.30:520][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.08.28-18.49.30:520][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.28-18.49.30:547][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.28-18.49.30:559][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.28-18.49.30:604][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (C:/Users/croche2574/Downloads/SwordVR/SwordVR/Intermediate/Shaders/WorkingDirectory/10732/).
+[2017.08.28-18.49.30:604][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croche2574/AppData/Local/Temp/UnrealShaderWorkingDir/79EA116C4A8350251AFB31A508633349/'.
+[2017.08.28-18.49.30:604][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.28-18.49.31:707][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.28-18.49.31:755][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.28-18.49.31:800][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.28-18.49.31:843][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.28-18.49.31:888][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.28-18.49.31:936][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.28-18.49.31:983][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.28-18.49.32:027][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.28-18.49.32:067][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.28-18.49.32:113][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.28-18.49.32:156][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.28-18.49.32:225][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.28-18.49.32:280][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.28-18.49.32:322][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.28-18.49.32:369][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.28-18.49.32:461][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.28-18.49.32:461][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.28-18.49.32:498][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.28-18.49.32:584][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.28-18.49.32:615][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.28-18.49.32:662][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.28-18.49.32:715][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.28-18.49.32:782][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.28-18.49.32:837][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.28-18.49.32:837][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.28-18.49.33:275][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.28-18.49.33:406][  0]LogDerivedDataCache: Loaded boot cache 0.13s 90MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.28-18.49.33:406][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.28-18.49.33:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/croche2574/Downloads/SwordVR/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.28-18.49.33:406][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.28-18.49.33:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/croche2574/Downloads/SwordVR/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.28-18.49.33:407][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.28-18.49.33:424][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.28-18.49.33:436][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croche2574/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.28-18.49.33:447][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.28-18.49.33:447][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.28-18.49.33:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.28-18.49.33:448][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.28-18.49.33:787][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.28-18.49.33:888][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.28-18.49.34:042][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.28-18.49.34:081][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.28-18.49.34:120][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.28-18.49.34:120][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.28-18.49.34:120][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.28-18.49.34:676][  0]LogNetVersion: SwordVR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1496206902)
+[2017.08.28-18.49.34:734][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.08.28-18.49.34:816][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.061746 seconds
+[2017.08.28-18.49.34:823][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.28-18.49.34:823][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.28-18.49.34:824][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.28-18.49.34:891][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.28-18.49.37:214][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.28-18.49.37:249][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.28-18.49.37:744][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.28-18.49.38:099][  0]SourceControl: Info Source control is disabled
+[2017.08.28-18.49.38:156][  0]SourceControl: Info Source control is disabled
+[2017.08.28-18.49.38:217][  0]SourceControl: Info Source control is disabled
+[2017.08.28-18.49.38:257][  0]SourceControl: Info Source control is disabled
+[2017.08.28-18.49.38:958][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.28-18.49.39:498][  0]LogEngine: Initializing Engine...
+[2017.08.28-18.49.40:064][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-3D9A73B8
+[2017.08.28-18.49.40:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.28-18.49.40:342][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.28-18.49.40:454][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.28-18.49.40:472][  0]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.28-18.49.40:481][  0]LogInit: FAudioDevice initialized.
+[2017.08.28-18.49.40:531][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.28-18.49.40:541][  0]LogInit: Texture streaming: Enabled
+[2017.08.28-18.49.40:624][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.28-18.49.40:624][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={14407760-4A28-4C77-0B95-46AE1E0C98AB}
+[2017.08.28-18.49.40:807][  0]LogInit: Transaction tracking system initialized
+[2017.08.28-18.49.41:097][  0]BlueprintLog: New page: Editor Load
+[2017.08.28-18.49.41:919][  0]LocalizationService: Info Localization service is disabled
+[2017.08.28-18.49.42:538][  0]LogConsoleResponse:Display: 
+[2017.08.28-18.49.42:671][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.28-18.49.42:671][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.28-18.49.43:525][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/' took 0.01s
+[2017.08.28-18.49.43:525][  0]SourceControl: Info Source control is disabled
+[2017.08.28-18.49.43:526][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.28-18.49.43:526][  0]LightingResults: New page: Lighting Build
+[2017.08.28-18.49.43:572][  0]MapCheck: New page: Map Check
+[2017.08.28-18.49.43:572][  0]LightingResults: New page: Lighting Build
+[2017.08.28-18.49.43:774][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.28-18.49.43:775][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.28-18.49.43:779][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.28-18.49.43:798][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.28-18.49.43:838][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.447ms to complete.
+[2017.08.28-18.49.43:838][  0]LogFileHelpers: Loading map 'Template_Default' took 0.313
+[2017.08.28-18.49.43:898][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.28-18.49.43:971][  0]LogCollectionManager: Loaded 0 collections in 0.000905 seconds
+[2017.08.28-18.49.44:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/Collections/' took 0.01s
+[2017.08.28-18.49.44:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Developers/croche2574/Collections/' took 0.01s
+[2017.08.28-18.49.44:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Collections/' took 0.01s
+[2017.08.28-18.49.44:046][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.28-18.49.44:055][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2342 classes and 497 folders.
+[2017.08.28-18.49.44:129][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.08.28-18.49.44:177][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.08.28-18.49.44:213][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.28-18.49.44:248][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.28-18.49.44:253][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.28-18.49.44:255][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.28-18.49.44:261][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.28-18.49.44:347][  0]LogRenderer: Reallocating scene render targets to support 1616x916 NumSamples 1 (Frame:1).
+[2017.08.28-18.49.44:545][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.28-18.49.44:545][  0]LogLoad: (Engine Initialization) Total time: 16.71 seconds
+[2017.08.28-18.49.44:545][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.08.28-18.49.44:545][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.28-18.49.44:545][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.28-18.49.44:554][  0]LogOcInput: OculusInput pre-init called
+[2017.08.28-18.49.44:554][  0]LogHMD: Starting GearVRController plugin
+[2017.08.28-18.49.44:554][  0]LogSteamVRController: Controller role for device 3 is 1 (invalid=0, left=1, right=2).
+[2017.08.28-18.49.44:554][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'left'.
+[2017.08.28-18.49.44:554][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 0 (left=0, right=1).
+[2017.08.28-18.49.44:554][  0]LogSteamVRController: Controller role for device 4 is 2 (invalid=0, left=1, right=2).
+[2017.08.28-18.49.44:554][  0]LogSteamVRController: Putting controller 4 on the right hand because there is already a controller for the left.
+[2017.08.28-18.49.44:554][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 1 (left=0, right=1).
+[2017.08.28-18.49.44:567][  0]LogAssetRegistry: Asset discovery search completed in 9.8543 seconds
+[2017.08.28-18.49.44:569][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.28-18.49.44:569][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.08.28-18.49.44:572][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.28-18.49.48:690][473]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.28-18.49.48:714][473]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.28-18.49.48:732][473]Cmd: MAP LOAD FILE="C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.28-18.49.48:732][473]LightingResults: New page: Lighting Build
+[2017.08.28-18.49.48:733][473]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.08.28-18.49.48:734][473]MapCheck: New page: Map Check
+[2017.08.28-18.49.48:734][473]LightingResults: New page: Lighting Build
+[2017.08.28-18.49.48:745][473]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.28-18.49.48:776][473]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.28-18.49.48:816][473]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.038ms to complete.
+[2017.08.28-18.49.48:817][473]LogFileHelpers: Loading map 'synth_Level' took 0.085
+[2017.08.28-18.49.51:190][743]LogTemp: Repeting last play command: VR Preview
+[2017.08.28-18.49.51:224][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.28-18.49.51:224][743]PIE: New page: PIE session: synth_Level (Aug 28, 2017, 10:49:51 AM)
+[2017.08.28-18.49.51:224][743]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.08.28-18.49.51:228][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004205s)
+[2017.08.28-18.49.51:229][743]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.28-18.49.51:229][743]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.08.28-18.49.51:229][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.005222s)
+[2017.08.28-18.49.51:255][743]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.28-18.49.51:263][743]LogInit: FAudioDevice initialized.
+[2017.08.28-18.49.51:458][743]LogLoad: Game class is 'VR_GameMode_C'
+[2017.08.28-18.49.51:461][743]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.08.28-14.49.51
+[2017.08.28-18.49.51:461][743]LogWorld: Bringing up level for play took: 0.000981
+[2017.08.28-18.49.51:496][743]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.28-18.49.51:497][743]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.28-18.49.51:497][743]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.28-18.49.51:497][743]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.28-18.49.51:497][743]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.28-18.49.51:502][743]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level -0.574
+[2017.08.28-18.49.51:540][744]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.08.28-19.15.33:104][618]Cmd: QUIT_EDITOR
+[2017.08.28-19.15.33:563][618]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.28-19.15.33:574][618]LogExit: Preparing to exit.
+[2017.08.28-19.15.34:096][618]LogExit: Editor shut down
+[2017.08.28-19.15.34:106][618]LogExit: Transaction tracking system shut down
+[2017.08.28-19.15.34:171][618]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.28-19.15.34:171][618]LogExit: Object subsystem successfully closed.
+[2017.08.28-19.15.34:188][618]LogD3D11RHI: Shutdown
+[2017.08.28-19.15.34:188][618]LogD3D11RHI: CleanupD3DDevice
+[2017.08.28-19.15.34:198][618]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.28-19.15.34:208][618]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.08.28-19.15.34:208][618]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.08.28-19.15.34:208][618]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.08.28-19.15.34:208][618]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.08.28-19.15.34:208][618]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.08.28-19.15.34:217][618]LogDirectoryWatcher: A directory notification for 'F:/Unreal 4.16.2/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.08.28-19.15.34:219][618]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Collections/' was aborted.
+[2017.08.28-19.15.34:219][618]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/Developers/croche2574/Collections/' was aborted.
+[2017.08.28-19.15.34:219][618]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Saved/Collections/' was aborted.
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.08.28-19.15.34:219][618]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.08.28-19.15.34:220][618]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.08.28-19.15.35:044][618]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.08.28-19.15.35:045][618]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.08.28-19.15.35:109][618]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.08.28-19.15.35:110][618]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.08.28-19.15.35:277][618]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.08.28-19.15.35:277][618]LogModuleManager: Shutting down and abandoning module SteamVRController (328)
+[2017.08.28-19.15.35:277][618]LogModuleManager: Shutting down and abandoning module SteamVR (326)
+[2017.08.28-19.15.35:277][618]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (324)
+[2017.08.28-19.15.35:277][618]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module OculusLibrary (320)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module OculusInput (318)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (316)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (304)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (302)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module GestureTrackerVR (300)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.28-19.15.35:278][618]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.28-19.15.35:280][618]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Plugins/Marketplace/GestureTrackerVR/Binaries/Win64' was aborted.
+[2017.08.28-19.15.35:280][618]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Plugins/Marketplace/RunebergVRPlugin/Binaries/Win64' was aborted.
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.28-19.15.35:280][618]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.28-19.15.35:381][618]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.28-19.15.35:481][618]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.28-19.15.35:481][618]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.28-19.15.35:481][618]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.28-19.15.35:481][618]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.28-19.15.35:481][618]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.28-19.15.35:481][618]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.28-19.15.35:482][618]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.28-19.15.35:482][618]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.28-19.15.35:482][618]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.28-19.15.35:482][618]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.28-19.15.35:483][618]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.28-19.15.35:484][618]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.28-19.15.35:484][618]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.28-19.15.35:484][618]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.28-19.15.35:484][618]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.28-19.15.35:484][618]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.28-19.15.35:484][618]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.28-19.15.35:489][618]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.28-19.15.35:489][618]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.28-19.15.35:489][618]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.28-19.15.35:489][618]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.28-19.15.35:489][618]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.28-19.15.35:489][618]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.28-19.15.35:596][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.28-19.15.35:596][618]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Content/' was aborted.
+[2017.08.28-19.15.35:596][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.28-19.15.35:596][618]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Downloads/SwordVR/SwordVR/Plugins/Marketplace/GestureTrackerVR/Content/' was aborted.
+[2017.08.28-19.15.35:597][618]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.28-19.15.35:599][618]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.28-19.15.35:601][618]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.28-19.15.35:628][618]LogDerivedDataCache: Shutdown
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.28-19.15.35:628][618]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.28-19.15.35:628][618]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.28-19.15.35:628][618]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.28-19.15.35:628][618]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1326E080-4756-C649-B2E5-8DB9BB574531%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=3216ef1d4b12195d52d76fbfbbbf329e%7Cd8e1cdd51d1c479f8a85754926729c65%7C12586e77-4266-4c82-b3f1-2966cd209827&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.28-19.15.35:663][618]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.28-19.15.35:664][618]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.28-19.15.35:665][618]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.28-19.15.35:667][618]LogExit: Exiting.
+[2017.08.28-19.15.35:679][618]Log file closed, 08/28/17 15:15:35

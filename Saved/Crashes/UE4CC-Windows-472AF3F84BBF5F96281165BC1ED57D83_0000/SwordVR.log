@@ -1,0 +1,1166 @@
+﻿Log file open, 08/27/17 10:40:46
+LogInit:Display: Running engine for game: SwordVR
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-699472521) SRandInit(-699472521).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.099658
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.27-14.40.46:647][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.27-14.40.46:647][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.27-14.40.46:659][  0]LogInit: Computer: DESKTOP-SIJTC7B
+[2017.08.27-14.40.46:659][  0]LogInit: User: croch
+[2017.08.27-14.40.46:659][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.27-14.40.46:659][  0]LogInit: High frequency timer resolution =2.533208 MHz
+[2017.08.27-14.40.46:659][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.27-14.40.46:659][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.27-14.40.46:659][  0]LogMemory: Process Physical Memory: 273.46 MB used, 273.46 MB peak
+[2017.08.27-14.40.46:659][  0]LogMemory: Process Virtual Memory: 261.20 MB used, 261.20 MB peak
+[2017.08.27-14.40.46:659][  0]LogMemory: Physical Memory: 7894.75 MB used,  8412.28 MB free, 16307.03 MB total
+[2017.08.27-14.40.46:659][  0]LogMemory: Virtual Memory: 676.52 MB used,  8412.28 MB free, 134217728.00 MB total
+[2017.08.27-14.40.46:741][  0]LogInit: Using OS detected language (en-US).
+[2017.08.27-14.40.46:741][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.27-14.40.46:744][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.27-14.40.47:686][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.27-14.40.48:300][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.08.27-14.40.48:300][  0]LogD3D11RHI:       3040/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.27-14.40.48:305][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.08.27-14.40.48:305][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.27-14.40.48:307][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.27-14.40.48:307][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.27-14.40.48:307][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.27-14.40.48:314][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.27-14.40.48:314][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.27-14.40.48:314][  0]LogWindows: EnumDisplayDevices:
+[2017.08.27-14.40.48:314][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.08.27-14.40.48:315][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.27-14.40.48:315][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.27-14.40.48:315][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.27-14.40.48:315][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.08.27-14.40.48:315][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.27-14.40.48:315][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.27-14.40.48:315][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.27-14.40.48:944][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.27-14.40.48:975][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.27-14.40.48:976][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Intermediate/Shaders/WorkingDirectory/20416/).
+[2017.08.27-14.40.48:976][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croch/AppData/Local/Temp/UnrealShaderWorkingDir/8867AA3C4587C59812449187988ECD43/'.
+[2017.08.27-14.40.48:976][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.27-14.40.50:059][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.27-14.40.50:116][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.27-14.40.50:169][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.27-14.40.50:224][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.27-14.40.50:281][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.27-14.40.50:341][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.27-14.40.50:396][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.27-14.40.50:450][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.27-14.40.50:499][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.27-14.40.50:553][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.27-14.40.50:606][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.27-14.40.50:660][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.27-14.40.50:713][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.27-14.40.50:767][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.27-14.40.50:820][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.27-14.40.50:926][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.27-14.40.50:926][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.27-14.40.50:977][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.27-14.40.51:077][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.27-14.40.51:109][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.27-14.40.51:166][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.27-14.40.51:219][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.27-14.40.51:272][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.27-14.40.51:325][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.27-14.40.51:325][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.27-14.40.51:866][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.27-14.40.51:940][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.27-14.40.51:940][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.27-14.40.51:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.27-14.40.51:940][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.27-14.40.51:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.27-14.40.51:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.27-14.40.51:956][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.27-14.40.51:968][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.27-14.40.51:978][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.27-14.40.51:978][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.27-14.40.51:979][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.27-14.40.51:979][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.27-14.40.52:293][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.27-14.40.52:357][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.27-14.40.52:521][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.27-14.40.52:572][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.27-14.40.52:623][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.27-14.40.52:624][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.27-14.40.52:624][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.27-14.40.53:177][  0]LogNetVersion: SwordVR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1496206902)
+[2017.08.27-14.40.53:239][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.08.27-14.40.53:316][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.053401 seconds
+[2017.08.27-14.40.53:321][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.27-14.40.53:321][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.27-14.40.53:321][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.27-14.40.53:393][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.27-14.40.55:874][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.27-14.40.55:918][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.27-14.40.56:479][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.27-14.40.56:900][  0]SourceControl: Info Source control is disabled
+[2017.08.27-14.40.56:939][  0]SourceControl: Info Source control is disabled
+[2017.08.27-14.40.56:995][  0]SourceControl: Info Source control is disabled
+[2017.08.27-14.40.57:047][  0]SourceControl: Info Source control is disabled
+[2017.08.27-14.40.57:796][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.27-14.40.58:576][  0]LogEngine: Initializing Engine...
+[2017.08.27-14.40.58:576][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.27-14.40.58:746][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.27-14.40.58:746][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.27-14.40.58:888][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.27-14.40.58:894][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.27-14.40.58:905][  0]LogInit: FAudioDevice initialized.
+[2017.08.27-14.40.58:946][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.27-14.40.58:956][  0]LogInit: Texture streaming: Enabled
+[2017.08.27-14.40.59:062][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.27-14.40.59:307][  0]LogInit: Transaction tracking system initialized
+[2017.08.27-14.40.59:646][  0]BlueprintLog: New page: Editor Load
+[2017.08.27-14.41.00:677][  0]LocalizationService: Info Localization service is disabled
+[2017.08.27-14.41.01:421][  0]LogConsoleResponse:Display: 
+[2017.08.27-14.41.01:560][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.27-14.41.01:560][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.27-14.41.02:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/' took 0.01s
+[2017.08.27-14.41.02:693][  0]SourceControl: Info Source control is disabled
+[2017.08.27-14.41.02:693][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-14.41.02:694][  0]LightingResults: New page: Lighting Build
+[2017.08.27-14.41.02:739][  0]MapCheck: New page: Map Check
+[2017.08.27-14.41.02:739][  0]LightingResults: New page: Lighting Build
+[2017.08.27-14.41.02:926][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.27-14.41.02:926][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.27-14.41.02:930][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-14.41.02:945][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-14.41.02:996][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.293ms to complete.
+[2017.08.27-14.41.02:996][  0]LogFileHelpers: Loading map 'Template_Default' took 0.303
+[2017.08.27-14.41.03:067][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.27-14.41.03:067][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.27-14.41.03:148][  0]LogCollectionManager: Loaded 0 collections in 0.001294 seconds
+[2017.08.27-14.41.03:231][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Saved/Collections/' took 0.01s
+[2017.08.27-14.41.03:231][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Developers/croch/Collections/' took 0.01s
+[2017.08.27-14.41.03:231][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Collections/' took 0.01s
+[2017.08.27-14.41.03:231][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.27-14.41.03:240][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2342 classes and 497 folders.
+[2017.08.27-14.41.03:313][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.27-14.41.03:356][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.27-14.41.03:405][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.27-14.41.03:446][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.27-14.41.03:454][  0]LogSlate: Took 0.000728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.27-14.41.03:457][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.27-14.41.03:464][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.27-14.41.03:565][  0]LogRenderer: Reallocating scene render targets to support 804x340 NumSamples 1 (Frame:1).
+[2017.08.27-14.41.03:654][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.27-14.41.03:724][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.27-14.41.03:724][  0]LogLoad: (Engine Initialization) Total time: 18.89 seconds
+[2017.08.27-14.41.03:725][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.08.27-14.41.03:725][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.27-14.41.03:744][  0]LogOcInput: OculusInput pre-init called
+[2017.08.27-14.41.03:744][  0]LogHMD: Starting GearVRController plugin
+[2017.08.27-14.41.03:758][  0]LogAssetRegistry: Asset discovery search completed in 10.5415 seconds
+[2017.08.27-14.41.03:760][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.27-14.41.03:760][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.08.27-14.41.03:763][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.27-14.41.03:805][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-14.47.05:510][521]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.08.27-14.47.05:530][521]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.08.27-14.47.05:557][521]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.08.27-14.47.05:589][521]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.08.27-14.47.05:615][521]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.08.27-14.47.05:647][521]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.08.27-14.47.05:666][521]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.08.27-14.47.05:689][521]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.08.27-14.47.05:710][521]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.08.27-14.47.05:734][521]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.08.27-14.47.05:756][521]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.08.27-14.47.05:787][521]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.08.27-14.47.05:814][521]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.08.27-14.47.36:984][177]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-14.47.37:066][177]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.08.27-14.47.37:080][177]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X512)
+[2017.08.27-14.47.37:084][177]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X64)
+[2017.08.27-14.47.37:088][177]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2017.08.27-14.47.37:092][177]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-14.47.53:618][797]Cmd: SELECT NONE
+[2017.08.27-14.48.37:990][456]Cmd: SELECT NONE
+[2017.08.27-14.48.43:408][781]Cmd: TRANSACTION UNDO
+[2017.08.27-14.48.43:408][781]LogEditorTransaction: Undo Select None
+[2017.08.27-14.48.43:439][781]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.27-14.48.44:166][825]Cmd: TRANSACTION UNDO
+[2017.08.27-14.48.44:166][825]LogEditorTransaction: Undo Landscape Editing: Component Selection
+[2017.08.27-14.48.44:882][867]Cmd: TRANSACTION UNDO
+[2017.08.27-14.48.44:882][867]LogEditorTransaction: Undo Select None
+[2017.08.27-14.48.45:660][912]Cmd: TRANSACTION UNDO
+[2017.08.27-14.48.45:660][912]LogEditorTransaction: Undo Creating New Landscape
+[2017.08.27-14.49.30:388][587]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2017.08.27-14.49.30:401][587]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 64X512)
+[2017.08.27-14.49.30:405][587]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X64)
+[2017.08.27-14.49.30:410][587]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2017.08.27-14.49.56:300][122]Cmd: TRANSACTION UNDO
+[2017.08.27-14.49.56:300][122]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.08.27-14.49.57:054][161]Cmd: TRANSACTION UNDO
+[2017.08.27-14.49.57:054][161]LogEditorTransaction: Undo Creating New Landscape
+[2017.08.27-14.50.06:056][693]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2017.08.27-14.50.06:070][693]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 64X512)
+[2017.08.27-14.50.06:075][693]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X64)
+[2017.08.27-14.50.06:080][693]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2017.08.27-14.50.15:306][239]Cmd: TRANSACTION UNDO
+[2017.08.27-14.50.15:306][239]LogEditorTransaction: Undo Creating New Landscape
+[2017.08.27-14.50.23:278][709]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2017.08.27-14.50.23:291][709]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 64X512)
+[2017.08.27-14.50.23:296][709]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 512X64)
+[2017.08.27-14.50.23:301][709]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2017.08.27-14.51.04:413][732]LogSavePackage: Save=408.77ms
+[2017.08.27-14.51.04:413][732]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Untitled_1_Auto17039FC2C4C5469AF92A9EA8A8ACDBFEF.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.08.27-14.51.04:415][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.08.27-14.51.04:420][732]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.436
+[2017.08.27-14.51.04:420][732]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.436
+[2017.08.27-14.51.10:056][ 70]Cmd: TRANSACTION UNDO
+[2017.08.27-14.51.10:056][ 70]LogEditorTransaction: Undo Creating New Landscape
+[2017.08.27-14.51.16:336][438]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2017.08.27-14.51.16:348][438]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 64X512)
+[2017.08.27-14.51.16:352][438]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 512X64)
+[2017.08.27-14.51.16:357][438]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2017.08.27-14.52.11:994][767]MapCheck: New page: Map Check
+[2017.08.27-14.52.12:012][767]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.27-14.52.12:012][767]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.27-14.52.12:101][767]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-14.52.12:109][767]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2017.08.27-14.52.12:114][767]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2017.08.27-14.52.12:120][767]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.27-14.52.12:632][767]TextureStreamingBuild:Display: Compiling optional shaders took 0.538 seconds.
+[2017.08.27-14.52.12:648][767]LogLevel:Display: Export Material TexCoord Scales took 0.016 seconds.
+[2017.08.27-14.52.12:652][767]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.08.27-14.52.12:663][767]LightingResults: New page: Lighting Build - Aug 27, 2017, 6:52:12 AM
+[2017.08.27-14.52.12:797][767]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.27-14.52.12:841][767]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.27-14.52.12:858][767]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.27-14.52.13:381][767]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.27-14.52.13:382][767]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20416
+[2017.08.27-14.52.16:139][767]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.27-14.52.16:139][767]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.27-14.52.16:139][767]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.27-14.52.16:139][767]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.27-14.52.16:139][767]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.27-14.52.16:139][767]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.27-14.52.16:321][767]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.27-14.52.16:321][767]MapCheck: New page: Untitled_1 - Aug 27, 2017, 6:52:16 AM
+[2017.08.27-14.52.16:321][767]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.27-14.52.16:382][767]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 61.03ms to complete.
+[2017.08.27-14.52.16:404][767]LogEditorBuildUtils: Build time 0:04
+[2017.08.27-14.52.16:432][767]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.08.27-14.52.16:439][767]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2017.08.27-14.52.16:496][768]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.08.27-14.52.16:504][768]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.08.27-14.52.16:541][769]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_329, compiling. Is special engine material.
+[2017.08.27-14.52.16:551][769]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_329, compiling. Is special engine material.
+[2017.08.27-14.52.18:127][818]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-14.52.18:136][818]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-14.52.33:874][993]Job is a success!
+[2017.08.27-14.52.35:071][994]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.27-14.52.35:071][994]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.27-14.52.35:071][994]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.27-14.52.35:071][994]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.27-14.52.35:209][994]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.08.27-14.52.35:209][994]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2017.08.27-14.52.35:231][994]Lightmass on DESKTOP-SIJTC7B: 11.1 sec total, 383 ms importing, 402 ms setup, 802 ms photons, 9.40 sec processing, 0 ms extra exporting [83/83 mappings]. Threads: 1:05 min total, 44.2 sec processing.
+[2017.08.27-14.52.35:261][994]LogStaticLightingSystem: Illumination: 22.2 sec (724 ms encoding lightmaps, 132 ms encoding shadowmaps)
+[2017.08.27-14.52.35:261][994]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.27-14.52.35:261][994]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.27-14.52.36:153][994]DumpUnbuiltLightIteractions
+[2017.08.27-14.52.36:153][994]Lights with unbuilt interactions: 0
+[2017.08.27-14.52.36:153][994]
+[2017.08.27-14.52.36:153][994]Primitives with unbuilt interactions: 0
+[2017.08.27-14.52.36:158][995]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.27-14.52.36:158][995]MapCheck: New page: Untitled_1 - Aug 27, 2017, 6:52:36 AM
+[2017.08.27-14.52.36:223][995]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.237ms to complete.
+[2017.08.27-14.54.16:409][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-14.54.16:872][875]LogSavePackage: Save=445.74ms
+[2017.08.27-14.54.16:872][875]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_LevelAB38EF3146C80D79F04BA5A863173E69.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.27-14.54.16:878][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.27-14.54.16:912][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.08.27-14.54.17:089][875]LogSavePackage: Save=174.11ms
+[2017.08.27-14.54.17:089][875]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData34C28B814D7FE5840C1F748F927B3AAB.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.08.27-14.54.17:091][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.27-14.54.17:098][875]LogFileHelpers: Saving map 'synth_Level' took 1.040
+[2017.08.27-14.57.54:325][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.08.27-14.57.55:781][491]Cmd: DELETE
+[2017.08.27-14.57.55:781][491]Cmd: ACTOR DELETE
+[2017.08.27-14.57.55:784][491]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.08.27-14.57.55:794][491]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.08.27-14.57.58:600][660]MapCheck: New page: Map Check
+[2017.08.27-14.57.58:614][660]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.27-14.57.58:614][660]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.27-14.57.58:644][660]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-14.57.58:649][660]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.08.27-14.57.58:655][660]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.27-14.57.59:118][660]TextureStreamingBuild:Display: Compiling optional shaders took 0.481 seconds.
+[2017.08.27-14.57.59:121][660]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.08.27-14.57.59:125][660]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.08.27-14.57.59:135][660]LightingResults: New page: Lighting Build - Aug 27, 2017, 6:57:59 AM
+[2017.08.27-14.57.59:218][660]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.27-14.57.59:222][660]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.27-14.57.59:222][660]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.27-14.57.59:223][660]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.27-14.57.59:223][660]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20416
+[2017.08.27-14.58.03:739][660]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.27-14.58.03:739][660]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.27-14.58.03:739][660]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.27-14.58.03:739][660]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.27-14.58.03:739][660]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.27-14.58.03:739][660]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.27-14.58.03:848][660]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.27-14.58.03:848][660]MapCheck: New page: synth_Level - Aug 27, 2017, 6:58:03 AM
+[2017.08.27-14.58.03:908][660]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.907ms to complete.
+[2017.08.27-14.58.03:930][660]LogEditorBuildUtils: Build time 0:05
+[2017.08.27-14.58.15:423][316]Job is a success!
+[2017.08.27-14.58.16:245][317]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.27-14.58.16:245][317]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.27-14.58.16:245][317]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.08.27-14.58.16:245][317]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.08.27-14.58.16:374][317]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.08.27-14.58.16:374][317]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2017.08.27-14.58.16:395][317]Lightmass on DESKTOP-SIJTC7B: 11.7 sec total, 450 ms importing, 452 ms setup, 835 ms photons, 9.94 sec processing, 0 ms extra exporting [82/82 mappings]. Threads: 1:09 min total, 51.1 sec processing.
+[2017.08.27-14.58.16:403][317]LogStaticLightingSystem: Illumination: 17.2 sec (696 ms encoding lightmaps, 122 ms encoding shadowmaps)
+[2017.08.27-14.58.16:403][317]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.27-14.58.16:403][317]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.27-14.58.16:752][317]DumpUnbuiltLightIteractions
+[2017.08.27-14.58.16:752][317]Lights with unbuilt interactions: 0
+[2017.08.27-14.58.16:752][317]
+[2017.08.27-14.58.16:752][317]Primitives with unbuilt interactions: 0
+[2017.08.27-14.58.16:757][318]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.27-14.58.16:757][318]MapCheck: New page: synth_Level - Aug 27, 2017, 6:58:16 AM
+[2017.08.27-14.58.16:820][318]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.531ms to complete.
+[2017.08.27-14.58.34:554][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-14.58.34:791][ 77]LogSavePackage: Save=216.29ms
+[2017.08.27-14.58.34:791][ 77]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level3B3265014976730723FA008D5A0DE387.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.27-14.58.34:795][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.27-14.58.34:825][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.08.27-14.58.35:002][ 77]LogSavePackage: Save=165.30ms
+[2017.08.27-14.58.35:002][ 77]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData3D3B1D604D74D9AC816EC382846728A4.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.08.27-14.58.35:006][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.27-14.58.58:756][493]LogAIModule: Creating AISystem for world NewMap
+[2017.08.27-14.58.58:772][493]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-14.58.58:772][493]LightingResults: New page: Lighting Build
+[2017.08.27-14.58.58:773][493]LoadErrors: New page: Loading map: NewMap.umap
+[2017.08.27-14.58.58:774][493]MapCheck: New page: Map Check
+[2017.08.27-14.58.58:774][493]LightingResults: New page: Lighting Build
+[2017.08.27-14.58.58:787][493]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-14.58.58:820][493]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-14.58.58:881][493]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.078ms to complete.
+[2017.08.27-14.58.58:881][493]LogFileHelpers: Loading map 'NewMap' took 0.110
+[2017.08.27-14.59.32:432][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_Hub" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-14.59.32:475][496]LogSavePackage: Save=32.14ms
+[2017.08.27-14.59.32:475][496]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Main_Hub5D1E1972417588BEA0C294B9F496B39C.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap'
+[2017.08.27-14.59.32:478][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap
+[2017.08.27-14.59.32:504][496]LogFileHelpers: Saving map 'Main_Hub' took 0.138
+[2017.08.27-14.59.36:492][730]MapCheck: New page: Map Check
+[2017.08.27-14.59.36:509][730]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.27-14.59.36:509][730]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.27-14.59.36:532][730]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-14.59.36:537][730]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2017.08.27-14.59.36:544][730]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.27-14.59.37:020][730]TextureStreamingBuild:Display: Compiling optional shaders took 0.493 seconds.
+[2017.08.27-14.59.37:025][730]LogLevel:Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.08.27-14.59.37:029][730]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.08.27-14.59.37:039][730]LightingResults: New page: Lighting Build - Aug 27, 2017, 6:59:37 AM
+[2017.08.27-14.59.37:045][730]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.27-14.59.37:048][730]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.27-14.59.37:048][730]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.27-14.59.37:048][730]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.27-14.59.37:048][730]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20416
+[2017.08.27-14.59.41:560][730]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.27-14.59.41:560][730]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.27-14.59.41:560][730]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.27-14.59.41:560][730]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.27-14.59.41:560][730]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.27-14.59.41:560][730]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.27-14.59.41:617][730]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.27-14.59.41:617][730]MapCheck: New page: Main_Hub - Aug 27, 2017, 6:59:41 AM
+[2017.08.27-14.59.41:685][730]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.446ms to complete.
+[2017.08.27-14.59.41:707][730]LogEditorBuildUtils: Build time 0:05
+[2017.08.27-14.59.41:728][730]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.08.27-14.59.41:734][730]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.08.27-14.59.43:249][780]Job is a success!
+[2017.08.27-14.59.43:341][781]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.08.27-14.59.43:341][781]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.08.27-14.59.43:341][781]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.27-14.59.43:341][781]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.27-14.59.43:341][781]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X64)
+[2017.08.27-14.59.43:341][781]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2017.08.27-14.59.43:365][781]Lightmass on DESKTOP-SIJTC7B: 695 ms total, 119 ms importing, 22 ms setup, 273 ms photons, 259 ms processing, 0 ms extra exporting [5/5 mappings]. Threads: 1.65 sec total, 192 ms processing.
+[2017.08.27-14.59.43:374][781]LogStaticLightingSystem: Illumination: 6.31 sec (7 ms encoding lightmaps, 21 ms encoding shadowmaps)
+[2017.08.27-14.59.43:374][781]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.27-14.59.43:374][781]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.27-14.59.43:567][781]DumpUnbuiltLightIteractions
+[2017.08.27-14.59.43:567][781]Lights with unbuilt interactions: 0
+[2017.08.27-14.59.43:567][781]
+[2017.08.27-14.59.43:567][781]Primitives with unbuilt interactions: 0
+[2017.08.27-14.59.43:578][782]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.27-14.59.43:578][782]MapCheck: New page: Main_Hub - Aug 27, 2017, 6:59:43 AM
+[2017.08.27-14.59.43:643][782]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.588ms to complete.
+[2017.08.27-15.01.21:303][ 39]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.27-15.01.23:773][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_Hub" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-15.01.23:822][ 39]LogSavePackage: Save=28.14ms
+[2017.08.27-15.01.23:822][ 39]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Main_Hub9FA105934F2D88764D30AEBD27EACD5D.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap'
+[2017.08.27-15.01.23:825][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap
+[2017.08.27-15.01.23:863][ 39]LogFileHelpers: Saving map 'Main_Hub' took 0.158
+[2017.08.27-15.01.23:863][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_Hub_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub_BuiltData.uasset" SILENT=true
+[2017.08.27-15.01.23:879][ 39]LogSavePackage: Save=13.93ms
+[2017.08.27-15.01.23:879][ 39]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Main_Hub_BuiltData6CD27D23424DD2E9341DC1A01F810F62.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub_BuiltData.uasset'
+[2017.08.27-15.01.23:883][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub_BuiltData.uasset
+[2017.08.27-15.01.23:883][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/NewMap.umap" SILENT=true
+[2017.08.27-15.01.23:898][ 39]LogSavePackage: Save=4.30ms
+[2017.08.27-15.01.23:898][ 39]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/NewMapFF92C1834E09000EEDA0A2A9D4E615FB.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/NewMap.umap'
+[2017.08.27-15.01.23:902][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/NewMap.umap
+[2017.08.27-15.01.23:903][ 39]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-15.01.23:903][ 39]LightingResults: New page: Lighting Build
+[2017.08.27-15.01.23:903][ 39]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.08.27-15.01.23:904][ 39]MapCheck: New page: Map Check
+[2017.08.27-15.01.23:904][ 39]LightingResults: New page: Lighting Build
+[2017.08.27-15.01.23:942][ 39]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-15.01.23:975][ 39]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-15.01.24:033][ 39]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.514ms to complete.
+[2017.08.27-15.01.24:033][ 39]LogFileHelpers: Loading map 'synth_Level' took 0.131
+[2017.08.27-15.01.24:034][ 39]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.27-15.31.44:888][762]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.31.44:967][762]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.31.45:021][762]LogSlate: Took 0.007608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.27-15.31.47:127][870]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.27-15.31.47:127][870]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.31.47:127][870]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.32.53:722][ 57]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.32.53:735][ 57]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.32.56:488][215]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.32.56:488][215]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.32.56:488][215]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.33.18:566][983]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.33.20:017][ 64]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.33.20:017][ 64]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.33.20:017][ 64]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.33.27:527][265]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.33.28:588][325]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.33.28:588][325]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.33.28:588][325]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.33.39:198][959]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.33.40:234][ 15]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.33.40:234][ 15]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.33.40:234][ 15]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.33.47:353][269]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.33.48:464][331]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.33.48:464][331]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.33.48:464][331]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.34.14:558][450]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.010
+[2017.08.27-15.34.14:560][450]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Wireframe] ([1] browsable assets)...
+[2017.08.27-15.34.14:591][450]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Wireframe.Wireframe]
+[2017.08.27-15.34.14:591][450]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Wireframe]
+[2017.08.27-15.34.14:591][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Wireframe" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Wireframe_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.27-15.34.14:618][450]LogSavePackage: Save=24.95ms
+[2017.08.27-15.34.14:618][450]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Wireframe_Auto28D3891E04BB53DD6B58C9C8C6D4E8D46.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Wireframe_Auto2.uasset'
+[2017.08.27-15.34.14:621][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Wireframe_Auto2.uasset
+[2017.08.27-15.34.14:621][450]LogFileHelpers: Auto-saving content packages took 0.062
+[2017.08.27-15.35.52:947][849]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.35.52:958][849]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionCollectionParameter_0, compiling. 
+[2017.08.27-15.35.53:007][850]LogSlate: Took 0.006813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.27-15.35.55:396][988]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.35.55:396][988]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.35.55:396][988]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.36.04:940][560]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.36.05:978][619]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.36.05:978][619]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.36.05:978][619]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.37.16:200][461]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.37.16:212][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-15.37.18:425][587]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.08.27-15.37.18:425][587]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.27-15.37.18:425][587]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.27-15.37.27:922][983]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.37.27:923][983]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Wireframe for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.27-15.37.27:923][983]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.27-15.37.27:928][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-15.37.27:952][983]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.08.27-15.37.38:683][451]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.37.38:683][451]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Wireframe for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.27-15.37.38:683][451]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.27-15.37.38:692][451]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-15.37.56:331][275]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.37.56:331][275]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Wireframe for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.27-15.37.56:331][275]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.27-15.37.56:339][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-15.38.57:232][517]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.38.57:233][517]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Wireframe for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.27-15.38.57:233][517]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.27-15.38.57:235][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-15.38.57:240][517]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.38.57:309][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-15.38.57:313][517]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-15.38.59:189][620]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.27-15.38.59:189][620]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.27-15.38.59:189][620]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.27-15.38.59:189][620]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.39.31:758][530]LogMaterialEditor: Saving and Compiling material Wireframe
+[2017.08.27-15.39.32:373][530]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.39.32:416][530]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.39.32:445][530]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-15.39.32:484][530]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wireframe, compiling. 
+[2017.08.27-15.39.33:549][530]TextureStreamingBuild:Display: Compiling optional shaders took 1.071 seconds.
+[2017.08.27-15.39.35:079][530]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Wireframe" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset" SILENT=true
+[2017.08.27-15.39.35:100][530]LogSavePackage: Save=17.18ms
+[2017.08.27-15.39.35:100][530]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/WireframeE08CA499407D6DCCDCEED2BF6E77F427.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset'
+[2017.08.27-15.39.35:105][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset
+[2017.08.27-15.39.35:116][530]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.27-15.39.35:116][530]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.27-15.39.35:116][530]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.08.27-15.39.35:116][530]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.39.59:907][176]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/croch/Pictures/blueprints/wireframe texture.png)
+[2017.08.27-15.39.59:914][176]LogTexture:Display: Building textures: wireframe_texture (AutoDXT, 300X300)
+[2017.08.27-15.40.14:077][ 19]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.40.14:164][ 19]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.40.14:178][ 19]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.40.14:213][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-15.40.14:217][ 19]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-15.40.16:064][117]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.08.27-15.40.16:064][117]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.27-15.40.16:064][117]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.27-15.40.16:064][117]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.41.38:048][937]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.41.38:073][937]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.41.40:662][ 81]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-15.41.40:662][ 81]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-15.41.40:662][ 81]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-15.41.40:662][ 81]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.42.46:409][513]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.42.46:423][513]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2017.08.27-15.42.49:708][655]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-15.42.49:708][655]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-15.42.49:708][655]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-15.42.49:708][655]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.43.04:495][270]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.43.07:597][445]MaterialEditorStats: Info Base pass shader: 49 instructions
+[2017.08.27-15.43.07:597][445]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-15.43.07:597][445]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-15.43.07:597][445]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.43.20:432][213]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.43.28:157][665]MaterialEditorStats: Info Base pass shader: 49 instructions
+[2017.08.27-15.43.28:157][665]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-15.43.28:157][665]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-15.43.28:157][665]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.43.53:404][142]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.08.27-15.44.02:346][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/wireframe_texture" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/wireframe_texture.uasset" SILENT=true
+[2017.08.27-15.44.02:363][670]LogSavePackage: Save=12.23ms
+[2017.08.27-15.44.02:363][670]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/wireframe_texture0A4399374EF87DE42417B382C034C26E.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/wireframe_texture.uasset'
+[2017.08.27-15.44.02:367][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/wireframe_texture.uasset
+[2017.08.27-15.44.34:531][ 47]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.44.34:551][ 47]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-15.44.37:172][198]MaterialEditorStats: Info Base pass shader: 49 instructions
+[2017.08.27-15.44.37:172][198]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-15.44.37:172][198]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-15.44.37:173][198]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-15.44.56:519][340]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.44.59:605][514]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-15.45.01:792][635]MaterialEditorStats: Info Base pass shader: 49 instructions
+[2017.08.27-15.45.01:792][635]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-15.45.01:792][635]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-15.45.01:792][635]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-16.30.30:294][301]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.30:310][301]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.30:379][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-16.30.30:385][301]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-16.30.34:972][566]MaterialEditorStats: Info Base pass shader: 49 instructions
+[2017.08.27-16.30.34:972][566]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-16.30.34:972][566]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-16.30.34:972][566]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-16.30.37:660][727]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.37:676][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-16.30.37:709][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-16.30.39:842][842]MaterialEditorStats: Info Base pass shader: 49 instructions
+[2017.08.27-16.30.39:842][842]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-16.30.39:842][842]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-16.30.39:842][842]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-16.30.57:633][909]LogEditorTransaction: Undo Create Pin Link
+[2017.08.27-16.30.57:636][909]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.57:653][909]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.57:677][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-16.30.57:708][909]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-16.30.58:157][926]LogEditorTransaction: Undo Create Reroute Node
+[2017.08.27-16.30.58:166][926]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.58:197][926]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.58:233][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-16.30.58:268][926]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-16.30.58:778][951]LogEditorTransaction: Undo Create Pin Link
+[2017.08.27-16.30.58:785][951]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.58:812][951]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.59:325][976]LogEditorTransaction: Undo Create Pin Link
+[2017.08.27-16.30.59:336][976]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.59:367][976]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.59:884][  2]LogEditorTransaction: Undo Edit Texture
+[2017.08.27-16.30.59:888][  2]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.59:921][  2]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.30.59:962][  2]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-16.31.00:473][ 28]LogEditorTransaction: Undo Material Editor: Delete
+[2017.08.27-16.31.00:483][ 28]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.00:516][ 28]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.01:149][ 59]LogEditorTransaction: Undo Material Editor: Toggle Collapsed
+[2017.08.27-16.31.01:155][ 59]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.01:213][ 59]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2017.08.27-16.31.02:111][106]LogEditorTransaction: Undo Material Editor: Delete
+[2017.08.27-16.31.02:118][106]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.02:144][106]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.02:635][130]LogEditorTransaction: Undo Create Pin Link
+[2017.08.27-16.31.02:643][130]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.03:347][165]LogEditorTransaction: Undo Material Editor: New Expression
+[2017.08.27-16.31.03:353][165]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.03:379][165]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.05:838][292]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-16.31.05:838][292]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-16.31.05:838][292]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-16.31.05:838][292]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-16.31.32:895][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-16.31.32:916][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2017.08.27-16.31.35:495][ 31]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-16.31.35:495][ 31]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-16.31.35:495][ 31]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-16.31.35:495][ 31]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.03.36:442][870]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.03.46:250][437]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.03.48:862][577]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-18.03.48:862][577]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.03.48:862][577]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.03.48:862][577]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.04.10:100][695]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.04.12:599][826]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-18.04.12:599][826]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.04.12:599][826]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.04.12:599][826]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.04.24:829][443]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.04.28:057][619]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-18.04.28:057][619]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.04.28:057][619]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.04.28:057][619]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.05.32:252][ 29]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.05.35:276][182]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-18.05.35:276][182]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.05.35:276][182]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.05.35:276][182]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.05.37:828][335]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.05.39:928][447]MaterialEditorStats: Info Base pass shader: 51 instructions
+[2017.08.27-18.05.39:928][447]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.05.39:928][447]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.05.39:928][447]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.05.57:166][  4]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.06.00:802][204]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.06.02:884][317]MaterialEditorStats: Info Base pass shader: 52 instructions
+[2017.08.27-18.06.02:884][317]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.06.02:884][317]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.06.02:884][317]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.06.28:892][877]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.06.31:409][ 12]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.06.31:409][ 12]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.06.31:409][ 12]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.06.31:409][ 12]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.08.11:905][674]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.08.11:922][674]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.08.11:964][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.27-18.08.15:826][881]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.08.15:826][881]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.08.15:826][881]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.08.15:826][881]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.13.32:355][519]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.13.32:369][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.08.27-18.13.35:268][679]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.13.35:268][679]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.13.35:268][679]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.13.35:268][679]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.13.41:737][ 66]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.13.41:750][ 66]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.27-18.13.41:761][ 66]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.27-18.13.41:797][ 66]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.13.45:040][241]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.13.45:040][241]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.13.45:040][241]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.13.45:040][241]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.13.48:183][429]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.13.48:200][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.27-18.13.50:387][542]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.13.50:387][542]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.13.50:387][542]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.13.50:387][542]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.14.05:212][429]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.14.29:534][872]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.14.29:549][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.08.27-18.14.32:856][ 56]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.14.32:856][ 56]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.14.32:856][ 56]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.14.32:856][ 56]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.15.14:126][530]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.15.14:149][530]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.08.27-18.15.16:823][666]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.15.16:823][666]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.15.16:823][666]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.15.16:823][666]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.15.20:295][874]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.15.20:312][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.08.27-18.15.22:559][995]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.15.22:559][995]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.15.22:559][995]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.15.22:559][995]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.16.15:730][984]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.16.18:646][142]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.16.18:647][142]MaterialEditorStats: Info Vertex shader: 122 instructions
+[2017.08.27-18.16.18:647][142]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.16.18:647][142]MaterialEditorStats: Info User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2017.08.27-18.16.31:737][927]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.16.33:875][ 44]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.16.33:875][ 44]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.16.33:875][ 44]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.16.33:875][ 44]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.17.45:725][665]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.17.48:387][811]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.17.48:387][811]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.17.48:387][811]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.17.48:387][811]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.17.52:136][ 36]LogMaterialEditor: Saving and Compiling material Wireframe
+[2017.08.27-18.17.53:569][ 36]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.17.53:629][ 36]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.17.53:667][ 36]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.17.53:763][ 36]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wireframe, compiling. 
+[2017.08.27-18.17.55:074][ 36]TextureStreamingBuild:Display: Compiling optional shaders took 1.318 seconds.
+[2017.08.27-18.17.57:610][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Wireframe" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset" SILENT=true
+[2017.08.27-18.17.57:643][ 36]LogSavePackage: Save=17.02ms
+[2017.08.27-18.17.57:643][ 36]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Wireframe7C1C8DD746BC02B0BE6C2BB71C747BE7.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset'
+[2017.08.27-18.17.57:648][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset
+[2017.08.27-18.18.02:236][307]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape4)
+[2017.08.27-18.18.30:180][976]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.18.30:213][976]LogMaterial:Warning: Material /Game/Assets/Wireframe.Wireframe needed to have new flag set bUsedWithStaticLighting !
+[2017.08.27-18.18.30:213][976]LogMaterial:Warning: Material /Engine/Transient.PreviewMaterial_0 needed to have new flag set bUsedWithStaticLighting !
+[2017.08.27-18.18.30:216][976]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.18.30:239][976]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.18.30:289][976]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.18.43:484][754]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.18.43:485][754]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.18.43:485][754]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.18.43:485][754]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.19.02:573][877]LogSavePackage: Save=243.50ms
+[2017.08.27-18.19.02:573][877]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto314085EE94DA770CB37954AB38CF7F73A.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto3.umap'
+[2017.08.27-18.19.02:575][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto3.umap
+[2017.08.27-18.19.02:580][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.276
+[2017.08.27-18.19.02:580][877]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.276
+[2017.08.27-18.19.02:581][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Wireframe] ([1] browsable assets)...
+[2017.08.27-18.19.02:581][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Wireframe]
+[2017.08.27-18.19.02:581][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Wireframe" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Wireframe_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.27-18.19.02:593][877]LogSavePackage: Save=7.69ms
+[2017.08.27-18.19.02:593][877]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Wireframe_Auto3DB88EE6B4FC4CBE02D853387B0F4A9D0.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Wireframe_Auto3.uasset'
+[2017.08.27-18.19.02:594][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Wireframe_Auto3.uasset
+[2017.08.27-18.19.02:594][877]LogFileHelpers: Auto-saving content packages took 0.013
+[2017.08.27-18.19.46:823][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.27-18.19.46:824][465]PIE: New page: PIE session: synth_Level (Aug 27, 2017, 10:19:46 AM)
+[2017.08.27-18.19.46:824][465]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.08.27-18.19.46:837][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013145s)
+[2017.08.27-18.19.46:838][465]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.27-18.19.46:839][465]LogPlayLevel: PIE: World Init took: (0.001393s)
+[2017.08.27-18.19.46:839][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.014857s)
+[2017.08.27-18.19.46:851][465]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.27-18.19.46:859][465]LogInit: FAudioDevice initialized.
+[2017.08.27-18.19.46:899][465]LogLoad: Game class is 'VR_GameMode_C'
+[2017.08.27-18.19.46:905][465]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 60) at 2017.08.27-14.19.46
+[2017.08.27-18.19.46:905][465]LogWorld: Bringing up level for play took: 0.002896
+[2017.08.27-18.19.46:963][465]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.08.27-18.19.46:965][465]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.317
+[2017.08.27-18.20.08:150][726]Cmd: SELECT NONE
+[2017.08.27-18.24.11:497][855]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.24.11:497][855]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.27-18.24.11:497][855]LogMaterial:Warning: 	(Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 11
+[2017.08.27-18.24.11:498][855]MaterialEditorStats:Error: Error [SM5] (Node TextureCoordinate) Only 8 texture coordinate sets can be used by this feature level, currently using 11
+[2017.08.27-18.24.24:256][619]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.24.27:071][770]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.24.27:071][770]MaterialEditorStats: Info Vertex shader: 124 instructions
+[2017.08.27-18.24.27:071][770]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.24.27:071][770]MaterialEditorStats: Info User interpolators: 12/12 Scalars (3/4 Vectors) (TexCoords: 12, Custom: 0)
+[2017.08.27-18.24.38:578][460]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.24.40:917][585]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.24.40:917][585]MaterialEditorStats: Info Vertex shader: 122 instructions
+[2017.08.27-18.24.40:917][585]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.24.40:917][585]MaterialEditorStats: Info User interpolators: 4/4 Scalars (1/4 Vectors) (TexCoords: 4, Custom: 0)
+[2017.08.27-18.24.47:939][  6]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.24.50:335][135]MaterialEditorStats: Info Base pass shader: 53 instructions
+[2017.08.27-18.24.50:335][135]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.24.50:335][135]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.24.50:335][135]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.25.22:392][ 58]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.25.24:085][144]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.25.26:760][290]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2017.08.27-18.25.26:760][290]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.25.26:760][290]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.25.26:760][290]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.25.28:495][394]LogMaterialEditor: Saving and Compiling material Wireframe
+[2017.08.27-18.25.29:114][394]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.25.29:172][394]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.25.29:225][394]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.25.29:267][394]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.25.29:367][394]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wireframe, compiling. 
+[2017.08.27-18.25.30:725][394]TextureStreamingBuild:Display: Compiling optional shaders took 1.367 seconds.
+[2017.08.27-18.25.34:485][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Wireframe" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset" SILENT=true
+[2017.08.27-18.25.34:531][394]LogSavePackage: Save=28.14ms
+[2017.08.27-18.25.34:531][394]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/WireframeDB520A7543408A118302DCAA34CF8EAA.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset'
+[2017.08.27-18.25.34:542][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset
+[2017.08.27-18.25.40:511][645]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape4)
+[2017.08.27-18.25.45:706][954]MapCheck: New page: Map Check
+[2017.08.27-18.25.45:721][954]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.27-18.25.45:722][954]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.27-18.25.45:780][954]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-18.25.45:786][954]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2017.08.27-18.25.45:796][954]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.27-18.25.46:037][954]TextureStreamingBuild:Display: Compiling optional shaders took 0.292 seconds.
+[2017.08.27-18.25.46:041][954]LogLevel:Display: Export Material TexCoord Scales took 0.004 seconds.
+[2017.08.27-18.25.46:055][954]TextureStreamingBuild:Display: Build Texture Streaming took 0.013 seconds.
+[2017.08.27-18.25.46:064][954]LightingResults: New page: Lighting Build - Aug 27, 2017, 10:25:46 AM
+[2017.08.27-18.25.46:152][954]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.27-18.25.46:161][954]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.27-18.25.46:161][954]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.27-18.25.46:162][954]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.27-18.25.46:162][954]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20416
+[2017.08.27-18.25.50:677][954]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.27-18.25.50:678][954]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.27-18.25.50:678][954]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.27-18.25.50:678][954]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.27-18.25.50:678][954]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.27-18.25.50:678][954]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.27-18.25.50:793][954]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.27-18.25.50:794][954]MapCheck: New page: synth_Level - Aug 27, 2017, 10:25:50 AM
+[2017.08.27-18.25.52:141][954]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,348.16ms to complete.
+[2017.08.27-18.25.52:164][954]LogEditorBuildUtils: Build time 0:06
+[2017.08.27-18.25.52:223][955]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_410, compiling. 
+[2017.08.27-18.26.05:034][659]Job is a success!
+[2017.08.27-18.26.05:333][660]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.27-18.26.05:333][660]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.27-18.26.05:333][660]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.27-18.26.05:333][660]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.27-18.26.05:333][660]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.08.27-18.26.05:442][660]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X512)
+[2017.08.27-18.26.05:472][660]Lightmass on DESKTOP-SIJTC7B: 10.0 sec total, 437 ms importing, 496 ms setup, 731 ms photons, 8.36 sec processing, 0 ms extra exporting [82/82 mappings]. Threads: 58.3 sec total, 45.4 sec processing.
+[2017.08.27-18.26.05:481][660]LogStaticLightingSystem: Illumination: 19.3 sec (121 ms encoding lightmaps, 183 ms encoding shadowmaps)
+[2017.08.27-18.26.05:481][660]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.27-18.26.05:481][660]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.27-18.26.05:688][660]DumpUnbuiltLightIteractions
+[2017.08.27-18.26.05:688][660]Lights with unbuilt interactions: 0
+[2017.08.27-18.26.05:688][660]
+[2017.08.27-18.26.05:688][660]Primitives with unbuilt interactions: 0
+[2017.08.27-18.26.05:694][661]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.27-18.26.05:694][661]MapCheck: New page: synth_Level - Aug 27, 2017, 10:26:05 AM
+[2017.08.27-18.26.05:761][661]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.415ms to complete.
+[2017.08.27-18.27.14:638][793]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2017.08.27-18.27.21:041][175]Cmd: SELECT NONE
+[2017.08.27-18.27.49:083][245]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.27.52:009][396]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2017.08.27-18.27.52:010][396]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.27.52:010][396]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.27.52:010][396]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.28.23:572][709]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.28.24:927][778]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.28.27:543][913]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2017.08.27-18.28.27:543][913]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.28.27:543][913]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.28.27:543][913]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.28.36:318][439]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.28.38:606][561]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2017.08.27-18.28.38:606][561]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.28.38:606][561]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.28.38:606][561]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.28.39:127][592]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.28.41:419][718]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2017.08.27-18.28.41:419][718]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.08.27-18.28.41:419][718]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.08.27-18.28.41:419][718]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.27-18.28.47:691][ 94]LogMaterialEditor: Saving and Compiling material Wireframe
+[2017.08.27-18.28.48:302][ 94]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.28.48:360][ 94]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.28.48:414][ 94]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.28.48:466][ 94]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.28.48:564][ 94]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wireframe, compiling. 
+[2017.08.27-18.28.49:911][ 94]TextureStreamingBuild:Display: Compiling optional shaders took 1.357 seconds.
+[2017.08.27-18.28.53:559][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Wireframe" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset" SILENT=true
+[2017.08.27-18.28.53:593][ 94]LogSavePackage: Save=26.80ms
+[2017.08.27-18.28.53:593][ 94]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Wireframe1B9DA8BE44AB6AE976B3B2ABDB0AA7A8.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset'
+[2017.08.27-18.28.53:599][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Wireframe.uasset
+[2017.08.27-18.29.12:904][152]LogSavePackage: Save=221.44ms
+[2017.08.27-18.29.12:904][152]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto4CCA95BDF4AF5692E520FBDBEFE155E46.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto4.umap'
+[2017.08.27-18.29.12:906][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto4.umap
+[2017.08.27-18.29.12:911][152]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.249
+[2017.08.27-18.29.12:911][152]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.249
+[2017.08.27-18.29.12:913][152]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/synth_Level_BuiltData] ([1] browsable assets)...
+[2017.08.27-18.29.12:913][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/synth_Level_BuiltData]
+[2017.08.27-18.29.12:950][152]LogSavePackage: Save=26.52ms
+[2017.08.27-18.29.12:950][152]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData_Auto4AD94EE9E42D58CE987852C8EC2F3CFE5.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto4.uasset'
+[2017.08.27-18.29.12:952][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto4.uasset
+[2017.08.27-18.29.12:952][152]LogFileHelpers: Auto-saving content packages took 0.040
+[2017.08.27-18.29.57:418][651]MapCheck: New page: Map Check
+[2017.08.27-18.29.57:434][651]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.27-18.29.57:434][651]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.27-18.29.57:490][651]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.27-18.29.57:496][651]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_3, compiling. 
+[2017.08.27-18.29.57:507][651]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.27-18.29.57:963][651]TextureStreamingBuild:Display: Compiling optional shaders took 0.507 seconds.
+[2017.08.27-18.29.57:965][651]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.08.27-18.29.57:969][651]TextureStreamingBuild:Display: Build Texture Streaming took 0.003 seconds.
+[2017.08.27-18.29.57:980][651]LightingResults: New page: Lighting Build - Aug 27, 2017, 10:29:57 AM
+[2017.08.27-18.29.58:056][651]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.27-18.29.58:060][651]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.27-18.29.58:060][651]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.27-18.29.58:060][651]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.27-18.29.58:060][651]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20416
+[2017.08.27-18.30.02:571][651]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.27-18.30.02:571][651]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.27-18.30.02:571][651]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.27-18.30.02:571][651]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.27-18.30.02:571][651]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.27-18.30.02:571][651]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.27-18.30.02:714][651]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.27-18.30.02:714][651]MapCheck: New page: synth_Level - Aug 27, 2017, 10:30:02 AM
+[2017.08.27-18.30.02:777][651]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.326ms to complete.
+[2017.08.27-18.30.02:800][651]LogEditorBuildUtils: Build time 0:05
+[2017.08.27-18.30.02:826][651]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_410, compiling. 
+[2017.08.27-18.30.15:345][972]Job is a success!
+[2017.08.27-18.30.15:951][973]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.27-18.30.15:951][973]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.08.27-18.30.15:951][973]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.08.27-18.30.15:951][973]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.27-18.30.15:951][973]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2017.08.27-18.30.16:000][973]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X512)
+[2017.08.27-18.30.16:020][973]Lightmass on DESKTOP-SIJTC7B: 10.2 sec total, 411 ms importing, 446 ms setup, 689 ms photons, 8.72 sec processing, 0 ms extra exporting [82/82 mappings]. Threads: 1:00 min total, 44.5 sec processing.
+[2017.08.27-18.30.16:024][973]LogStaticLightingSystem: Illumination: 17.7 sec (96 ms encoding lightmaps, 147 ms encoding shadowmaps)
+[2017.08.27-18.30.16:024][973]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.08.27-18.30.16:024][973]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.08.27-18.30.16:579][973]DumpUnbuiltLightIteractions
+[2017.08.27-18.30.16:579][973]Lights with unbuilt interactions: 0
+[2017.08.27-18.30.16:579][973]
+[2017.08.27-18.30.16:579][973]Primitives with unbuilt interactions: 0
+[2017.08.27-18.30.16:584][974]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.27-18.30.16:584][974]MapCheck: New page: synth_Level - Aug 27, 2017, 10:30:16 AM
+[2017.08.27-18.30.16:651][974]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 67.221ms to complete.
+[2017.08.27-18.33.16:198][459]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.27-18.33.16:198][459]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.27-18.33.16:198][459]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.08.27-18.33.16:198][459]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2017.08.27-18.33.16:198][459]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PreviewMaterial_0' or package '/Engine/Transient'.
+[2017.08.27-18.33.16:198][459]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureObject_0' or package '/Engine/Transient'.
+[2017.08.27-18.33.16:201][459]LogMaterial: Missing cached shader map for material Wireframe, compiling. 
+[2017.08.27-18.33.16:201][459]LogMaterial:Warning: Failed to compile Material /Game/Assets/Wireframe.Wireframe for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.27-18.33.16:201][459]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.08.27-18.39.14:647][898]LogSavePackage: Save=220.76ms
+[2017.08.27-18.39.14:647][898]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto572D5DFFE4F5B5BD1ECA2019F626639DA.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto5.umap'
+[2017.08.27-18.39.14:649][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto5.umap
+[2017.08.27-18.39.14:651][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.249
+[2017.08.27-18.39.14:651][898]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.249
+[2017.08.27-18.39.14:653][898]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/synth_Level_BuiltData] ([1] browsable assets)...
+[2017.08.27-18.39.14:653][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/synth_Level_BuiltData]
+[2017.08.27-18.39.14:687][898]LogSavePackage: Save=21.83ms
+[2017.08.27-18.39.14:687][898]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData_Auto5233F953B43A77A35B4E14F8E1A8E18AD.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto5.uasset'
+[2017.08.27-18.39.14:689][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto5.uasset
+[2017.08.27-18.39.14:689][898]LogFileHelpers: Auto-saving content packages took 0.037
+[2017.08.27-18.39.54:682][ 74]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape4)
+[2017.08.27-18.39.55:771][137]Cmd: DELETE
+[2017.08.27-18.39.55:771][137]Cmd: ACTOR DELETE
+[2017.08.27-18.39.55:771][137]LogEditorActor: Deleted Actor: Landscape
+[2017.08.27-18.39.55:792][137]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.08.27-18.40.07:551][838]LogAIModule: Creating AISystem for world Main_Hub
+[2017.08.27-18.40.10:232][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-18.40.10:306][838]LogSavePackage: Save=58.20ms
+[2017.08.27-18.40.10:306][838]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level49005FD041BBE6A538CF049A956BD4F6.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.27-18.40.10:314][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.27-18.40.10:339][838]LogFileHelpers: Saving map 'synth_Level' took 0.174
+[2017.08.27-18.40.10:339][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.08.27-18.40.10:388][838]LogSavePackage: Save=45.23ms
+[2017.08.27-18.40.10:388][838]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData06B9F92F436B0BB26132548327F8C8E8.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.08.27-18.40.10:392][838]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.27-18.40.10:394][838]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-18.40.10:394][838]LightingResults: New page: Lighting Build
+[2017.08.27-18.40.10:394][838]LoadErrors: New page: Loading map: Main_Hub.umap
+[2017.08.27-18.40.10:395][838]MapCheck: New page: Map Check
+[2017.08.27-18.40.10:395][838]LightingResults: New page: Lighting Build
+[2017.08.27-18.40.10:414][838]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-18.40.10:446][838]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-18.40.10:504][838]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.143ms to complete.
+[2017.08.27-18.40.10:504][838]LogFileHelpers: Loading map 'Main_Hub' took 0.112
+[2017.08.27-18.40.13:620][ 21]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.27-18.40.13:634][ 21]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-18.40.13:634][ 21]LightingResults: New page: Lighting Build
+[2017.08.27-18.40.13:634][ 21]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.08.27-18.40.13:635][ 21]MapCheck: New page: Map Check
+[2017.08.27-18.40.13:635][ 21]LightingResults: New page: Lighting Build
+[2017.08.27-18.40.13:646][ 21]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-18.40.13:680][ 21]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-18.40.13:743][ 21]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.379ms to complete.
+[2017.08.27-18.40.13:743][ 21]LogFileHelpers: Loading map 'synth_Level' took 0.110
+[2017.08.27-18.58.07:285][372]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.27-18.58.08:349][434]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.08.27-18.58.10:171][542]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.08.27-19.20.28:858][133]Cmd: EDIT CUT
+[2017.08.27-19.20.28:864][133]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.08.27-19.20.28:873][133]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.08.27-19.20.35:375][522]LogAIModule: Creating AISystem for world Main_Hub
+[2017.08.27-19.21.11:637][340]LogSavePackage: Save=53.21ms
+[2017.08.27-19.21.11:637][340]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto6D81FDD7B498EDDF5FEE8A39E24C4570C.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto6.umap'
+[2017.08.27-19.21.11:638][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto6.umap
+[2017.08.27-19.21.11:642][340]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.083
+[2017.08.27-19.21.11:642][340]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.083
+[2017.08.27-19.22.08:104][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Hub" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-19.22.08:142][255]LogSavePackage: Save=25.82ms
+[2017.08.27-19.22.08:142][255]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Main_Hub6F1FA9CD46B84DEAC641558844EC9248.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub.umap'
+[2017.08.27-19.22.08:147][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub.umap
+[2017.08.27-19.22.08:149][255]LogFileHelpers: Saving map 'Main_Hub' took 0.110
+[2017.08.27-19.22.08:152][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Hub_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub_BuiltData.uasset" SILENT=true
+[2017.08.27-19.22.08:164][255]LogSavePackage: Save=10.40ms
+[2017.08.27-19.22.08:164][255]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Main_Hub_BuiltData0218378649BB43D27C84A19F1384B1B9.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub_BuiltData.uasset'
+[2017.08.27-19.22.08:168][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub_BuiltData.uasset
+[2017.08.27-19.22.15:311][675]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.08.27-19.22.15:315][675]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.08.27-19.22.15:316][675]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.08.27-19.22.15:318][675]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.08.27-19.22.55:949][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main_Hub" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap" SILENT=true
+[2017.08.27-19.22.55:966][554]LogSavePackage: Save=4.24ms
+[2017.08.27-19.22.55:966][554]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Main_Hub87CD4EA74BF6A7CD4D974CADEDBBEF1B.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap'
+[2017.08.27-19.22.55:970][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/Main_Hub.umap
+[2017.08.27-19.22.56:038][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Hub" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-19.22.56:078][554]LogSavePackage: Save=26.56ms
+[2017.08.27-19.22.56:078][554]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Main_Hub2F23C4A54DDF05CDB0473ABCB709E33F.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub.umap'
+[2017.08.27-19.22.56:081][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub.umap
+[2017.08.27-19.22.56:082][554]LogFileHelpers: Saving map 'Main_Hub' took 0.112
+[2017.08.27-19.22.56:145][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.27-19.22.56:209][554]LogSavePackage: Save=50.27ms
+[2017.08.27-19.22.56:209][554]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level742010DC41F22D8A8D389FB8886319EF.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.27-19.22.56:215][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.27-19.22.56:239][554]LogFileHelpers: Saving map 'synth_Level' took 0.157
+[2017.08.27-19.22.56:247][554]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/Main_Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.27-19.22.56:247][554]LightingResults: New page: Lighting Build
+[2017.08.27-19.22.56:248][554]LoadErrors: New page: Loading map: Main_Hub.umap
+[2017.08.27-19.22.56:248][554]MapCheck: New page: Map Check
+[2017.08.27-19.22.56:248][554]LightingResults: New page: Lighting Build
+[2017.08.27-19.22.56:261][554]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.27-19.22.56:295][554]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.27-19.22.56:358][554]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.631ms to complete.
+[2017.08.27-19.22.56:359][554]LogFileHelpers: Loading map 'Main_Hub' took 0.113
+[2017.08.27-19.25.26:775][ 99]LogLinker: Can't find file '/Game/HUD'
+[2017.08.27-19.25.26:775][ 99]LogLinker: Can't find file '/Game/HUD'
+[2017.08.27-19.26.33:346][721]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.08.27-19.27.17:525][739]LogSlate: Took 0.005464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.27-19.27.37:839][442]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.08.27-19.27.56:618][540]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.08.27-19.33.29:341][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.018
+[2017.08.27-19.33.29:343][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyRunebergVR_Pawn] ([1] browsable assets)...
+[2017.08.27-19.33.29:369][ 42]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyRunebergVR_Pawn.MyRunebergVR_Pawn]
+[2017.08.27-19.33.29:369][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyRunebergVR_Pawn]
+[2017.08.27-19.33.29:431][ 42]LogSavePackage: Save=50.49ms
+[2017.08.27-19.33.29:431][ 42]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_Pawn_Auto73E5689C1496FC1DBBEF5918AB2F0AFE9.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/MyRunebergVR_Pawn_Auto7.uasset'
+[2017.08.27-19.33.29:433][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/MyRunebergVR_Pawn_Auto7.uasset
+[2017.08.27-19.33.29:434][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-19.33.29:434][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-19.33.29:442][ 42]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-19.33.29:442][ 42]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-19.36.44:437][197]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.08.27-19.36.46:247][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
+[2017.08.27-19.36.46:306][265]LogSavePackage: Save=53.53ms
+[2017.08.27-19.36.46:306][265]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_PawnDBA3C2B1443C199762409BBAFA66F59F.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset'
+[2017.08.27-19.36.46:309][265]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset
+[2017.08.27-19.40.19:173][389]LogSlate: Took 0.018713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.27-19.43.49:321][  2]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.020
+[2017.08.27-19.43.49:323][  2]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-19.43.49:323][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-19.43.49:331][  2]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-19.43.49:331][  2]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-19.53.50:328][227]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.018
+[2017.08.27-19.53.50:330][227]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-19.53.50:330][227]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-19.53.50:340][227]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-19.53.50:340][227]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HUD_C_0' or package '/Engine/Transient'.
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HUD_C_1' or package '/Engine/Transient'.
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree_11' or package '/Engine/Transient'.
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CallFunction_128' or package '/Game/MyRunebergVR_Pawn'.
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_0' or package '/Game/MyRunebergVR_Pawn'.
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_HUD_C_10' or package '/Engine/Transient'.
+[2017.08.27-19.57.21:088][160]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_HUD_C_9' or package '/Engine/Transient'.
+[2017.08.27-20.03.51:210][438]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.024
+[2017.08.27-20.03.51:212][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyRunebergVR_Pawn] ([1] browsable assets)...
+[2017.08.27-20.03.51:212][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyRunebergVR_Pawn]
+[2017.08.27-20.03.51:282][438]LogSavePackage: Save=55.48ms
+[2017.08.27-20.03.51:282][438]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_Pawn_Auto76967606E412261B686CF4BB41DB75ACA.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/MyRunebergVR_Pawn_Auto7.uasset'
+[2017.08.27-20.03.51:285][438]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/MyRunebergVR_Pawn_Auto7.uasset
+[2017.08.27-20.03.51:286][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-20.03.51:286][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-20.03.51:296][438]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-20.03.51:296][438]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-20.13.51:856][240]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.018
+[2017.08.27-20.13.51:858][240]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-20.13.51:858][240]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-20.13.51:867][240]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-20.13.51:867][240]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-20.23.52:522][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.018
+[2017.08.27-20.23.52:523][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-20.23.52:523][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-20.23.52:533][ 42]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-20.23.52:533][ 42]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-20.33.53:189][844]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.017
+[2017.08.27-20.33.53:191][844]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-20.33.53:191][844]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-20.33.53:203][844]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-20.33.53:203][844]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-20.43.54:145][777]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.016
+[2017.08.27-20.43.54:147][777]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-20.43.54:147][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-20.43.54:158][777]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-20.43.54:158][777]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-20.53.54:820][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.019
+[2017.08.27-20.53.54:822][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-20.53.54:822][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-20.53.54:835][579]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-20.53.54:835][579]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-21.03.55:486][381]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main_Hub' took 0.021
+[2017.08.27-21.03.55:488][381]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/Main_Hub_BuiltData] ([1] browsable assets)...
+[2017.08.27-21.03.55:488][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/Main_Hub_BuiltData]
+[2017.08.27-21.03.55:499][381]Error: Cannot save asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' as conversion of long package name failed. Reason: 'FilenameToLongPackageName failed to convert '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset'. Attempt result was '/Temp/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7', but the path contains illegal characters '.''.
+[2017.08.27-21.03.55:500][381]Warning: Asset '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/Main_Hub./Game/Maps/Main_Hub_BuiltData_Auto7.uasset' is not allowed to save (see log for reason)
+[2017.08.27-21.06.03:616][456]LogWindows: Windows GetLastError: The operation completed successfully. (0)

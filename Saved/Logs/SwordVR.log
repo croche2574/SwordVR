@@ -1,9 +1,9 @@
-﻿Log file open, 08/29/17 11:07:35
+﻿Log file open, 08/29/17 16:47:11
 LogInit:Display: Running engine for game: SwordVR
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-522390047) SRandInit(-522390047).
+LogInit:Display: RandInit(725516386) SRandInit(725516386).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.139803
+LogStats: Stats thread started at 0.089096
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,569 +45,590 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal
+LogInit: Base directory: F:/Unreal 4.16.2/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.29-15.07.36:305][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.29-15.07.36:305][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.29-15.07.36:324][  0]LogInit: Computer: DESKTOP-SIJTC7B
-[2017.08.29-15.07.36:324][  0]LogInit: User: croch
-[2017.08.29-15.07.36:324][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.29-15.07.36:324][  0]LogInit: High frequency timer resolution =2.533207 MHz
-[2017.08.29-15.07.36:324][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.08.29-15.07.36:324][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.29-15.07.36:324][  0]LogMemory: Process Physical Memory: 273.86 MB used, 273.86 MB peak
-[2017.08.29-15.07.36:324][  0]LogMemory: Process Virtual Memory: 261.02 MB used, 261.02 MB peak
-[2017.08.29-15.07.36:324][  0]LogMemory: Physical Memory: 7962.72 MB used,  8344.31 MB free, 16307.03 MB total
-[2017.08.29-15.07.36:324][  0]LogMemory: Virtual Memory: 676.54 MB used,  8344.31 MB free, 134217728.00 MB total
-[2017.08.29-15.07.36:436][  0]LogInit: Using OS detected language (en-US).
-[2017.08.29-15.07.36:436][  0]LogInit: Using OS detected locale (en-US).
-[2017.08.29-15.07.36:439][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.08.29-15.07.37:453][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.29-15.07.38:105][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2017.08.29-15.07.38:105][  0]LogD3D11RHI:       3040/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.08.29-15.07.38:110][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.08.29-15.07.38:110][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.08.29-15.07.38:112][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.29-15.07.38:112][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.29-15.07.38:112][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.29-15.07.38:119][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.29-15.07.38:119][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.29-15.07.38:119][  0]LogWindows: EnumDisplayDevices:
-[2017.08.29-15.07.38:119][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.08.29-15.07.38:119][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.08.29-15.07.38:119][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.08.29-15.07.38:119][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.08.29-15.07.38:119][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2017.08.29-15.07.38:119][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.08.29-15.07.38:119][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.08.29-15.07.38:119][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.29-15.07.38:741][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.29-15.07.38:775][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.08.29-15.07.38:776][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Intermediate/Shaders/WorkingDirectory/976/).
-[2017.08.29-15.07.38:776][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croch/AppData/Local/Temp/UnrealShaderWorkingDir/E777EB6C4E15E8C2A0BF2B961F2AC719/'.
-[2017.08.29-15.07.38:776][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.29-15.07.40:016][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.29-15.07.40:092][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.29-15.07.40:158][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.29-15.07.40:224][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.29-15.07.40:296][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.29-15.07.40:375][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.29-15.07.40:438][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.29-15.07.40:505][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.29-15.07.40:568][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.29-15.07.40:631][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.29-15.07.40:699][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.29-15.07.40:762][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.29-15.07.40:830][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.29-15.07.40:894][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.29-15.07.40:958][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.29-15.07.41:106][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.29-15.07.41:106][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.29-15.07.41:160][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.29-15.07.41:287][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.29-15.07.41:329][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.29-15.07.41:392][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.29-15.07.41:458][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.29-15.07.41:523][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.29-15.07.41:586][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.29-15.07.41:586][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.29-15.07.42:305][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.29-15.07.42:391][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.29-15.07.42:391][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.29-15.07.42:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.29-15.07.42:391][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.29-15.07.42:391][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.29-15.07.42:391][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.29-15.07.42:409][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.29-15.07.42:422][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.29-15.07.42:432][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.29-15.07.42:433][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.29-15.07.42:433][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.29-15.07.42:433][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.29-15.07.42:792][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.29-15.07.42:867][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.29-15.07.43:068][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.29-15.07.43:128][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.29-15.07.43:201][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.29-15.07.43:201][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.29-15.07.43:201][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.29-15.07.43:875][  0]LogNetVersion: SwordVR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1496206902)
-[2017.08.29-15.07.43:946][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2017.08.29-15.07.44:055][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.073395 seconds
-[2017.08.29-15.07.44:063][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.29-15.07.44:063][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.08.29-15.07.44:063][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.29-15.07.44:161][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.29-15.07.47:144][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.29-15.07.47:199][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.29-15.07.47:906][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.29-15.07.48:459][  0]SourceControl: Info Source control is disabled
-[2017.08.29-15.07.48:503][  0]SourceControl: Info Source control is disabled
-[2017.08.29-15.07.48:574][  0]SourceControl: Info Source control is disabled
-[2017.08.29-15.07.48:635][  0]SourceControl: Info Source control is disabled
-[2017.08.29-15.07.49:574][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.29-15.07.50:577][  0]LogEngine: Initializing Engine...
-[2017.08.29-15.07.50:578][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.29-15.07.50:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.29-15.07.50:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.29-15.07.50:986][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.29-15.07.50:992][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.29-15.07.51:005][  0]LogInit: FAudioDevice initialized.
-[2017.08.29-15.07.51:052][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.29-15.07.51:066][  0]LogInit: Texture streaming: Enabled
-[2017.08.29-15.07.51:207][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.29-15.07.51:516][  0]LogInit: Transaction tracking system initialized
-[2017.08.29-15.07.51:966][  0]BlueprintLog: New page: Editor Load
-[2017.08.29-15.07.53:299][  0]LocalizationService: Info Localization service is disabled
-[2017.08.29-15.07.54:273][  0]LogConsoleResponse:Display: 
-[2017.08.29-15.07.54:450][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.29-15.07.54:451][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.29-15.07.55:861][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/' took 0.02s
-[2017.08.29-15.07.55:921][  0]SourceControl: Info Source control is disabled
-[2017.08.29-15.07.55:921][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.29-15.07.55:921][  0]LightingResults: New page: Lighting Build
-[2017.08.29-15.07.55:975][  0]MapCheck: New page: Map Check
-[2017.08.29-15.07.55:975][  0]LightingResults: New page: Lighting Build
-[2017.08.29-15.07.56:183][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.08.29-15.07.56:184][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
-[2017.08.29-15.07.56:188][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.29-15.07.56:203][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.29-15.07.56:266][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.142ms to complete.
-[2017.08.29-15.07.56:266][  0]LogFileHelpers: Loading map 'Template_Default' took 0.346
-[2017.08.29-15.07.56:467][  0]LogCollectionManager: Loaded 0 collections in 0.001465 seconds
-[2017.08.29-15.07.56:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Saved/Collections/' took 0.01s
-[2017.08.29-15.07.56:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Developers/croch/Collections/' took 0.01s
-[2017.08.29-15.07.56:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Collections/' took 0.01s
-[2017.08.29-15.07.56:569][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.29-15.07.56:580][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2342 classes and 497 folders.
-[2017.08.29-15.07.56:669][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.08.29-15.07.57:104][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.08.29-15.07.57:167][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.08.29-15.07.57:249][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.29-15.07.57:257][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.29-15.07.57:259][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.29-15.07.57:285][  0]LogSlate: Took 0.016136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.29-15.07.57:443][  0]LogRenderer: Reallocating scene render targets to support 804x312 NumSamples 1 (Frame:1).
-[2017.08.29-15.07.57:573][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.29-15.07.57:665][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.08.29-15.07.57:666][  0]LogLoad: (Engine Initialization) Total time: 24.13 seconds
-[2017.08.29-15.07.57:666][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
-[2017.08.29-15.07.57:666][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.08.29-15.07.58:005][  0]LogOcInput: OculusInput pre-init called
-[2017.08.29-15.07.58:005][  0]LogHMD: Starting GearVRController plugin
-[2017.08.29-15.07.58:029][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.29-15.07.58:105][  0]LogSlate: Took 0.005934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.29-15.07.58:343][  1]LogAssetRegistry: Asset discovery search completed in 14.4197 seconds
-[2017.08.29-15.07.58:345][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.29-15.07.58:345][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
-[2017.08.29-15.08.46:903][603]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.29-15.08.46:954][603]LogAIModule: Creating AISystem for world synth_Level
-[2017.08.29-15.08.46:972][603]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.29-15.08.46:972][603]LightingResults: New page: Lighting Build
-[2017.08.29-15.08.46:973][603]LoadErrors: New page: Loading map: synth_Level.umap
-[2017.08.29-15.08.46:973][603]MapCheck: New page: Map Check
-[2017.08.29-15.08.46:973][603]LightingResults: New page: Lighting Build
-[2017.08.29-15.08.46:987][603]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.29-15.08.47:023][603]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.29-15.08.47:085][603]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.755ms to complete.
-[2017.08.29-15.08.47:085][603]LogFileHelpers: Loading map 'synth_Level' took 0.113
-[2017.08.29-15.52.07:116][258]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/croch/Documents/Terrains/synthsphere.dds)
-[2017.08.29-15.52.07:667][258]LogTexture:Display: Building textures: synthsphere (AutoDXT, 2048X2048)
-[2017.08.29-15.55.08:325][259]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.027
-[2017.08.29-15.55.08:327][259]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/synthsphere] ([1] browsable assets)...
-[2017.08.29-15.55.08:336][259]OBJ SavePackage:     Rendered thumbnail for [TextureCube /Game/Assets/synthsphere.synthsphere]
-[2017.08.29-15.55.08:337][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/synthsphere]
-[2017.08.29-15.55.08:394][259]LogSavePackage: Save=54.41ms
-[2017.08.29-15.55.08:394][259]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synthsphere_Auto1518B57724087E5FAB2D81C8BA4E83251.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/synthsphere_Auto1.uasset'
-[2017.08.29-15.55.08:396][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/synthsphere_Auto1.uasset
-[2017.08.29-15.55.08:396][259]LogFileHelpers: Auto-saving content packages took 0.070
-[2017.08.29-15.55.49:018][645]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.08.29-15.56.11:064][740]LogTexture:Display: Building textures: synthsphere (BGRA8, 2048X2048)
-[2017.08.29-15.59.22:995][763]LogTexture:Display: Building textures: synthsphere (BGRA8, 2048X2048)
-[2017.08.29-16.00.34:366][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/synthsphere" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/synthsphere.uasset" SILENT=true
-[2017.08.29-16.00.35:836][681]LogSavePackage: Save=1463.71ms
-[2017.08.29-16.00.35:836][681]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synthsphere211C06104C143589D1DEECA1305730FB.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/synthsphere.uasset'
-[2017.08.29-16.00.35:843][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/synthsphere.uasset
-[2017.08.29-16.00.35:849][681]LogSlate: Took 0.005149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.29-16.01.25:094][620]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.01.25:213][620]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.01.25:233][620]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.01.25:288][620]LogSlate: Took 0.006806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.08.29-16.01.27:527][727]MaterialEditorStats: Info Base pass shader: 78 instructions
-[2017.08.29-16.01.27:527][727]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.08.29-16.01.27:527][727]MaterialEditorStats: Info Texture samplers: 1/16
-[2017.08.29-16.01.31:723][977]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.01.31:735][977]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.01.32:079][994]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
-[2017.08.29-16.01.32:079][994]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.08.29-16.01.32:079][994]MaterialEditorStats: Info Texture samplers: 0/16
-[2017.08.29-16.02.21:057][347]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.02.21:065][347]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.02.21:893][392]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
-[2017.08.29-16.02.21:893][392]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.08.29-16.02.21:893][392]MaterialEditorStats: Info Texture samplers: 0/16
-[2017.08.29-16.04.05:554][871]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.04.05:560][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.08.29-16.04.05:562][871]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.04.05:563][871]LogMaterial:Warning: Failed to compile Material /Engine/Transient.synthSpace for platform PCD3D_SM5, Default Material will be used in game.
-[2017.08.29-16.04.05:563][871]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.08.29-16.04.05:594][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.08.29-16.04.05:597][871]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
-[2017.08.29-16.04.27:879][815]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.04.27:879][815]LogMaterial:Warning: Failed to compile Material /Engine/Transient.synthSpace for platform PCD3D_SM5, Default Material will be used in game.
-[2017.08.29-16.04.27:879][815]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.08.29-16.04.27:881][815]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.04.27:882][815]LogMaterial:Warning: Failed to compile Material /Engine/Transient.synthSpace for platform PCD3D_SM5, Default Material will be used in game.
-[2017.08.29-16.04.27:882][815]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.08.29-16.04.27:916][815]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.08.29-16.04.27:966][816]LogSlate: Took 0.005891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.08.29-16.05.07:319][787]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.05.07:320][787]LogMaterial:Warning: Failed to compile Material /Engine/Transient.synthSpace for platform PCD3D_SM5, Default Material will be used in game.
-[2017.08.29-16.05.07:320][787]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.08.29-16.05.07:323][787]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
-[2017.08.29-16.05.07:329][787]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.05.07:329][787]LogMaterial:Warning: Failed to compile Material /Engine/Transient.synthSpace for platform PCD3D_SM5, Default Material will be used in game.
-[2017.08.29-16.05.07:329][787]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Parameters.ReflectionVector: float3 -> float2
-[2017.08.29-16.05.07:384][787]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.08.29-16.05.07:387][787]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
-[2017.08.29-16.05.07:827][810]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Coercion failed: Parameters.ReflectionVector: float3 -> float2
-[2017.08.29-16.05.11:512][ 18]LogSlate: Took 0.004217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.29-16.05.13:758][147]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.05.13:773][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
-[2017.08.29-16.05.14:322][173]MaterialEditorStats: Info Base pass shader without light map: 54 instructions
-[2017.08.29-16.05.14:322][173]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.08.29-16.05.14:322][173]MaterialEditorStats: Info Texture samplers: 1/16
-[2017.08.29-16.05.52:860][113]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.012
-[2017.08.29-16.05.52:863][113]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/synthSpace] ([1] browsable assets)...
-[2017.08.29-16.05.52:895][113]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/synthSpace.synthSpace]
-[2017.08.29-16.05.52:895][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/synthSpace]
-[2017.08.29-16.05.52:913][113]LogSavePackage: Save=15.61ms
-[2017.08.29-16.05.52:913][113]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synthSpace_Auto2A629075F4D5B10AD3F18D3A9A0459C09.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/synthSpace_Auto2.uasset'
-[2017.08.29-16.05.52:915][113]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/synthSpace_Auto2.uasset
-[2017.08.29-16.05.52:915][113]LogFileHelpers: Auto-saving content packages took 0.053
-[2017.08.29-16.07.04:187][993]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.07.04:194][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.08.29-16.07.04:198][993]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.07.04:235][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
-[2017.08.29-16.07.06:627][124]MaterialEditorStats: Info Base pass shader without light map: 35 instructions
-[2017.08.29-16.07.06:627][124]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.08.29-16.07.06:627][124]MaterialEditorStats: Info Texture samplers: 1/16
-[2017.08.29-16.07.21:340][  4]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.07.21:341][  4]LogMaterial:Warning: Failed to compile Material /Engine/Transient.synthSpace for platform PCD3D_SM5, Default Material will be used in game.
-[2017.08.29-16.07.21:341][  4]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.08.29-16.07.21:372][  4]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.08.29-16.07.21:372][  4]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Texture Sample> Missing input texture
-[2017.08.29-16.07.25:038][220]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.07.25:051][220]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2017.08.29-16.07.25:497][238]MaterialEditorStats: Info Base pass shader without light map: 35 instructions
-[2017.08.29-16.07.25:497][238]MaterialEditorStats: Info Vertex shader: 29 instructions
-[2017.08.29-16.07.25:497][238]MaterialEditorStats: Info Texture samplers: 1/16
-[2017.08.29-16.07.44:487][844]LogMaterialEditor: Saving and Compiling material synthSpace
-[2017.08.29-16.07.46:139][844]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.07.46:184][844]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.07.46:205][844]LogMaterial: Missing cached shader map for material synthSpace, compiling. 
-[2017.08.29-16.07.46:241][844]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy synthSpace, compiling. 
-[2017.08.29-16.07.46:776][844]TextureStreamingBuild:Display: Compiling optional shaders took 0.543 seconds.
-[2017.08.29-16.07.47:939][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/synthSpace" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/synthSpace.uasset" SILENT=true
-[2017.08.29-16.07.47:957][844]LogSavePackage: Save=15.78ms
-[2017.08.29-16.07.47:957][844]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synthSpace18A42A56498D6E6BE217E8B37979DFE5.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/synthSpace.uasset'
-[2017.08.29-16.07.47:962][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/synthSpace.uasset
-[2017.08.29-16.07.47:975][844]MaterialEditorStats: Info Base pass shader without light map: 35 instructions
-[2017.08.29-16.07.47:975][844]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2017.08.29-16.07.47:975][844]MaterialEditorStats: Info Texture samplers: 1/16
-[2017.08.29-16.09.30:436][972]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
-[2017.08.29-16.09.31:977][ 64]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
-[2017.08.29-16.09.33:470][153]LogEditorViewport: Clicking Background
-[2017.08.29-16.09.34:628][222]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
-[2017.08.29-16.09.34:754][228]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
-[2017.08.29-16.09.35:876][295]LogEditorViewport: Clicking Background
-[2017.08.29-16.09.36:534][334]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
-[2017.08.29-16.09.38:920][476]LogEditorViewport: Clicking on Actor (context menu): Actor (Actor)
-[2017.08.29-16.10.22:783][ 62]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
-[2017.08.29-16.10.23:789][122]LogEditorViewport: Clicking on Actor (context menu): Actor (Actor)
-[2017.08.29-16.15.53:444][975]LogSavePackage: Save=72.66ms
-[2017.08.29-16.15.53:444][975]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto377814E694727FDDAB45F759D9A019DBB.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto3.umap'
-[2017.08.29-16.15.53:447][975]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto3.umap
-[2017.08.29-16.15.53:453][975]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.137
-[2017.08.29-16.15.53:453][975]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.137
-[2017.08.29-16.23.55:221][ 37]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
-[2017.08.29-16.24.33:426][223]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2017.08.29-16.24.57:309][644]LogEditorViewport: Clicking on Actor (context menu): Actor (SkySphere)
-[2017.08.29-16.25.54:436][649]LogSavePackage: Save=168.74ms
-[2017.08.29-16.25.54:436][649]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto4D6FC898D40053505AAB37DB93F43B073.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto4.umap'
-[2017.08.29-16.25.54:438][649]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto4.umap
-[2017.08.29-16.25.54:441][649]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.217
-[2017.08.29-16.25.54:441][649]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
-[2017.08.29-16.27.04:166][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.29-16.27.04:343][646]LogSavePackage: Save=151.46ms
-[2017.08.29-16.27.04:343][646]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_LevelCEEAC45E474132CC233A8EA24F0286E2.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
-[2017.08.29-16.27.04:347][646]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
-[2017.08.29-16.27.04:389][646]LogFileHelpers: Saving map 'synth_Level' took 1.830
-[2017.08.29-16.27.04:392][646]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.29-16.27.04:393][646]LightingResults: New page: Lighting Build
-[2017.08.29-16.27.04:393][646]LoadErrors: New page: Loading map: synth_Level.umap
-[2017.08.29-16.27.04:394][646]MapCheck: New page: Map Check
-[2017.08.29-16.27.04:394][646]LightingResults: New page: Lighting Build
-[2017.08.29-16.27.04:433][646]LogAIModule: Creating AISystem for world synth_Level
-[2017.08.29-16.27.04:437][646]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.29-16.27.04:486][646]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.29-16.27.04:555][646]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.382ms to complete.
-[2017.08.29-16.27.04:555][646]LogFileHelpers: Loading map 'synth_Level' took 0.164
-[2017.08.29-16.27.58:174][857]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.29-16.27.58:176][857]LightingResults: New page: Lighting Build
-[2017.08.29-16.27.58:176][857]LoadErrors: New page: Loading map: synth_Level.umap
-[2017.08.29-16.27.58:177][857]MapCheck: New page: Map Check
-[2017.08.29-16.27.58:177][857]LightingResults: New page: Lighting Build
-[2017.08.29-16.27.58:209][857]LogAIModule: Creating AISystem for world synth_Level
-[2017.08.29-16.27.58:211][857]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.29-16.27.58:261][857]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.29-16.27.58:328][857]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.749ms to complete.
-[2017.08.29-16.27.58:329][857]LogFileHelpers: Loading map 'synth_Level' took 0.155
-[2017.08.29-16.28.58:204][126]LogEditorViewport: Clicking on Actor (LMB): Actor (SkySphere)
-[2017.08.29-16.29.28:870][918]LogRenderer: Reallocating scene render targets to support 804x424 NumSamples 1 (Frame:1).
-[2017.08.29-16.31.45:641][816]BlueprintLog: New page: Compile SkySphere_Blueprint
-[2017.08.29-16.31.50:847][101]BlueprintLog: New page: Compile SkySphere_Blueprint
-[2017.08.29-16.32.06:461][ 26]BlueprintLog: New page: Compile SkySphere_Blueprint
-[2017.08.29-16.32.22:514][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/SkySphere_Blueprint" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/SkySphere_Blueprint.uasset" SILENT=true
-[2017.08.29-16.32.22:540][973]LogSavePackage: Save=23.06ms
-[2017.08.29-16.32.22:540][973]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/SkySphere_Blueprint170F3753496DF16C455413A5D505C8ED.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/SkySphere_Blueprint.uasset'
-[2017.08.29-16.32.22:546][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Levels/SkySphere_Blueprint.uasset
-[2017.08.29-16.33.29:275][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.29-16.33.29:465][660]LogSavePackage: Save=148.50ms
-[2017.08.29-16.33.29:466][660]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level876D7E614A2356D782F36896BA2DE8E0.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
-[2017.08.29-16.33.29:470][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
-[2017.08.29-16.33.29:506][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
-[2017.08.29-16.33.29:533][660]LogSavePackage: Save=13.91ms
-[2017.08.29-16.33.29:533][660]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltDataD289E60C4C3BCC56A04C78BBACA58FA9.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
-[2017.08.29-16.33.29:535][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
-[2017.08.29-16.33.33:559][901]MapCheck: New page: Map Check
-[2017.08.29-16.33.33:578][901]Cmd: MAP REBUILD ALLVISIBLE
-[2017.08.29-16.33.33:578][901]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.08.29-16.33.33:644][901]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.08.29-16.33.33:657][901]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.08.29-16.33.33:663][901]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2017.08.29-16.33.33:670][901]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy synthSpace, compiling. 
-[2017.08.29-16.33.34:190][901]TextureStreamingBuild:Display: Compiling optional shaders took 0.572 seconds.
-[2017.08.29-16.33.34:198][901]LogLevel:Display: Export Material TexCoord Scales took 0.008 seconds.
-[2017.08.29-16.33.34:203][901]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
-[2017.08.29-16.33.34:223][901]LightingResults: New page: Lighting Build - Aug 29, 2017, 8:33:34 AM
-[2017.08.29-16.33.34:300][901]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.08.29-16.33.34:352][901]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.08.29-16.33.34:371][901]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.08.29-16.33.34:887][901]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.08.29-16.33.34:887][901]LogSwarmInterface: [TryOpenConnection] Local Process ID is 976
-[2017.08.29-16.33.37:748][901]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.08.29-16.33.37:748][901]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.08.29-16.33.37:748][901]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.08.29-16.33.37:748][901]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.08.29-16.33.37:748][901]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.08.29-16.33.37:748][901]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.08.29-16.33.37:849][901]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.08.29-16.33.37:849][901]MapCheck: New page: synth_Level - Aug 29, 2017, 8:33:37 AM
-[2017.08.29-16.33.37:849][901]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.08.29-16.33.37:930][901]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 80.302ms to complete.
-[2017.08.29-16.33.37:952][901]LogEditorBuildUtils: Build time 0:04
-[2017.08.29-16.33.39:711][958]Job is a success!
-[2017.08.29-16.33.39:826][960]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2017.08.29-16.33.39:826][960]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2017.08.29-16.33.39:826][960]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 512X64)
-[2017.08.29-16.33.39:879][960]Lightmass on DESKTOP-SIJTC7B: 877 ms total, 178 ms importing, 44 ms setup, 279 ms photons, 354 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 2.32 sec total, 333 ms processing.
-[2017.08.29-16.33.39:891][960]LogStaticLightingSystem: Illumination: 5.64 sec (17 ms encoding lightmaps, 20 ms encoding shadowmaps)
-[2017.08.29-16.33.39:891][960]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
-[2017.08.29-16.33.39:891][960]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
-[2017.08.29-16.33.40:754][960]DumpUnbuiltLightIteractions
-[2017.08.29-16.33.40:754][960]Lights with unbuilt interactions: 0
-[2017.08.29-16.33.40:754][960]
-[2017.08.29-16.33.40:754][960]Primitives with unbuilt interactions: 0
-[2017.08.29-16.33.40:771][961]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.08.29-16.33.40:771][961]MapCheck: New page: synth_Level - Aug 29, 2017, 8:33:40 AM
-[2017.08.29-16.33.40:773][961]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.08.29-16.33.40:859][961]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 87.463ms to complete.
-[2017.08.29-16.34.37:982][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.29-16.34.38:178][737]LogSavePackage: Save=161.75ms
-[2017.08.29-16.34.38:178][737]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_LevelD2DBEA1C4D6900F0BCA4EEB4BFF79FF9.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
-[2017.08.29-16.34.38:184][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
-[2017.08.29-16.34.38:231][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
-[2017.08.29-16.34.38:258][737]LogSavePackage: Save=12.45ms
-[2017.08.29-16.34.38:258][737]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData719ED2E643D8A3DDCE75349093AB7B7E.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
-[2017.08.29-16.34.38:262][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
-[2017.08.29-20.24.38:121][825]LogEditorViewport: Clicking Background
-[2017.08.29-20.25.02:996][292]LogTexture:Display: Building textures: Texture2D_3 (G8, 128X128)
-[2017.08.29-20.25.06:384][492]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
-[2017.08.29-20.25.20:639][198]Cmd: TRANSACTION UNDO
-[2017.08.29-20.25.20:639][198]LogEditorTransaction: Undo Move Actors
-[2017.08.29-20.26.18:323][608]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
-[2017.08.29-20.26.35:614][645]LogEditorViewport: Clicking Background
-[2017.08.29-20.27.33:730][ 72]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2017.08.29-20.27.33:745][ 72]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
-[2017.08.29-20.27.33:760][ 72]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512)
-[2017.08.29-20.27.33:774][ 72]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512)
-[2017.08.29-20.27.33:791][ 72]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X512)
-[2017.08.29-20.27.33:798][ 72]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 512X512)
-[2017.08.29-20.27.33:813][ 72]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X512)
-[2017.08.29-20.27.33:829][ 72]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 512X512)
-[2017.08.29-20.27.33:847][ 72]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512)
-[2017.08.29-20.27.33:862][ 72]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 128X512)
-[2017.08.29-20.27.33:870][ 72]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X512)
-[2017.08.29-20.27.33:885][ 72]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512)
-[2017.08.29-20.27.33:900][ 72]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512)
-[2017.08.29-20.27.33:916][ 72]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 512X512)
-[2017.08.29-20.27.33:930][ 72]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 128X512)
-[2017.08.29-20.27.33:936][ 72]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 512X512)
-[2017.08.29-20.27.33:952][ 72]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
-[2017.08.29-20.27.33:967][ 72]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 512X512)
-[2017.08.29-20.27.33:984][ 72]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 512X512)
-[2017.08.29-20.27.33:998][ 72]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 128X512)
-[2017.08.29-20.27.34:005][ 72]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 512X128)
-[2017.08.29-20.27.34:012][ 72]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 512X128)
-[2017.08.29-20.27.34:020][ 72]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 512X128)
-[2017.08.29-20.27.34:028][ 72]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 512X128)
-[2017.08.29-20.27.34:035][ 72]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 128X128)
-[2017.08.29-20.28.06:824][945]MapCheck: New page: Map Check
-[2017.08.29-20.28.06:843][945]Cmd: MAP REBUILD ALLVISIBLE
-[2017.08.29-20.28.06:843][945]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2017.08.29-20.28.06:907][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2017.08.29-20.28.06:914][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2017.08.29-20.28.06:921][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
-[2017.08.29-20.28.06:928][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy synthSpace, compiling. 
-[2017.08.29-20.28.07:755][945]TextureStreamingBuild:Display: Compiling optional shaders took 0.853 seconds.
-[2017.08.29-20.28.07:759][945]LogLevel:Display: Export Material TexCoord Scales took 0.004 seconds.
-[2017.08.29-20.28.07:764][945]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
-[2017.08.29-20.28.07:784][945]LightingResults: New page: Lighting Build - Aug 29, 2017, 12:28:07 PM
-[2017.08.29-20.28.07:887][945]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.08.29-20.28.07:894][945]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.08.29-20.28.07:894][945]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.08.29-20.28.07:895][945]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.08.29-20.28.07:895][945]LogSwarmInterface: [TryOpenConnection] Local Process ID is 976
-[2017.08.29-20.28.12:420][945]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.08.29-20.28.12:554][945]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2017.08.29-20.28.12:554][945]MapCheck: New page: synth_Level - Aug 29, 2017, 12:28:12 PM
-[2017.08.29-20.28.12:555][945]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
-[2017.08.29-20.28.12:555][945]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.08.29-20.28.14:339][945]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 1,785.508ms to complete.
-[2017.08.29-20.28.14:362][945]LogEditorBuildUtils: Build time 0:07
-[2017.08.29-20.29.03:850][168]LogSavePackage: Save=1317.94ms
-[2017.08.29-20.29.03:850][168]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto5DEC3E42240060E2AF146B191516308F4.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto5.umap'
-[2017.08.29-20.29.03:852][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto5.umap
-[2017.08.29-20.29.03:862][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 1.388
-[2017.08.29-20.29.03:862][168]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.388
-[2017.08.29-20.29.45:176][204]Job is a success!
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 512X512)
-[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 512X512)
-[2017.08.29-20.29.52:006][205]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
-[2017.08.29-20.29.52:006][205]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
-[2017.08.29-20.29.52:006][205]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
-[2017.08.29-20.29.52:355][205]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
-[2017.08.29-20.29.52:355][205]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
-[2017.08.29-20.29.52:394][205]Lightmass on DESKTOP-SIJTC7B: 1:17 min total, 3.09 sec importing, 1.71 sec setup, 5.26 sec photons, 1:07 min processing, 0 ms extra exporting [295/295 mappings]. Threads: 7:53 min total, 5:55 min processing.
-[2017.08.29-20.29.52:401][205]LogStaticLightingSystem: Illumination: 1:44 min (5.80 sec encoding lightmaps, 746 ms encoding shadowmaps)
-[2017.08.29-20.29.52:401][205]LogStaticLightingSystem: Lightmap texture memory:  18.5 MB (18.5 MB streaming, 0.0 MB non-streaming), 20 textures
-[2017.08.29-20.29.52:401][205]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 5 textures
-[2017.08.29-20.29.52:465][205]DumpUnbuiltLightIteractions
-[2017.08.29-20.29.52:465][205]Lights with unbuilt interactions: 0
-[2017.08.29-20.29.52:465][205]
-[2017.08.29-20.29.52:465][205]Primitives with unbuilt interactions: 0
-[2017.08.29-20.29.52:473][206]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.08.29-20.29.52:473][206]MapCheck: New page: synth_Level - Aug 29, 2017, 12:29:52 PM
-[2017.08.29-20.29.52:473][206]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.08.29-20.29.52:553][206]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 80.165ms to complete.
-[2017.08.29-20.31.23:340][630]Cmd: TRANSACTION UNDO
-[2017.08.29-20.31.23:340][630]LogEditorTransaction: Undo Move Actors
-[2017.08.29-20.31.24:314][687]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.08.29-20.31.39:006][559]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.08.29-20.31.40:569][651]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
-[2017.08.29-20.31.54:783][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.29-20.31.55:686][493]LogSavePackage: Save=867.92ms
-[2017.08.29-20.31.55:686][493]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_LevelADE3FACC429B67BE445F92B49487F35E.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
-[2017.08.29-20.31.55:702][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
-[2017.08.29-20.31.55:748][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
-[2017.08.29-20.31.58:253][493]LogSavePackage: Save=2490.99ms
-[2017.08.29-20.31.58:253][493]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData5D8FA84F4B4B678BD28368A478DE8CBE.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
-[2017.08.29-20.31.58:257][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
-[2017.08.29-20.32.08:622][113]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2017.08.29-20.32.32:294][444]MapCheck: New page: Map Check
-[2017.08.29-20.32.32:311][444]LightingResults: New page: Lighting Build - Aug 29, 2017, 12:32:32 PM
-[2017.08.29-20.32.32:405][444]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2017.08.29-20.32.32:408][444]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2017.08.29-20.32.32:408][444]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2017.08.29-20.32.32:409][444]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2017.08.29-20.32.32:409][444]LogSwarmInterface: [TryOpenConnection] Local Process ID is 976
-[2017.08.29-20.32.36:921][444]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2017.08.29-20.32.37:071][444]LogEditorBuildUtils: Build time 0:04
-[2017.08.29-20.33.48:987][967]Job is a success!
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 512X512)
-[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 512X512)
-[2017.08.29-20.33.55:932][968]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
-[2017.08.29-20.33.55:932][968]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024)
-[2017.08.29-20.33.55:932][968]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
-[2017.08.29-20.33.56:258][968]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
-[2017.08.29-20.33.56:258][968]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X1024)
-[2017.08.29-20.33.56:294][968]Lightmass on DESKTOP-SIJTC7B: 1:18 min total, 3.01 sec importing, 1.75 sec setup, 5.73 sec photons, 1:07 min processing, 0 ms extra exporting [295/295 mappings]. Threads: 7:53 min total, 5:55 min processing.
-[2017.08.29-20.33.56:309][968]LogStaticLightingSystem: Illumination: 1:23 min (5.84 sec encoding lightmaps, 724 ms encoding shadowmaps)
-[2017.08.29-20.33.56:309][968]LogStaticLightingSystem: Lightmap texture memory:  18.5 MB (18.5 MB streaming, 0.0 MB non-streaming), 20 textures
-[2017.08.29-20.33.56:309][968]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 5 textures
-[2017.08.29-20.33.56:963][968]DumpUnbuiltLightIteractions
-[2017.08.29-20.33.56:963][968]Lights with unbuilt interactions: 0
-[2017.08.29-20.33.56:963][968]
-[2017.08.29-20.33.56:963][968]Primitives with unbuilt interactions: 0
-[2017.08.29-20.33.56:969][969]Cmd: MAP CHECK NOTIFYRESULTS
-[2017.08.29-20.33.56:969][969]MapCheck: New page: synth_Level - Aug 29, 2017, 12:33:56 PM
-[2017.08.29-20.33.56:972][969]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
-[2017.08.29-20.33.57:053][969]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 83.862ms to complete.
-[2017.08.29-20.34.06:814][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.08.29-20.34.07:729][551]LogSavePackage: Save=864.15ms
-[2017.08.29-20.34.07:729][551]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level8D59DA154BE225C2748D948A7B6FE346.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
-[2017.08.29-20.34.07:734][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
-[2017.08.29-20.34.07:777][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
-[2017.08.29-20.34.10:235][551]LogSavePackage: Save=2448.08ms
-[2017.08.29-20.34.10:235][551]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData5F35BF424739CF6E1BE2E39BDD6752CB.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
-[2017.08.29-20.34.10:243][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.29-20.47.12:182][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-20.47.12:182][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.29-20.47.12:193][  0]LogInit: Computer: IST1022-14
+[2017.08.29-20.47.12:193][  0]LogInit: User: croche2574
+[2017.08.29-20.47.12:193][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.29-20.47.12:193][  0]LogInit: High frequency timer resolution =3.410068 MHz
+[2017.08.29-20.47.12:193][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.08.29-20.47.12:193][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.29-20.47.12:193][  0]LogMemory: Process Physical Memory: 273.39 MB used, 273.39 MB peak
+[2017.08.29-20.47.12:193][  0]LogMemory: Process Virtual Memory: 261.13 MB used, 261.13 MB peak
+[2017.08.29-20.47.12:193][  0]LogMemory: Physical Memory: 6825.78 MB used,  25858.50 MB free, 32684.29 MB total
+[2017.08.29-20.47.12:193][  0]LogMemory: Virtual Memory: 638.62 MB used,  25858.50 MB free, 134217728.00 MB total
+[2017.08.29-20.47.12:255][  0]LogInit: Using OS detected language (en-US).
+[2017.08.29-20.47.12:255][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.29-20.47.12:257][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.29-20.47.13:238][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.29-20.47.13:275][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.08.29-20.47.13:275][  0]LogD3D11RHI:       8076/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.29-20.47.13:276][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.29-20.47.13:276][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.29-20.47.13:276][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.29-20.47.13:280][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.29-20.47.13:280][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.29-20.47.13:280][  0]LogWindows: EnumDisplayDevices:
+[2017.08.29-20.47.13:280][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.08.29-20.47.13:281][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.08.29-20.47.13:281][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.29-20.47.13:281][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.29-20.47.13:281][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.29-20.47.13:281][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.08.29-20.47.13:281][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.08.29-20.47.13:281][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.08.29-20.47.13:281][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.29-20.47.13:305][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.29-20.47.13:322][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.29-20.47.13:368][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Intermediate/Shaders/WorkingDirectory/10352/).
+[2017.08.29-20.47.13:368][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croche2574/AppData/Local/Temp/UnrealShaderWorkingDir/AEF117C54D97EC3846AC33924A077BE9/'.
+[2017.08.29-20.47.13:368][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.29-20.47.14:544][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.29-20.47.14:596][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.29-20.47.14:637][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.29-20.47.14:681][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.29-20.47.14:724][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.29-20.47.14:769][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.29-20.47.14:812][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.29-20.47.14:857][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.29-20.47.14:897][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.29-20.47.14:940][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.29-20.47.14:983][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.29-20.47.15:033][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.29-20.47.15:094][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.29-20.47.15:149][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.29-20.47.15:190][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.29-20.47.15:273][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.29-20.47.15:273][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.29-20.47.15:306][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.29-20.47.15:387][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.29-20.47.15:415][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.29-20.47.15:462][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.29-20.47.15:504][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.29-20.47.15:548][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.29-20.47.15:609][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.29-20.47.15:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.29-20.47.16:031][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.29-20.47.16:151][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.29-20.47.16:151][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.29-20.47.16:151][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/croche2574/Documents/Unreal Projects/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.29-20.47.16:151][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.29-20.47.16:151][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/croche2574/Documents/Unreal Projects/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.29-20.47.16:151][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.29-20.47.16:183][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.29-20.47.16:196][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croche2574/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.29-20.47.16:210][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.29-20.47.16:210][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.29-20.47.16:211][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-20.47.16:211][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-20.47.16:547][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-20.47.16:627][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.29-20.47.16:809][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.29-20.47.16:846][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.29-20.47.16:885][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.29-20.47.16:885][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.29-20.47.16:885][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.29-20.47.17:456][  0]LogNetVersion: SwordVR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1496206902)
+[2017.08.29-20.47.17:516][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2017.08.29-20.47.17:594][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.057545 seconds
+[2017.08.29-20.47.17:600][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.29-20.47.17:600][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.29-20.47.17:600][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.29-20.47.17:650][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.29-20.47.19:937][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.29-20.47.19:981][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.29-20.47.20:430][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.29-20.47.20:807][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.47.20:851][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.47.20:891][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.47.20:929][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.47.21:604][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.29-20.47.22:120][  0]LogEngine: Initializing Engine...
+[2017.08.29-20.47.22:688][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-3D9A73B8
+[2017.08.29-20.47.22:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.29-20.47.22:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.29-20.47.23:053][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.29-20.47.23:071][  0]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.29-20.47.23:081][  0]LogInit: FAudioDevice initialized.
+[2017.08.29-20.47.23:130][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.29-20.47.23:141][  0]LogInit: Texture streaming: Enabled
+[2017.08.29-20.47.23:228][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.29-20.47.23:237][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={0DDFD026-49E5-D563-AB77-40BDBB6B88FA}
+[2017.08.29-20.47.23:431][  0]LogInit: Transaction tracking system initialized
+[2017.08.29-20.47.23:679][  0]BlueprintLog: New page: Editor Load
+[2017.08.29-20.47.24:468][  0]LocalizationService: Info Localization service is disabled
+[2017.08.29-20.47.25:045][  0]LogConsoleResponse:Display: 
+[2017.08.29-20.47.25:174][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.29-20.47.25:174][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.29-20.47.26:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/' took 0.01s
+[2017.08.29-20.47.26:019][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.47.26:019][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-20.47.26:020][  0]LightingResults: New page: Lighting Build
+[2017.08.29-20.47.26:052][  0]MapCheck: New page: Map Check
+[2017.08.29-20.47.26:052][  0]LightingResults: New page: Lighting Build
+[2017.08.29-20.47.26:247][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.29-20.47.26:247][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.29-20.47.26:252][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-20.47.26:272][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-20.47.26:311][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.304ms to complete.
+[2017.08.29-20.47.26:311][  0]LogFileHelpers: Loading map 'Template_Default' took 0.292
+[2017.08.29-20.47.26:384][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.29-20.47.26:461][  0]LogCollectionManager: Loaded 0 collections in 0.001393 seconds
+[2017.08.29-20.47.26:546][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Collections/' took 0.01s
+[2017.08.29-20.47.26:546][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Developers/croche2574/Collections/' took 0.01s
+[2017.08.29-20.47.26:546][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Collections/' took 0.01s
+[2017.08.29-20.47.26:546][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.29-20.47.26:558][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2342 classes and 497 folders.
+[2017.08.29-20.47.26:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.29-20.47.26:643][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.29-20.47.26:678][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.29-20.47.26:712][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.29-20.47.26:716][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-20.47.26:719][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.29-20.47.26:724][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.29-20.47.26:821][  0]LogRenderer: Reallocating scene render targets to support 1616x916 NumSamples 1 (Frame:1).
+[2017.08.29-20.47.27:044][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.29-20.47.27:044][  0]LogLoad: (Engine Initialization) Total time: 16.44 seconds
+[2017.08.29-20.47.27:044][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.08.29-20.47.27:044][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.29-20.47.27:044][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.29-20.47.27:054][  0]LogOcInput: OculusInput pre-init called
+[2017.08.29-20.47.27:054][  0]LogHMD: Starting GearVRController plugin
+[2017.08.29-20.47.27:054][  0]LogSteamVRController: Controller role for device 3 is 1 (invalid=0, left=1, right=2).
+[2017.08.29-20.47.27:054][  0]LogSteamVRController:Warning: Controller device 3 is being assigned to its prefered role 'left'.
+[2017.08.29-20.47.27:054][  0]LogSteamVRController: Controller device 3 is being assigned unreal hand 0 (left=0, right=1).
+[2017.08.29-20.47.27:054][  0]LogSteamVRController: Controller role for device 4 is 2 (invalid=0, left=1, right=2).
+[2017.08.29-20.47.27:054][  0]LogSteamVRController: Putting controller 4 on the right hand because there is already a controller for the left.
+[2017.08.29-20.47.27:054][  0]LogSteamVRController: Controller device 4 is being assigned unreal hand 1 (left=0, right=1).
+[2017.08.29-20.47.27:075][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.29-20.47.27:150][  1]LogAssetRegistry: Asset discovery search completed in 9.6564 seconds
+[2017.08.29-20.47.27:152][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.29-20.47.27:152][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.08.29-20.47.32:415][614]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-20.47.32:580][614]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.33:064][614]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 512X512)
+[2017.08.29-20.47.33:129][614]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.33:539][614]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.33:886][614]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.34:277][614]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.34:698][614]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.35:059][614]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.35:450][614]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.35:918][614]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2017.08.29-20.47.36:363][614]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.29-20.47.36:559][614]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 512X512)
+[2017.08.29-20.47.36:593][614]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.08.29-20.47.36:755][614]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2017.08.29-20.47.36:913][614]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2017.08.29-20.47.37:075][614]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2017.08.29-20.47.37:269][614]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2017.08.29-20.47.37:460][614]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2017.08.29-20.47.37:627][614]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2017.08.29-20.47.37:840][614]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2017.08.29-20.47.38:121][614]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.29-20.47.38:225][614]Cmd: MAP LOAD FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-20.47.38:225][614]LightingResults: New page: Lighting Build
+[2017.08.29-20.47.38:225][614]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.08.29-20.47.38:226][614]MapCheck: New page: Map Check
+[2017.08.29-20.47.38:226][614]LightingResults: New page: Lighting Build
+[2017.08.29-20.47.38:406][614]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-20.47.38:454][614]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-20.47.38:505][614]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.077ms to complete.
+[2017.08.29-20.47.38:506][614]LogFileHelpers: Loading map 'synth_Level' took 0.282
+[2017.08.29-20.47.55:173][527]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-20.47.58:085][769]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.08.29-20.47.59:011][843]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-20.48.20:416][343]MapCheck: New page: Map Check
+[2017.08.29-20.48.20:428][343]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.29-20.48.20:432][343]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.29-20.48.20:514][343]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.29-20.48.20:521][343]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.29-20.48.20:527][343]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.29-20.48.20:532][343]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy synthSpace, compiling. 
+[2017.08.29-20.48.21:055][343]TextureStreamingBuild:Display: Compiling optional shaders took 0.547 seconds.
+[2017.08.29-20.48.21:058][343]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.08.29-20.48.21:062][343]TextureStreamingBuild:Display: Build Texture Streaming took 0.004 seconds.
+[2017.08.29-20.48.21:070][343]LightingResults: New page: Lighting Build - Aug 29, 2017, 12:48:21 PM
+[2017.08.29-20.48.21:197][343]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.29-20.48.21:263][343]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.29-20.48.21:276][343]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.29-20.48.21:788][343]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.29-20.48.21:788][343]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10352
+[2017.08.29-20.48.24:163][343]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.29-20.48.24:164][343]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.29-20.48.24:164][343]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.29-20.48.24:164][343]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.29-20.48.24:164][343]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.29-20.48.24:164][343]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.29-20.48.24:329][343]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.29-20.48.24:330][343]MapCheck: New page: synth_Level - Aug 29, 2017, 12:48:24 PM
+[2017.08.29-20.48.24:330][343]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.29-20.48.24:330][343]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-20.48.24:376][343]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 46.518ms to complete.
+[2017.08.29-20.48.24:399][343]LogEditorBuildUtils: Build time 0:03
+[2017.08.29-20.49.49:836][278]Job is a success!
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 512X512)
+[2017.08.29-20.49.54:658][279]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 512X512)
+[2017.08.29-20.49.55:058][279]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2017.08.29-20.49.55:058][279]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.08.29-20.49.55:058][279]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2017.08.29-20.49.55:269][279]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2017.08.29-20.49.55:269][279]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2017.08.29-20.49.55:300][279]Lightmass on IST1022-14: 1:30 min total, 2.74 sec importing, 1.48 sec setup, 6.75 sec photons, 1:19 min processing, 0 ms extra exporting [295/295 mappings]. Threads: 9:13 min total, 7:14 min processing.
+[2017.08.29-20.49.55:317][279]LogStaticLightingSystem: Illumination: 1:34 min (4.21 sec encoding lightmaps, 609 ms encoding shadowmaps)
+[2017.08.29-20.49.55:317][279]LogStaticLightingSystem: Lightmap texture memory:  18.5 MB (18.5 MB streaming, 0.0 MB non-streaming), 20 textures
+[2017.08.29-20.49.55:317][279]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 5 textures
+[2017.08.29-20.49.56:259][279]DumpUnbuiltLightIteractions
+[2017.08.29-20.49.56:259][279]Lights with unbuilt interactions: 0
+[2017.08.29-20.49.56:259][279]
+[2017.08.29-20.49.56:259][279]Primitives with unbuilt interactions: 0
+[2017.08.29-20.49.56:270][280]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.29-20.49.56:270][280]MapCheck: New page: synth_Level - Aug 29, 2017, 12:49:56 PM
+[2017.08.29-20.49.56:272][280]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-20.49.56:315][280]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 44.076ms to complete.
+[2017.08.29-20.50.05:843][126]LogTemp: Repeting last play command: VR Preview
+[2017.08.29-20.50.05:871][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.08.29-20.50.05:871][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.29-20.50.05:871][126]PIE: New page: PIE session: synth_Level (Aug 29, 2017, 12:50:05 PM)
+[2017.08.29-20.50.05:872][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.08.29-20.50.05:989][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117079s)
+[2017.08.29-20.50.05:990][126]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.29-20.50.05:990][126]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2017.08.29-20.50.05:990][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.118339s)
+[2017.08.29-20.50.06:013][126]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.29-20.50.06:021][126]LogInit: FAudioDevice initialized.
+[2017.08.29-20.50.06:234][126]LogLoad: Game class is 'VR_GameMode_C'
+[2017.08.29-20.50.06:244][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.08.29-16.50.06
+[2017.08.29-20.50.06:245][126]LogWorld: Bringing up level for play took: 0.008738
+[2017.08.29-20.50.06:280][126]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.29-20.50.06:281][126]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.29-20.50.06:282][126]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.29-20.50.06:282][126]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.29-20.50.06:282][126]LogBlueprintUserMessages: [MyRunebergVR_Pawn_C_0] Actors Added
+[2017.08.29-20.50.06:288][126]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level -0.186
+[2017.08.29-20.50.06:288][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.08.29-20.50.06:321][127]LogRenderer: Reallocating scene render targets to support 3024x1680 NumSamples 1 (Frame:1).
+[2017.08.29-20.53.58:628][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.08.29-20.53.58:838][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.08.29-20.54.07:259][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.29-20.54.08:033][597]LogSavePackage: Save=742.67ms
+[2017.08.29-20.54.08:033][597]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_LevelF2AEB7A24C27BF039990F6B9A381FBDF.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.29-20.54.08:047][597]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.29-20.54.08:076][597]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-20.54.08:079][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.08.29-20.54.10:258][597]LogSavePackage: Save=2131.09ms
+[2017.08.29-20.54.10:258][597]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData430727C746D4CAB0B7D783AC9667682D.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.08.29-20.54.10:265][597]LogSavePackage:Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.29-20.54.14:214][949]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.29-20.54.14:398][950]Cmd: QUIT_EDITOR
+[2017.08.29-20.54.14:969][950]LogExit: Preparing to exit.
+[2017.08.29-20.54.15:295][950]LogExit: Editor shut down
+[2017.08.29-20.54.15:300][950]LogExit: Transaction tracking system shut down
+[2017.08.29-20.54.15:416][950]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.29-20.54.15:416][950]LogExit: Object subsystem successfully closed.
+[2017.08.29-20.54.15:439][950]LogD3D11RHI: Shutdown
+[2017.08.29-20.54.15:439][950]LogD3D11RHI: CleanupD3DDevice
+[2017.08.29-20.54.15:455][950]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.29-20.54.15:463][950]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.08.29-20.54.15:463][950]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2017.08.29-20.54.15:463][950]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.08.29-20.54.15:463][950]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.08.29-20.54.15:463][950]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.08.29-20.54.15:463][950]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.08.29-20.54.15:463][950]LogDirectoryWatcher: A directory notification for 'F:/Unreal 4.16.2/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.08.29-20.54.15:465][950]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Collections/' was aborted.
+[2017.08.29-20.54.15:465][950]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Developers/croche2574/Collections/' was aborted.
+[2017.08.29-20.54.15:465][950]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Collections/' was aborted.
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.08.29-20.54.15:465][950]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.08.29-20.54.15:466][950]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.08.29-20.54.15:984][950]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.08.29-20.54.15:984][950]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.08.29-20.54.15:984][950]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.08.29-20.54.15:985][950]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.08.29-20.54.16:049][950]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.08.29-20.54.16:050][950]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.08.29-20.54.16:238][950]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module SteamVRController (328)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module SteamVR (326)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (324)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module OculusLibrary (320)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module OculusInput (318)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (316)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (304)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (302)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module GestureTrackerVR (300)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.29-20.54.16:239][950]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.29-20.54.16:240][950]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.29-20.54.16:240][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.29-20.54.16:240][950]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.29-20.54.16:240][950]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.29-20.54.16:240][950]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.29-20.54.16:240][950]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.29-20.54.16:240][950]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.29-20.54.16:241][950]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.29-20.54.16:241][950]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.29-20.54.16:241][950]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.29-20.54.16:241][950]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/GestureTrackerVR/Binaries/Win64' was aborted.
+[2017.08.29-20.54.16:241][950]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/RunebergVRPlugin/Binaries/Win64' was aborted.
+[2017.08.29-20.54.16:242][950]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.29-20.54.16:242][950]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.29-20.54.16:242][950]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.29-20.54.16:242][950]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.29-20.54.16:242][950]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.29-20.54.16:242][950]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.29-20.54.16:343][950]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.29-20.54.16:444][950]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.29-20.54.16:444][950]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.29-20.54.16:444][950]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.29-20.54.16:444][950]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.29-20.54.16:444][950]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.29-20.54.16:444][950]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.29-20.54.16:445][950]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.29-20.54.16:449][950]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.29-20.54.16:449][950]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.29-20.54.16:449][950]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.29-20.54.16:449][950]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.29-20.54.16:449][950]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.29-20.54.16:449][950]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.29-20.54.16:656][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.29-20.54.16:656][950]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/' was aborted.
+[2017.08.29-20.54.16:656][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.29-20.54.16:656][950]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/GestureTrackerVR/Content/' was aborted.
+[2017.08.29-20.54.16:656][950]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.29-20.54.16:659][950]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.29-20.54.16:661][950]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.29-20.54.16:731][950]LogDerivedDataCache: Shutdown
+[2017.08.29-20.54.16:731][950]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.29-20.54.16:731][950]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.29-20.54.16:731][950]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.29-20.54.16:731][950]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.29-20.54.16:732][950]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.29-20.54.16:732][950]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.29-20.54.16:732][950]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.29-20.54.16:732][950]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9347B03D-4139-AE10-EEC3-FDAE0A78F7DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=51f770dc4789ec184ca99ab8a14492d1%7Cd8e1cdd51d1c479f8a85754926729c65%7C12586e77-4266-4c82-b3f1-2966cd209827&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.29-20.54.16:756][950]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.29-20.54.16:758][950]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.29-20.54.16:759][950]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.29-20.54.16:762][950]LogExit: Exiting.
+[2017.08.29-20.54.16:784][950]Log file closed, 08/29/17 16:54:16

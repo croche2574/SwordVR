@@ -434,3 +434,180 @@ LogInit: Object subsystem initialized
 [2017.08.29-16.34.38:258][737]LogSavePackage: Save=12.45ms
 [2017.08.29-16.34.38:258][737]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData719ED2E643D8A3DDCE75349093AB7B7E.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
 [2017.08.29-16.34.38:262][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.29-20.24.38:121][825]LogEditorViewport: Clicking Background
+[2017.08.29-20.25.02:996][292]LogTexture:Display: Building textures: Texture2D_3 (G8, 128X128)
+[2017.08.29-20.25.06:384][492]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.08.29-20.25.20:639][198]Cmd: TRANSACTION UNDO
+[2017.08.29-20.25.20:639][198]LogEditorTransaction: Undo Move Actors
+[2017.08.29-20.26.18:323][608]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.08.29-20.26.35:614][645]LogEditorViewport: Clicking Background
+[2017.08.29-20.27.33:730][ 72]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.08.29-20.27.33:745][ 72]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2017.08.29-20.27.33:760][ 72]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2017.08.29-20.27.33:774][ 72]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2017.08.29-20.27.33:791][ 72]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X512)
+[2017.08.29-20.27.33:798][ 72]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2017.08.29-20.27.33:813][ 72]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2017.08.29-20.27.33:829][ 72]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2017.08.29-20.27.33:847][ 72]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2017.08.29-20.27.33:862][ 72]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 128X512)
+[2017.08.29-20.27.33:870][ 72]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2017.08.29-20.27.33:885][ 72]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2017.08.29-20.27.33:900][ 72]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2017.08.29-20.27.33:916][ 72]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2017.08.29-20.27.33:930][ 72]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 128X512)
+[2017.08.29-20.27.33:936][ 72]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2017.08.29-20.27.33:952][ 72]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2017.08.29-20.27.33:967][ 72]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2017.08.29-20.27.33:984][ 72]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 512X512)
+[2017.08.29-20.27.33:998][ 72]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 128X512)
+[2017.08.29-20.27.34:005][ 72]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 512X128)
+[2017.08.29-20.27.34:012][ 72]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 512X128)
+[2017.08.29-20.27.34:020][ 72]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 512X128)
+[2017.08.29-20.27.34:028][ 72]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 512X128)
+[2017.08.29-20.27.34:035][ 72]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 128X128)
+[2017.08.29-20.28.06:824][945]MapCheck: New page: Map Check
+[2017.08.29-20.28.06:843][945]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.29-20.28.06:843][945]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.29-20.28.06:907][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.29-20.28.06:914][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.29-20.28.06:921][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.29-20.28.06:928][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy synthSpace, compiling. 
+[2017.08.29-20.28.07:755][945]TextureStreamingBuild:Display: Compiling optional shaders took 0.853 seconds.
+[2017.08.29-20.28.07:759][945]LogLevel:Display: Export Material TexCoord Scales took 0.004 seconds.
+[2017.08.29-20.28.07:764][945]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.08.29-20.28.07:784][945]LightingResults: New page: Lighting Build - Aug 29, 2017, 12:28:07 PM
+[2017.08.29-20.28.07:887][945]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.29-20.28.07:894][945]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.29-20.28.07:894][945]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.29-20.28.07:895][945]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.29-20.28.07:895][945]LogSwarmInterface: [TryOpenConnection] Local Process ID is 976
+[2017.08.29-20.28.12:420][945]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.29-20.28.12:422][945]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.29-20.28.12:554][945]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.29-20.28.12:554][945]MapCheck: New page: synth_Level - Aug 29, 2017, 12:28:12 PM
+[2017.08.29-20.28.12:555][945]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.29-20.28.12:555][945]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-20.28.14:339][945]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 1,785.508ms to complete.
+[2017.08.29-20.28.14:362][945]LogEditorBuildUtils: Build time 0:07
+[2017.08.29-20.29.03:850][168]LogSavePackage: Save=1317.94ms
+[2017.08.29-20.29.03:850][168]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto5DEC3E42240060E2AF146B191516308F4.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto5.umap'
+[2017.08.29-20.29.03:852][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto5.umap
+[2017.08.29-20.29.03:862][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 1.388
+[2017.08.29-20.29.03:862][168]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.388
+[2017.08.29-20.29.45:176][204]Job is a success!
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 512X512)
+[2017.08.29-20.29.51:606][205]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 512X512)
+[2017.08.29-20.29.52:006][205]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.08.29-20.29.52:006][205]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2017.08.29-20.29.52:006][205]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2017.08.29-20.29.52:355][205]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2017.08.29-20.29.52:355][205]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
+[2017.08.29-20.29.52:394][205]Lightmass on DESKTOP-SIJTC7B: 1:17 min total, 3.09 sec importing, 1.71 sec setup, 5.26 sec photons, 1:07 min processing, 0 ms extra exporting [295/295 mappings]. Threads: 7:53 min total, 5:55 min processing.
+[2017.08.29-20.29.52:401][205]LogStaticLightingSystem: Illumination: 1:44 min (5.80 sec encoding lightmaps, 746 ms encoding shadowmaps)
+[2017.08.29-20.29.52:401][205]LogStaticLightingSystem: Lightmap texture memory:  18.5 MB (18.5 MB streaming, 0.0 MB non-streaming), 20 textures
+[2017.08.29-20.29.52:401][205]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 5 textures
+[2017.08.29-20.29.52:465][205]DumpUnbuiltLightIteractions
+[2017.08.29-20.29.52:465][205]Lights with unbuilt interactions: 0
+[2017.08.29-20.29.52:465][205]
+[2017.08.29-20.29.52:465][205]Primitives with unbuilt interactions: 0
+[2017.08.29-20.29.52:473][206]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.29-20.29.52:473][206]MapCheck: New page: synth_Level - Aug 29, 2017, 12:29:52 PM
+[2017.08.29-20.29.52:473][206]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-20.29.52:553][206]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 80.165ms to complete.
+[2017.08.29-20.31.23:340][630]Cmd: TRANSACTION UNDO
+[2017.08.29-20.31.23:340][630]LogEditorTransaction: Undo Move Actors
+[2017.08.29-20.31.24:314][687]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-20.31.39:006][559]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-20.31.40:569][651]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.08.29-20.31.54:783][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.29-20.31.55:686][493]LogSavePackage: Save=867.92ms
+[2017.08.29-20.31.55:686][493]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_LevelADE3FACC429B67BE445F92B49487F35E.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.29-20.31.55:702][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.29-20.31.55:748][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.08.29-20.31.58:253][493]LogSavePackage: Save=2490.99ms
+[2017.08.29-20.31.58:253][493]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData5D8FA84F4B4B678BD28368A478DE8CBE.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.08.29-20.31.58:257][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.29-20.32.08:622][113]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-20.32.32:294][444]MapCheck: New page: Map Check
+[2017.08.29-20.32.32:311][444]LightingResults: New page: Lighting Build - Aug 29, 2017, 12:32:32 PM
+[2017.08.29-20.32.32:405][444]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.29-20.32.32:408][444]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.29-20.32.32:408][444]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.29-20.32.32:409][444]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.29-20.32.32:409][444]LogSwarmInterface: [TryOpenConnection] Local Process ID is 976
+[2017.08.29-20.32.36:921][444]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.29-20.32.36:922][444]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.29-20.32.37:071][444]LogEditorBuildUtils: Build time 0:04
+[2017.08.29-20.33.48:987][967]Job is a success!
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 512X512)
+[2017.08.29-20.33.55:532][968]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 512X512)
+[2017.08.29-20.33.55:932][968]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
+[2017.08.29-20.33.55:932][968]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024)
+[2017.08.29-20.33.55:932][968]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
+[2017.08.29-20.33.56:258][968]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
+[2017.08.29-20.33.56:258][968]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X1024)
+[2017.08.29-20.33.56:294][968]Lightmass on DESKTOP-SIJTC7B: 1:18 min total, 3.01 sec importing, 1.75 sec setup, 5.73 sec photons, 1:07 min processing, 0 ms extra exporting [295/295 mappings]. Threads: 7:53 min total, 5:55 min processing.
+[2017.08.29-20.33.56:309][968]LogStaticLightingSystem: Illumination: 1:23 min (5.84 sec encoding lightmaps, 724 ms encoding shadowmaps)
+[2017.08.29-20.33.56:309][968]LogStaticLightingSystem: Lightmap texture memory:  18.5 MB (18.5 MB streaming, 0.0 MB non-streaming), 20 textures
+[2017.08.29-20.33.56:309][968]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 5 textures
+[2017.08.29-20.33.56:963][968]DumpUnbuiltLightIteractions
+[2017.08.29-20.33.56:963][968]Lights with unbuilt interactions: 0
+[2017.08.29-20.33.56:963][968]
+[2017.08.29-20.33.56:963][968]Primitives with unbuilt interactions: 0
+[2017.08.29-20.33.56:969][969]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.29-20.33.56:969][969]MapCheck: New page: synth_Level - Aug 29, 2017, 12:33:56 PM
+[2017.08.29-20.33.56:972][969]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-20.33.57:053][969]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 83.862ms to complete.
+[2017.08.29-20.34.06:814][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.29-20.34.07:729][551]LogSavePackage: Save=864.15ms
+[2017.08.29-20.34.07:729][551]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level8D59DA154BE225C2748D948A7B6FE346.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.29-20.34.07:734][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.29-20.34.07:777][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.08.29-20.34.10:235][551]LogSavePackage: Save=2448.08ms
+[2017.08.29-20.34.10:235][551]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData5F35BF424739CF6E1BE2E39BDD6752CB.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.08.29-20.34.10:243][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset

@@ -1,0 +1,1368 @@
+﻿Log file open, 08/29/17 16:58:22
+LogInit:Display: Running engine for game: SwordVR
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1253735872) SRandInit(1253735872).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.112121
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.29-20.58.22:760][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-20.58.22:760][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.29-20.58.22:778][  0]LogInit: Computer: DESKTOP-SIJTC7B
+[2017.08.29-20.58.22:778][  0]LogInit: User: croch
+[2017.08.29-20.58.22:778][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.29-20.58.22:778][  0]LogInit: High frequency timer resolution =2.533207 MHz
+[2017.08.29-20.58.22:778][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.29-20.58.22:778][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.29-20.58.22:778][  0]LogMemory: Process Physical Memory: 273.84 MB used, 273.84 MB peak
+[2017.08.29-20.58.22:778][  0]LogMemory: Process Virtual Memory: 261.17 MB used, 261.17 MB peak
+[2017.08.29-20.58.22:778][  0]LogMemory: Physical Memory: 6369.63 MB used,  9937.40 MB free, 16307.03 MB total
+[2017.08.29-20.58.22:778][  0]LogMemory: Virtual Memory: 676.54 MB used,  9937.40 MB free, 134217728.00 MB total
+[2017.08.29-20.58.22:896][  0]LogInit: Using OS detected language (en-US).
+[2017.08.29-20.58.22:896][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.29-20.58.22:899][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.29-20.58.24:103][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.29-20.58.24:845][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.08.29-20.58.24:845][  0]LogD3D11RHI:       3040/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.29-20.58.24:852][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.08.29-20.58.24:852][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.29-20.58.24:856][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.29-20.58.24:856][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.29-20.58.24:856][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.29-20.58.24:867][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.29-20.58.24:867][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.29-20.58.24:867][  0]LogWindows: EnumDisplayDevices:
+[2017.08.29-20.58.24:867][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.08.29-20.58.24:867][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.29-20.58.24:867][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.29-20.58.24:867][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.29-20.58.24:867][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.08.29-20.58.24:867][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.29-20.58.24:867][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.29-20.58.24:867][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.29-20.58.25:610][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.29-20.58.25:645][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.29-20.58.25:646][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Intermediate/Shaders/WorkingDirectory/11488/).
+[2017.08.29-20.58.25:647][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croch/AppData/Local/Temp/UnrealShaderWorkingDir/0639DB50441D3FDEF75736ADBD122A66/'.
+[2017.08.29-20.58.25:647][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.29-20.58.26:946][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.29-20.58.27:016][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.29-20.58.27:096][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.29-20.58.27:179][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.29-20.58.27:258][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.29-20.58.27:342][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.29-20.58.27:426][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.29-20.58.27:501][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.29-20.58.27:565][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.29-20.58.27:647][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.29-20.58.27:722][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.29-20.58.27:799][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.29-20.58.27:873][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.29-20.58.27:948][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.29-20.58.28:021][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.29-20.58.28:174][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.29-20.58.28:174][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.29-20.58.28:236][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.29-20.58.28:378][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.29-20.58.28:422][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.29-20.58.28:493][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.29-20.58.28:580][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.29-20.58.28:658][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.29-20.58.28:737][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.29-20.58.28:737][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.29-20.58.29:512][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.29-20.58.29:622][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.29-20.58.29:623][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.29-20.58.29:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.29-20.58.29:623][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.29-20.58.29:623][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.29-20.58.29:623][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.29-20.58.29:644][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.29-20.58.29:657][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.29-20.58.29:667][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.29-20.58.29:667][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.29-20.58.29:668][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-20.58.29:668][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.29-20.58.30:064][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.29-20.58.30:158][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.29-20.58.30:367][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.29-20.58.30:432][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.29-20.58.30:510][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.29-20.58.30:510][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.29-20.58.30:510][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.29-20.58.31:270][  0]LogNetVersion: SwordVR , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1496206902)
+[2017.08.29-20.58.31:355][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2017.08.29-20.58.31:499][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.099277 seconds
+[2017.08.29-20.58.31:508][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.29-20.58.31:508][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.29-20.58.31:508][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.29-20.58.31:618][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.29-20.58.35:223][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.29-20.58.35:282][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.29-20.58.36:265][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.29-20.58.37:135][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.58.37:201][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.58.37:324][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.58.37:426][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.58.38:848][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.29-20.58.40:290][  0]LogEngine: Initializing Engine...
+[2017.08.29-20.58.40:291][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.29-20.58.40:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.29-20.58.40:565][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.29-20.58.40:815][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.29-20.58.40:822][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.29-20.58.40:844][  0]LogInit: FAudioDevice initialized.
+[2017.08.29-20.58.40:913][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/croch/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.29-20.58.40:938][  0]LogInit: Texture streaming: Enabled
+[2017.08.29-20.58.41:141][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.29-20.58.41:579][  0]LogInit: Transaction tracking system initialized
+[2017.08.29-20.58.42:211][  0]BlueprintLog: New page: Editor Load
+[2017.08.29-20.58.44:109][  0]LocalizationService: Info Localization service is disabled
+[2017.08.29-20.58.45:267][  0]LogConsoleResponse:Display: 
+[2017.08.29-20.58.45:470][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.29-20.58.45:470][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.29-20.58.46:136][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/' took 0.02s
+[2017.08.29-20.58.47:194][  0]SourceControl: Info Source control is disabled
+[2017.08.29-20.58.47:194][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-20.58.47:194][  0]LightingResults: New page: Lighting Build
+[2017.08.29-20.58.47:270][  0]MapCheck: New page: Map Check
+[2017.08.29-20.58.47:270][  0]LightingResults: New page: Lighting Build
+[2017.08.29-20.58.47:516][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.29-20.58.47:517][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.29-20.58.47:524][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-20.58.47:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-20.58.47:618][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.019ms to complete.
+[2017.08.29-20.58.47:618][  0]LogFileHelpers: Loading map 'Template_Default' took 0.424
+[2017.08.29-20.58.47:699][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.29-20.58.47:699][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.29-20.58.47:841][  0]LogCollectionManager: Loaded 0 collections in 0.001238 seconds
+[2017.08.29-20.58.47:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Saved/Collections/' took 0.01s
+[2017.08.29-20.58.47:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Developers/croch/Collections/' took 0.01s
+[2017.08.29-20.58.47:947][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Collections/' took 0.01s
+[2017.08.29-20.58.47:947][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.29-20.58.47:957][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2342 classes and 497 folders.
+[2017.08.29-20.58.48:071][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.29-20.58.48:494][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.08.29-20.58.48:572][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.29-20.58.48:632][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.29-20.58.48:639][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-20.58.48:642][  0]LogSlate: Took 0.000558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.29-20.58.48:663][  0]LogSlate: Took 0.006922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.29-20.58.48:776][  0]LogRenderer: Reallocating scene render targets to support 624x312 NumSamples 1 (Frame:1).
+[2017.08.29-20.58.48:905][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.29-20.58.48:992][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.08.29-20.58.48:993][  0]LogLoad: (Engine Initialization) Total time: 28.69 seconds
+[2017.08.29-20.58.48:993][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.08.29-20.58.48:993][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.29-20.58.49:013][  0]LogOcInput: OculusInput pre-init called
+[2017.08.29-20.58.49:013][  0]LogHMD: Starting GearVRController plugin
+[2017.08.29-20.58.49:033][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.29-20.58.49:104][  0]LogSlate: Took 0.004109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-20.58.49:118][  1]LogAssetRegistry: Asset discovery search completed in 17.7851 seconds
+[2017.08.29-20.58.49:120][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.29-20.58.49:120][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.08.29-21.01.40:316][209]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-21.01.40:479][209]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.40:932][209]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 512X512)
+[2017.08.29-21.01.41:000][209]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.41:455][209]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.41:919][209]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.42:410][209]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.42:863][209]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.43:456][209]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.43:964][209]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.44:436][209]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2017.08.29-21.01.44:855][209]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.29-21.01.45:008][209]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 512X512)
+[2017.08.29-21.01.45:039][209]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.08.29-21.01.45:246][209]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.08.29-21.01.45:476][209]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.08.29-21.01.45:692][209]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.08.29-21.01.45:883][209]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.08.29-21.01.46:173][209]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2017.08.29-21.01.46:402][209]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2017.08.29-21.01.46:580][209]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2017.08.29-21.01.46:747][209]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2017.08.29-21.01.46:786][209]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2017.08.29-21.01.46:827][209]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.08.29-21.01.46:867][209]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2017.08.29-21.01.46:906][209]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2017.08.29-21.01.47:025][209]LogAIModule: Creating AISystem for world synth_Level
+[2017.08.29-21.01.47:180][209]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.29-21.01.47:180][209]LightingResults: New page: Lighting Build
+[2017.08.29-21.01.47:181][209]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.08.29-21.01.47:182][209]MapCheck: New page: Map Check
+[2017.08.29-21.01.47:182][209]LightingResults: New page: Lighting Build
+[2017.08.29-21.01.47:367][209]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.29-21.01.47:419][209]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.29-21.01.47:494][209]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.559ms to complete.
+[2017.08.29-21.01.47:494][209]LogFileHelpers: Loading map 'synth_Level' took 0.315
+[2017.08.29-21.14.36:255][981]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.08.29-21.14.54:192][ 50]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.15.33:944][139]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.08.29-21.15.40:245][510]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.15.41:471][580]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.17.17:556][529]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.29-21.17.17:827][529]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2017.08.29-21.17.17:847][529]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2017.08.29-21.17.17:860][529]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2017.08.29-21.17.17:871][529]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2017.08.29-21.17.17:884][529]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 128X512)
+[2017.08.29-21.17.17:887][529]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2017.08.29-21.17.17:901][529]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2017.08.29-21.17.17:914][529]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2017.08.29-21.17.17:927][529]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2017.08.29-21.17.17:939][529]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 128X512)
+[2017.08.29-21.17.17:943][529]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2017.08.29-21.17.17:954][529]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2017.08.29-21.17.17:967][529]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2017.08.29-21.17.17:981][529]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2017.08.29-21.17.17:996][529]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 128X512)
+[2017.08.29-21.17.18:000][529]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2017.08.29-21.17.18:012][529]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2017.08.29-21.17.18:023][529]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 512X512)
+[2017.08.29-21.17.18:036][529]LogTexture:Display: Building textures: Texture2D_18 (BGRA8, 512X512)
+[2017.08.29-21.17.18:052][529]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 128X512)
+[2017.08.29-21.17.18:056][529]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 512X128)
+[2017.08.29-21.17.18:062][529]LogTexture:Display: Building textures: Texture2D_21 (BGRA8, 512X128)
+[2017.08.29-21.17.18:065][529]LogTexture:Display: Building textures: Texture2D_22 (BGRA8, 512X128)
+[2017.08.29-21.17.18:068][529]LogTexture:Display: Building textures: Texture2D_23 (BGRA8, 512X128)
+[2017.08.29-21.17.18:072][529]LogTexture:Display: Building textures: Texture2D_24 (BGRA8, 128X128)
+[2017.08.29-21.17.23:194][529]LogSlate: Took 0.000553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.29-21.17.23:301][529]LogSavePackage: Save=5647.87ms
+[2017.08.29-21.17.23:301][529]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto18A898D1F49439FE26662E5B1A67899F8.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap'
+[2017.08.29-21.17.23:304][529]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap
+[2017.08.29-21.17.23:307][529]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 5.699
+[2017.08.29-21.17.23:307][529]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.699
+[2017.08.29-21.25.01:978][280]MapCheck: New page: Map Check
+[2017.08.29-21.25.02:000][280]LightingResults: New page: Lighting Build - Aug 29, 2017, 1:25:01 PM
+[2017.08.29-21.25.02:142][280]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.29-21.25.02:196][280]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.29-21.25.02:210][280]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.29-21.25.02:720][280]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.29-21.25.02:720][280]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11488
+[2017.08.29-21.25.05:470][280]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.29-21.25.05:471][280]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.29-21.25.05:471][280]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.29-21.25.05:471][280]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.29-21.25.05:471][280]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.29-21.25.05:471][280]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.29-21.25.05:686][280]LogEditorBuildUtils: Build time 0:03
+[2017.08.29-21.25.49:346][297]LogStaticLightingSystem:Warning: Failed to build lighting!!! Lighting build canceled.
+[2017.08.29-21.25.49:496][297]Job has failed! Job is closed while Tasks are still PENDING
+[2017.08.29-21.25.49:506][297]DumpUnbuiltLightIteractions
+[2017.08.29-21.25.49:506][297]Lights with unbuilt interactions: 1
+[2017.08.29-21.25.49:506][297]    Light LightSource
+[2017.08.29-21.25.49:506][297]
+[2017.08.29-21.25.49:506][297]Primitives with unbuilt interactions: 289
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_288
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_287
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_286
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_285
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_284
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_283
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_282
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_281
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_280
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_279
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_278
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_277
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_276
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_275
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_274
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_273
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_272
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_271
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_270
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_269
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_268
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_267
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_266
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_265
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_264
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_263
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_262
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_261
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_260
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_259
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_258
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_257
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_256
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_255
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_254
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_253
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_252
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_251
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_250
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_249
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_248
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_247
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_246
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_245
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_244
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_243
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_242
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_241
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_240
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_239
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_238
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_237
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_236
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_235
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_234
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_233
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_232
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_231
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_230
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_229
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_228
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_227
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_226
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_225
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_224
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_223
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_222
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_221
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_220
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_219
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_218
+[2017.08.29-21.25.49:506][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_217
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_216
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_215
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_214
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_213
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_212
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_211
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_210
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_209
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_208
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_207
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_206
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_205
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_204
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_203
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_202
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_201
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_200
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_199
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_198
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_197
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_196
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_195
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_194
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_193
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_192
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_191
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_190
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_189
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_188
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_187
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_186
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_185
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_184
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_183
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_182
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_181
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_180
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_179
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_178
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_177
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_176
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_175
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_174
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_173
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_172
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_171
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_170
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_169
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_168
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_167
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_166
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_165
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_164
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_163
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_162
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_161
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_160
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_159
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_158
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_157
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_156
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_155
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_154
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_153
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_152
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_151
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_150
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_149
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_148
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_147
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_146
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_145
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_144
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_143
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_142
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_141
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_140
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_139
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_138
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_137
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_136
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_135
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_134
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_133
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_132
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_131
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_130
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_129
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_128
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_127
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_126
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_125
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_124
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_123
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_122
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_121
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_120
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_119
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_118
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_117
+[2017.08.29-21.25.49:507][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_116
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_115
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_114
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_113
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_112
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_111
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_110
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_109
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_108
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_107
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_106
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_105
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_104
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_103
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_102
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_101
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_100
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_99
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_98
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_97
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_96
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_95
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_94
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_93
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_92
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_91
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_90
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_89
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_88
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_87
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_86
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_85
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_84
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_83
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_82
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_81
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_80
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_79
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_78
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_77
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_76
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_75
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_74
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_73
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_72
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_71
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_70
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_69
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_68
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_67
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_66
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_65
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_64
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_63
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_62
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_61
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_60
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_59
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_58
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_57
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_56
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_55
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_54
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_53
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_52
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_51
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_50
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_49
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_48
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_47
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_46
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_45
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_44
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_43
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_42
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_41
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_40
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_39
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_38
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_37
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_36
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_35
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_34
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_33
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_32
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_31
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_30
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_29
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_28
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_27
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_26
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_25
+[2017.08.29-21.25.49:508][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_24
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_23
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_22
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_21
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_20
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_19
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_18
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_17
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_16
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_15
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_14
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_13
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_12
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_11
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_10
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_9
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_8
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_7
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_6
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_5
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_4
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_3
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_2
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_1
+[2017.08.29-21.25.49:509][297]    Primitive LandscapeComponent /Game/Maps/synth_Level.synth_Level:PersistentLevel.Landscape_0.LandscapeComponent_0
+[2017.08.29-21.25.49:522][298]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.29-21.25.49:522][298]MapCheck: New page: synth_Level - Aug 29, 2017, 1:25:49 PM
+[2017.08.29-21.25.49:525][298]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.08.29-21.25.49:525][298]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-21.25.49:634][298]MapCheck: Info Map check complete: 1 Error(s), 1 Warning(s), took 112.493ms to complete.
+[2017.08.29-21.26.05:140][169]MapCheck: New page: Map Check
+[2017.08.29-21.26.05:159][169]LightingResults: New page: Lighting Build - Aug 29, 2017, 1:26:05 PM
+[2017.08.29-21.26.05:250][169]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.29-21.26.05:256][169]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.29-21.26.05:256][169]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.29-21.26.05:259][169]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.29-21.26.05:259][169]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11488
+[2017.08.29-21.26.09:778][169]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.29-21.26.09:779][169]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.29-21.26.09:779][169]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.29-21.26.09:779][169]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.29-21.26.09:779][169]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.29-21.26.09:779][169]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.29-21.26.09:934][169]LogEditorBuildUtils: Build time 0:04
+[2017.08.29-21.27.21:851][377]Job is a success!
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:286][378]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 1024X1024)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 1024X1024)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 512X512)
+[2017.08.29-21.27.28:287][378]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 512X512)
+[2017.08.29-21.27.28:687][378]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X1024)
+[2017.08.29-21.27.28:687][378]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024)
+[2017.08.29-21.27.28:687][378]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024)
+[2017.08.29-21.27.28:996][378]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X1024)
+[2017.08.29-21.27.28:996][378]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X1024)
+[2017.08.29-21.27.29:024][378]Lightmass on DESKTOP-SIJTC7B: 1:18 min total, 2.74 sec importing, 1.43 sec setup, 5.26 sec photons, 1:08 min processing, 0 ms extra exporting [295/295 mappings]. Threads: 8:00 min total, 6:02 min processing.
+[2017.08.29-21.27.29:043][378]LogStaticLightingSystem: Illumination: 1:23 min (5.72 sec encoding lightmaps, 707 ms encoding shadowmaps)
+[2017.08.29-21.27.29:043][378]LogStaticLightingSystem: Lightmap texture memory:  18.5 MB (18.5 MB streaming, 0.0 MB non-streaming), 20 textures
+[2017.08.29-21.27.29:043][378]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 5 textures
+[2017.08.29-21.27.29:820][378]DumpUnbuiltLightIteractions
+[2017.08.29-21.27.29:820][378]Lights with unbuilt interactions: 0
+[2017.08.29-21.27.29:820][378]
+[2017.08.29-21.27.29:820][378]Primitives with unbuilt interactions: 0
+[2017.08.29-21.27.29:827][379]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.29-21.27.29:827][379]MapCheck: New page: synth_Level - Aug 29, 2017, 1:27:29 PM
+[2017.08.29-21.27.29:829][379]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-21.27.29:900][379]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 72.783ms to complete.
+[2017.08.29-21.27.42:430][120]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.27.42:527][120]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.27.42:542][120]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.27.42:603][120]LogSlate: Took 0.007002 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.29-21.27.45:041][221]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.27.45:041][221]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.27.45:041][221]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.28.12:220][877]LogSavePackage: Save=1536.36ms
+[2017.08.29-21.28.12:220][877]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto26C5650EE4F8AB7E3E8235FAACE9507BD.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto2.umap'
+[2017.08.29-21.28.12:226][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto2.umap
+[2017.08.29-21.28.12:238][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 1.618
+[2017.08.29-21.28.12:238][877]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.618
+[2017.08.29-21.28.12:250][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/TronGlow] ([1] browsable assets)...
+[2017.08.29-21.28.12:295][877]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/TronGlow.TronGlow]
+[2017.08.29-21.28.12:295][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/TronGlow]
+[2017.08.29-21.28.12:295][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TronGlow" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/TronGlow_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.29-21.28.12:338][877]LogSavePackage: Save=36.06ms
+[2017.08.29-21.28.12:338][877]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/TronGlow_Auto2609E67154B14074E175991BA48E01D86.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/TronGlow_Auto2.uasset'
+[2017.08.29-21.28.12:354][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/TronGlow_Auto2.uasset
+[2017.08.29-21.28.12:356][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/synth_Level_BuiltData] ([1] browsable assets)...
+[2017.08.29-21.28.12:356][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/synth_Level_BuiltData]
+[2017.08.29-21.28.12:620][877]LogSavePackage: Save=148.82ms
+[2017.08.29-21.28.12:620][877]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData_Auto2825CDB6D43F0D828F5795CAFB2E90232.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto2.uasset'
+[2017.08.29-21.28.12:622][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto2.uasset
+[2017.08.29-21.28.12:622][877]LogFileHelpers: Auto-saving content packages took 0.374
+[2017.08.29-21.30.05:291][555]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.30.07:159][633]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.30.07:159][633]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.30.07:159][633]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.30.37:473][875]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.30.37:487][875]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.30.40:596][ 20]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.30.40:596][ 20]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.30.40:596][ 20]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.30.45:034][266]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.08.29-21.31.05:376][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.08.29-21.31.12:938][908]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.31.12:959][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.08.29-21.31.12:992][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.08.29-21.31.14:750][975]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.31.14:750][975]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.31.14:750][975]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.31.42:116][321]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.31.42:156][321]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.08.29-21.31.42:162][321]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_1, compiling. 
+[2017.08.29-21.31.44:402][412]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.31.44:402][412]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.31.44:402][412]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.31.46:322][520]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.31.46:342][520]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2017.08.29-21.31.46:375][520]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_1, compiling. 
+[2017.08.29-21.31.47:867][573]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.31.47:868][573]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.31.47:868][573]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.31.48:066][580]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.31.48:086][580]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_1, compiling. 
+[2017.08.29-21.31.48:672][603]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.31.48:701][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_1, compiling. 
+[2017.08.29-21.31.50:380][660]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.31.50:380][660]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.31.50:380][660]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.32.31:212][144]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.32.33:108][215]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.32.33:108][215]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.32.33:108][215]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.32.37:804][484]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.32.39:133][533]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.32.39:133][533]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.32.39:133][533]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.32.40:826][626]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.32.40:856][626]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_0, compiling. 
+[2017.08.29-21.32.42:328][677]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.32.42:328][677]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.32.42:328][677]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.32.44:279][787]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.32.46:666][901]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.32.46:666][901]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.32.46:666][901]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.32.48:756][ 21]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.32.48:776][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionComponentMask_1, compiling. 
+[2017.08.29-21.32.50:243][ 74]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.32.50:243][ 74]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.32.50:243][ 74]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.34.24:945][749]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.34.26:697][824]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.34.28:091][878]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.34.28:092][878]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.34.28:092][878]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.34.29:162][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_1, compiling. 
+[2017.08.29-21.34.30:278][  4]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_0, compiling. 
+[2017.08.29-21.34.35:672][315]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.34.35:690][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_0, compiling. 
+[2017.08.29-21.34.35:718][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_1, compiling. 
+[2017.08.29-21.34.37:419][383]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.34.37:434][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_0, compiling. 
+[2017.08.29-21.34.38:938][440]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.34.38:938][440]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.34.38:938][440]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.34.47:493][936]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.34.48:785][984]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.34.48:785][984]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.34.48:785][984]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.34.55:358][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_0, compiling. 
+[2017.08.29-21.34.59:580][597]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.34.59:623][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_0, compiling. 
+[2017.08.29-21.34.59:625][597]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_1, compiling. 
+[2017.08.29-21.35.01:564][686]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.35.01:564][686]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.35.01:564][686]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.35.03:207][780]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.35.03:227][780]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_1, compiling. 
+[2017.08.29-21.35.03:260][780]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_1, compiling. 
+[2017.08.29-21.35.05:679][882]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.35.05:695][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSine_0, compiling. 
+[2017.08.29-21.35.05:726][882]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_0, compiling. 
+[2017.08.29-21.35.07:123][931]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.35.07:123][931]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.35.07:123][931]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.36.21:321][ 26]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.36.23:202][103]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.36.23:202][103]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.36.23:202][103]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.36.24:298][166]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2017.08.29-21.36.31:707][590]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.36.31:742][590]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionPower_0, compiling. 
+[2017.08.29-21.36.31:822][591]LogSlate: Took 0.006232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.29-21.36.33:419][659]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.36.33:419][659]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.36.33:419][659]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.37.31:665][ 37]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.37.33:618][112]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.37.33:618][112]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.37.33:618][112]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.37.35:455][216]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.37.35:472][216]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_0, compiling. 
+[2017.08.29-21.37.36:833][260]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.37.36:833][260]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.37.36:833][260]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.37.38:961][379]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.37.40:833][463]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.37.40:833][463]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.37.40:833][463]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.37.42:858][576]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.37.45:762][716]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.37.45:762][716]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.37.45:762][716]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.37.49:574][936]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.37.51:402][ 10]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.37.51:422][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionOneMinus_1, compiling. 
+[2017.08.29-21.37.52:814][ 62]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.37.52:814][ 62]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.37.52:814][ 62]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.38.56:561][761]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.38.58:545][840]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.38.58:545][840]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.38.58:545][840]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.39.12:720][648]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.39.14:604][727]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.39.14:605][727]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.39.14:605][727]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.39.17:373][883]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.39.18:750][933]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.39.18:750][933]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.39.18:750][933]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.39.19:651][982]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.39.21:814][ 78]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.39.21:814][ 78]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.39.21:814][ 78]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.39.28:209][430]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.39.29:994][471]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.39.29:994][471]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.39.29:994][471]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.40.01:272][914]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.40.03:366][972]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.40.03:366][972]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.40.03:366][972]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.40.05:209][ 74]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.40.07:489][173]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.40.08:777][220]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.40.08:777][220]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.40.08:777][220]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.41.02:160][872]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.41.05:392][ 21]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.41.06:687][ 68]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.41.06:687][ 68]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.41.06:687][ 68]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.41.07:902][137]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.41.15:614][551]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.41.15:630][551]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.41.16:911][599]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.41.16:911][599]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.41.16:911][599]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.41.22:554][909]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.41.23:840][952]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.41.23:840][952]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.41.23:840][952]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.41.40:661][618]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.41.42:433][696]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.41.42:433][696]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.41.42:433][696]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.42.16:360][366]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.42.16:372][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-21.42.18:385][444]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.42.18:385][444]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.42.18:385][444]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.42.29:524][ 74]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.42.29:539][ 74]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-21.42.31:033][121]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.42.31:033][121]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.42.31:033][121]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.42.34:961][349]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.42.34:981][349]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-21.42.38:167][500]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.42.38:182][500]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-21.42.39:279][540]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.42.39:310][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-21.42.48:064][ 21]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.42.48:083][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.29-21.42.49:434][ 64]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.42.49:434][ 64]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.42.49:434][ 64]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.43.25:125][ 45]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.43.25:137][ 45]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.43.27:116][124]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.43.27:116][124]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.43.27:116][124]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.43.30:697][322]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.43.30:710][322]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.43.32:059][374]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.43.32:059][374]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.43.32:059][374]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.44.34:062][631]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.44.35:913][709]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.44.35:913][709]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.44.35:913][709]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.44.40:426][966]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.44.41:788][ 17]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.08.29-21.44.41:788][ 17]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.08.29-21.44.41:788][ 17]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.44.56:506][854]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.44.58:106][921]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.08.29-21.44.58:106][921]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.29-21.44.58:106][921]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.44.58:106][921]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-21.45.18:486][ 84]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.45.20:511][164]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.08.29-21.45.20:511][164]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.29-21.45.20:511][164]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.45.20:511][164]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-21.45.23:627][342]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.45.25:054][401]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.08.29-21.45.25:054][401]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.29-21.45.25:054][401]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.45.25:054][401]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-21.45.29:068][630]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.45.30:465][682]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.08.29-21.45.30:465][682]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.29-21.45.30:465][682]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.29-21.45.30:465][682]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-21.45.56:205][ 77]LogMaterialEditor: Saving and Compiling material TronGlow
+[2017.08.29-21.45.57:009][ 77]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.45.57:085][ 77]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.45.57:118][ 77]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.45.57:165][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TronGlow, compiling. 
+[2017.08.29-21.45.58:426][ 77]TextureStreamingBuild:Display: Compiling optional shaders took 1.266 seconds.
+[2017.08.29-21.46.00:363][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TronGlow" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow.uasset" SILENT=true
+[2017.08.29-21.46.00:392][ 77]LogSavePackage: Save=25.82ms
+[2017.08.29-21.46.00:392][ 77]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/TronGlow111534FD4E66976FAD16E9B72A34EFC8.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow.uasset'
+[2017.08.29-21.46.00:399][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow.uasset
+[2017.08.29-21.46.00:411][ 77]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.08.29-21.46.00:411][ 77]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.08.29-21.46.00:411][ 77]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.29-21.46.00:411][ 77]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.08.29-21.46.10:419][641]LogRenderer: Reallocating scene render targets to support 928x564 NumSamples 1 (Frame:1).
+[2017.08.29-21.47.34:698][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TronGlow_Inst" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset" SILENT=true
+[2017.08.29-21.47.34:717][  5]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TronGlow_Inst, compiling. 
+[2017.08.29-21.47.35:061][  5]TextureStreamingBuild:Display: Compiling optional shaders took 0.348 seconds.
+[2017.08.29-21.47.35:089][  5]LogSavePackage: Save=17.29ms
+[2017.08.29-21.47.35:089][  5]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/TronGlow_Inst9675989D467DC7A9236F0F897093C2B9.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset'
+[2017.08.29-21.47.35:096][  5]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset
+[2017.08.29-21.47.38:230][184]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.48.01:703][556]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.48.01:745][556]LogMaterial:Warning: Material /Game/Assets/TronGlow.TronGlow needed to have new flag set bUsedWithStaticLighting !
+[2017.08.29-21.48.01:748][556]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.48.01:789][556]LogMaterial: Missing cached shader map for material TronGlow, compiling. 
+[2017.08.29-21.49.03:804][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TronGlow_Inst" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset" SILENT=true
+[2017.08.29-21.49.03:824][ 42]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TronGlow_Inst, compiling. 
+[2017.08.29-21.49.04:199][ 42]TextureStreamingBuild:Display: Compiling optional shaders took 0.379 seconds.
+[2017.08.29-21.49.04:242][ 42]LogSavePackage: Save=17.74ms
+[2017.08.29-21.49.04:242][ 42]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/TronGlow_InstD33822AA406ACC5382AA238757E328A8.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset'
+[2017.08.29-21.49.04:246][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset
+[2017.08.29-21.49.15:392][663]MapCheck: New page: Map Check
+[2017.08.29-21.49.15:413][663]Cmd: MAP REBUILD ALLVISIBLE
+[2017.08.29-21.49.15:415][663]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.08.29-21.49.15:566][663]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.08.29-21.49.15:579][663]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.08.29-21.49.15:587][663]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.08.29-21.49.15:595][663]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy synthSpace, compiling. 
+[2017.08.29-21.49.16:102][663]TextureStreamingBuild:Display: Compiling optional shaders took 0.572 seconds.
+[2017.08.29-21.49.16:105][663]LogLevel:Display: Export Material TexCoord Scales took 0.003 seconds.
+[2017.08.29-21.49.16:110][663]TextureStreamingBuild:Display: Build Texture Streaming took 0.005 seconds.
+[2017.08.29-21.49.16:120][663]LightingResults: New page: Lighting Build - Aug 29, 2017, 1:49:16 PM
+[2017.08.29-21.49.16:215][663]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.08.29-21.49.16:219][663]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.08.29-21.49.16:219][663]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.08.29-21.49.16:220][663]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.08.29-21.49.16:220][663]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11488
+[2017.08.29-21.49.20:734][663]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.08.29-21.49.20:735][663]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.08.29-21.49.20:735][663]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.08.29-21.49.20:735][663]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.08.29-21.49.20:735][663]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.08.29-21.49.20:735][663]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.08.29-21.49.20:870][663]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.08.29-21.49.20:870][663]MapCheck: New page: synth_Level - Aug 29, 2017, 1:49:20 PM
+[2017.08.29-21.49.20:871][663]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-21.49.20:944][663]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 73.626ms to complete.
+[2017.08.29-21.49.20:967][663]LogEditorBuildUtils: Build time 0:05
+[2017.08.29-21.49.21:002][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2017.08.29-21.49.21:011][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2017.08.29-21.50.11:023][710]LogSavePackage: Save=1294.99ms
+[2017.08.29-21.50.11:023][710]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto37A7E199547624A0508D93AAEE627A940.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto3.umap'
+[2017.08.29-21.50.11:026][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto3.umap
+[2017.08.29-21.50.11:033][710]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 1.352
+[2017.08.29-21.50.11:033][710]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.352
+[2017.08.29-21.50.11:040][710]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/TronGlow] ([1] browsable assets)...
+[2017.08.29-21.50.11:040][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/TronGlow]
+[2017.08.29-21.50.11:040][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TronGlow" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/TronGlow_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.29-21.50.11:081][710]LogSavePackage: Save=18.83ms
+[2017.08.29-21.50.11:081][710]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/TronGlow_Auto3BCB7B2934CFE0708AB4DBCA7B38163F4.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/TronGlow_Auto3.uasset'
+[2017.08.29-21.50.11:083][710]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/TronGlow_Auto3.uasset
+[2017.08.29-21.50.11:083][710]LogFileHelpers: Auto-saving content packages took 0.045
+[2017.08.29-21.50.53:415][852]Job is a success!
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 512X512)
+[2017.08.29-21.50.56:314][853]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 512X512)
+[2017.08.29-21.50.56:715][853]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 1024X1024)
+[2017.08.29-21.50.56:715][853]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 1024X1024)
+[2017.08.29-21.50.56:715][853]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 1024X1024)
+[2017.08.29-21.50.57:107][853]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 1024X1024)
+[2017.08.29-21.50.57:107][853]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 1024X1024)
+[2017.08.29-21.50.57:139][853]Lightmass on DESKTOP-SIJTC7B: 1:13 min total, 2.97 sec importing, 1.73 sec setup, 6.00 sec photons, 1:03 min processing, 0 ms extra exporting [295/295 mappings]. Threads: 7:22 min total, 5:50 min processing.
+[2017.08.29-21.50.57:168][853]LogStaticLightingSystem: Illumination: 1:41 min (2.41 sec encoding lightmaps, 783 ms encoding shadowmaps)
+[2017.08.29-21.50.57:168][853]LogStaticLightingSystem: Lightmap texture memory:  18.5 MB (18.5 MB streaming, 0.0 MB non-streaming), 20 textures
+[2017.08.29-21.50.57:168][853]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (6.7 MB streaming, 0.0 MB non-streaming), 5 textures
+[2017.08.29-21.50.57:788][853]DumpUnbuiltLightIteractions
+[2017.08.29-21.50.57:788][853]Lights with unbuilt interactions: 0
+[2017.08.29-21.50.57:788][853]
+[2017.08.29-21.50.57:788][853]Primitives with unbuilt interactions: 0
+[2017.08.29-21.50.57:794][854]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.08.29-21.50.57:794][854]MapCheck: New page: synth_Level - Aug 29, 2017, 1:50:57 PM
+[2017.08.29-21.50.57:796][854]MapCheck:Warning: Performance Warning SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.08.29-21.50.57:870][854]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 74.795ms to complete.
+[2017.08.29-21.51.29:733][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TronGlow_Inst" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset" SILENT=true
+[2017.08.29-21.51.29:750][614]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TronGlow_Inst, compiling. 
+[2017.08.29-21.51.30:128][614]TextureStreamingBuild:Display: Compiling optional shaders took 0.382 seconds.
+[2017.08.29-21.51.30:170][614]LogSavePackage: Save=20.08ms
+[2017.08.29-21.51.30:170][614]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/TronGlow_InstC90DFA6F4BE637FFDDC04FA7B493C5E7.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset'
+[2017.08.29-21.51.30:174][614]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow_Inst.uasset
+[2017.08.29-21.52.12:228][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.08.29-21.52.32:609][265]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.53.09:398][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.08.29-21.53.14:792][787]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.08.29-21.53.16:553][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.08.29-21.53.17:724][947]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.17:724][947]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.29-21.53.18:167][970]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.18:167][970]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.08.29-21.53.21:821][186]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.21:821][186]LogEditorTransaction: Undo Replace component used material
+[2017.08.29-21.53.22:809][243]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.22:809][243]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.29-21.53.23:343][273]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.23:343][273]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.29-21.53.24:328][330]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.24:328][330]LogEditorTransaction: Undo Replace component used material
+[2017.08.29-21.53.26:251][444]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.53.26:912][482]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.53.29:026][608]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.29:026][608]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.29-21.53.29:806][651]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.29:806][651]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.29-21.53.30:853][712]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.30:854][712]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.29-21.53.32:166][789]Cmd: TRANSACTION UNDO
+[2017.08.29-21.53.32:166][789]LogEditorTransaction: Undo Edit Properties
+[2017.08.29-21.53.43:142][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.08.29-21.53.45:343][527]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-21.54.35:411][518]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.29-22.00.24:371][439]LogSavePackage: Save=4623.09ms
+[2017.08.29-22.00.24:371][439]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto4BF949D6A42A2F9D06E0242B76152FD62.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto4.umap'
+[2017.08.29-22.00.24:375][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto4.umap
+[2017.08.29-22.00.24:385][439]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 4.683
+[2017.08.29-22.00.24:385][439]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.683
+[2017.08.29-22.00.24:391][439]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/synth_Level_BuiltData] ([1] browsable assets)...
+[2017.08.29-22.00.24:391][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/synth_Level_BuiltData]
+[2017.08.29-22.00.24:565][439]LogSavePackage: Save=124.53ms
+[2017.08.29-22.00.24:565][439]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData_Auto49872CB4E4168B61BF3E70A8143B64F22.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto4.uasset'
+[2017.08.29-22.00.24:567][439]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto4.uasset
+[2017.08.29-22.00.24:567][439]LogFileHelpers: Auto-saving content packages took 0.178
+[2017.08.29-22.00.33:372][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.29-22.00.34:185][566]LogSavePackage: Save=788.96ms
+[2017.08.29-22.00.34:185][566]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level23FF29A245669AD4B676CDB05A3B6428.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.08.29-22.00.34:195][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.08.29-22.00.34:238][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.08.29-22.00.36:039][566]LogSavePackage: Save=1791.84ms
+[2017.08.29-22.00.36:039][566]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData8EEF717B45FF8688351FDDA16E98A2D1.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.08.29-22.00.36:051][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.08.29-22.00.40:043][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/TronGlow" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow.uasset" SILENT=true
+[2017.08.29-22.00.40:075][651]LogSavePackage: Save=13.92ms
+[2017.08.29-22.00.40:075][651]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/TronGlow7F40100E44B648CCF3F72E9B6FD39E1E.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow.uasset'
+[2017.08.29-22.00.40:084][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/TronGlow.uasset
+[2017.08.29-22.00.40:485][652]Cmd: QUIT_EDITOR
+[2017.08.29-22.00.40:512][652]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.29-22.00.40:512][652]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.29-22.00.40:529][652]LogExit: Preparing to exit.
+[2017.08.29-22.00.41:892][652]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/' was aborted.
+[2017.08.29-22.00.42:069][652]LogExit: Editor shut down
+[2017.08.29-22.00.42:146][652]LogExit: Transaction tracking system shut down
+[2017.08.29-22.00.42:634][652]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.29-22.00.42:635][652]LogExit: Object subsystem successfully closed.
+[2017.08.29-22.00.42:692][652]LogD3D11RHI: Shutdown
+[2017.08.29-22.00.42:693][652]LogD3D11RHI: CleanupD3DDevice
+[2017.08.29-22.00.42:858][652]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.29-22.00.42:883][652]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.08.29-22.00.42:883][652]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2017.08.29-22.00.42:883][652]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.08.29-22.00.42:883][652]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.08.29-22.00.42:884][652]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.08.29-22.00.42:884][652]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.08.29-22.00.42:884][652]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.29-22.00.42:896][652]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.08.29-22.00.42:896][652]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.08.29-22.00.42:896][652]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.08.29-22.00.42:896][652]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Collections/' was aborted.
+[2017.08.29-22.00.42:897][652]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Developers/croch/Collections/' was aborted.
+[2017.08.29-22.00.42:897][652]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Saved/Collections/' was aborted.
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.08.29-22.00.42:897][652]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.08.29-22.00.42:898][652]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.08.29-22.00.43:003][652]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.08.29-22.00.43:004][652]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.08.29-22.00.43:004][652]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.08.29-22.00.43:004][652]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.08.29-22.00.43:004][652]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.08.29-22.00.43:004][652]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.08.29-22.00.43:004][652]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.08.29-22.00.43:004][652]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.08.29-22.00.43:059][652]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.08.29-22.00.43:059][652]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.08.29-22.00.43:059][652]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.08.29-22.00.43:059][652]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.08.29-22.00.43:059][652]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.08.29-22.00.43:060][652]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.08.29-22.00.43:061][652]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.08.29-22.00.43:061][652]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.08.29-22.00.43:061][652]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.08.29-22.00.43:061][652]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.08.29-22.00.43:063][652]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.08.29-22.00.43:094][652]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.08.29-22.00.43:094][652]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (328)
+[2017.08.29-22.00.43:094][652]LogModuleManager: Shutting down and abandoning module GestureTrackerVR (326)
+[2017.08.29-22.00.43:094][652]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.29-22.00.43:094][652]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.29-22.00.43:094][652]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.29-22.00.43:095][652]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.29-22.00.43:096][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.29-22.00.43:096][652]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.29-22.00.43:096][652]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.29-22.00.43:096][652]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.29-22.00.43:096][652]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.29-22.00.43:096][652]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.29-22.00.43:098][652]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.29-22.00.43:099][652]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/GestureTrackerVR/Binaries/Win64' was aborted.
+[2017.08.29-22.00.43:099][652]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/RunebergVRPlugin/Binaries/Win64' was aborted.
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.29-22.00.43:099][652]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.29-22.00.43:200][652]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.29-22.00.43:301][652]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.29-22.00.43:301][652]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.29-22.00.43:301][652]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.29-22.00.43:301][652]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.29-22.00.43:301][652]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.29-22.00.43:301][652]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.29-22.00.43:303][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.29-22.00.43:303][652]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.29-22.00.43:303][652]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.29-22.00.43:303][652]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.29-22.00.43:310][652]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.29-22.00.43:314][652]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.29-22.00.43:314][652]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.29-22.00.43:314][652]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.29-22.00.43:314][652]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.29-22.00.43:314][652]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.29-22.00.43:314][652]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.29-22.00.43:500][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.29-22.00.43:500][652]LogDirectoryWatcher: A directory notification for '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/' was aborted.
+[2017.08.29-22.00.43:500][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.29-22.00.43:500][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.29-22.00.43:500][652]LogDirectoryWatcher: A directory notification for '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/GestureTrackerVR/Content/' was aborted.
+[2017.08.29-22.00.43:504][652]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.29-22.00.43:511][652]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.29-22.00.43:529][652]LogDerivedDataCache: Shutdown
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.29-22.00.43:529][652]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.29-22.00.43:531][652]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.29-22.00.43:531][652]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.29-22.00.43:531][652]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.29-22.00.43:531][652]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB503D5A6-46B6-E43C-E1D9-1EB3BA1256C7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=c19455da4e9942465a9434b53fdba419%7Cd8e1cdd51d1c479f8a85754926729c65%7C107367ae-b7ca-4457-9e4d-cb26e87773d6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.29-22.00.43:537][652]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.29-22.00.43:539][652]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.29-22.00.43:542][652]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.29-22.00.43:544][652]LogExit: Exiting.
+[2017.08.29-22.00.43:568][652]Log file closed, 08/29/17 18:00:43

@@ -1,0 +1,920 @@
+﻿Log file open, 09/06/17 15:59:08
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: SwordVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(153031900) SRandInit(153031900).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.178426
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin RunebergVRPlugin
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.06-19.59.09:780][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-19.59.09:780][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.06-19.59.09:791][  0]LogInit: Computer: DESKTOP-SIJTC7B
+[2017.09.06-19.59.09:791][  0]LogInit: User: croch
+[2017.09.06-19.59.09:791][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.06-19.59.09:791][  0]LogInit: High frequency timer resolution =2.533199 MHz
+[2017.09.06-19.59.09:791][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.06-19.59.09:791][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.06-19.59.09:791][  0]LogMemory: Process Physical Memory: 279.16 MB used, 279.16 MB peak
+[2017.09.06-19.59.09:791][  0]LogMemory: Process Virtual Memory: 282.51 MB used, 282.51 MB peak
+[2017.09.06-19.59.09:791][  0]LogMemory: Physical Memory: 7892.90 MB used,  8414.13 MB free, 16307.03 MB total
+[2017.09.06-19.59.09:791][  0]LogMemory: Virtual Memory: 715.16 MB used,  8414.13 MB free, 134217728.00 MB total
+[2017.09.06-19.59.09:949][  0]LogInit: Using OS detected language (en-US).
+[2017.09.06-19.59.09:949][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.06-19.59.09:952][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.06-19.59.10:622][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.06-19.59.11:234][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.09.06-19.59.11:234][  0]LogD3D11RHI:       3040/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.06-19.59.11:239][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.09.06-19.59.11:239][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.09.06-19.59.11:241][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.06-19.59.11:241][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.06-19.59.11:241][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.06-19.59.11:250][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.06-19.59.11:250][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.06-19.59.11:250][  0]LogWindows: EnumDisplayDevices:
+[2017.09.06-19.59.11:250][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.09.06-19.59.11:250][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.06-19.59.11:250][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.06-19.59.11:250][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.09.06-19.59.11:250][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.09.06-19.59.11:250][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.09.06-19.59.11:250][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.09.06-19.59.11:250][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.06-19.59.11:862][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.06-19.59.11:900][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.06-19.59.11:901][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Intermediate/Shaders/WorkingDirectory/6844/).
+[2017.09.06-19.59.11:901][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croch/AppData/Local/Temp/UnrealShaderWorkingDir/D3111175458DF906713BBBBE76596F0E/'.
+[2017.09.06-19.59.11:901][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.06-19.59.12:829][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.06-19.59.12:880][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.06-19.59.12:929][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.06-19.59.12:980][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.06-19.59.13:031][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.06-19.59.13:081][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.06-19.59.13:130][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.06-19.59.13:179][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.06-19.59.13:221][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.06-19.59.13:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.06-19.59.13:321][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.06-19.59.13:370][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.06-19.59.13:419][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.06-19.59.13:468][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.06-19.59.13:519][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.06-19.59.13:616][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.06-19.59.13:616][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.06-19.59.13:656][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.06-19.59.13:747][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.06-19.59.13:777][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.06-19.59.13:828][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.06-19.59.13:879][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.06-19.59.13:929][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.06-19.59.13:979][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.06-19.59.13:979][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.06-19.59.14:455][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.06-19.59.14:529][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/croch/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.06-19.59.14:529][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/croch/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.06-19.59.14:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.06-19.59.14:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.06-19.59.14:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.06-19.59.14:529][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.06-19.59.14:545][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.06-19.59.14:557][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croch/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.06-19.59.14:567][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.06-19.59.14:567][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.06-19.59.14:567][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-19.59.14:567][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.06-19.59.14:821][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.09.06-19.59.14:934][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.06-19.59.15:060][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.06-19.59.15:370][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.06-19.59.15:410][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.06-19.59.15:410][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.06-19.59.15:410][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.06-19.59.15:410][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.06-19.59.15:410][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.06-19.59.15:758][  0]LogNetVersion: SwordVR , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2726716735)
+[2017.09.06-19.59.16:022][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 2 prioritized culture(s) in 0.072320 seconds
+[2017.09.06-19.59.16:029][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.06-19.59.16:029][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.06-19.59.16:029][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.06-19.59.16:096][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.06-19.59.18:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.06-19.59.18:705][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.06-19.59.19:324][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.06-19.59.19:717][  0]SourceControl: Source control is disabled
+[2017.09.06-19.59.19:717][  0]SourceControl: Source control is disabled
+[2017.09.06-19.59.19:764][  0]SourceControl: Source control is disabled
+[2017.09.06-19.59.19:811][  0]SourceControl: Source control is disabled
+[2017.09.06-19.59.20:431][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.06-19.59.20:667][  0]LogOcInput: OculusInput pre-init called
+[2017.09.06-19.59.20:969][  0]LogEngine: Initializing Engine...
+[2017.09.06-19.59.20:971][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.06-19.59.21:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.06-19.59.21:162][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.06-19.59.21:287][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.06-19.59.21:292][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.06-19.59.21:303][  0]LogInit: FAudioDevice initialized.
+[2017.09.06-19.59.21:720][  0]LogDerivedDataCache: Saved boot cache 0.42s 93MB C:/Users/croch/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.06-19.59.21:727][  0]LogInit: Texture streaming: Enabled
+[2017.09.06-19.59.21:839][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.06-19.59.22:054][  0]LogInit: Transaction tracking system initialized
+[2017.09.06-19.59.22:356][  0]BlueprintLog: New page: Editor Load
+[2017.09.06-19.59.23:226][  0]LocalizationService: Localization service is disabled
+[2017.09.06-19.59.23:895][  0]LogConsoleResponse: Display: 
+[2017.09.06-19.59.24:044][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.06-19.59.24:044][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.06-19.59.24:044][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.06-19.59.24:182][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/' took 0.01s
+[2017.09.06-19.59.25:042][  0]SourceControl: Source control is disabled
+[2017.09.06-19.59.25:042][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-19.59.25:043][  0]LightingResults: New page: Lighting Build
+[2017.09.06-19.59.25:083][  0]MapCheck: New page: Map Check
+[2017.09.06-19.59.25:083][  0]LightingResults: New page: Lighting Build
+[2017.09.06-19.59.25:249][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.06-19.59.25:254][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-19.59.25:266][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-19.59.25:313][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.34ms to complete.
+[2017.09.06-19.59.25:313][  0]LogFileHelpers: Loading map 'Template_Default' took 0.271
+[2017.09.06-19.59.25:386][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.06-19.59.25:386][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.06-19.59.25:868][  0]LogCollectionManager: Loaded 0 collections in 0.000914 seconds
+[2017.09.06-19.59.26:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Saved/Collections/' took 0.01s
+[2017.09.06-19.59.26:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Developers/croch/Collections/' took 0.01s
+[2017.09.06-19.59.26:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Collections/' took 0.01s
+[2017.09.06-19.59.26:064][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.06-19.59.26:089][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2398 classes and 506 folders.
+[2017.09.06-19.59.26:208][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.06-19.59.26:535][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.06-19.59.26:584][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.06-19.59.26:637][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-19.59.26:640][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.06-19.59.26:658][  0]LogSlate: Took 0.008354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.06-19.59.26:797][  0]LogRenderer: Reallocating scene render targets to support 804x340 Format 10 NumSamples 1 (Frame:1).
+[2017.09.06-19.59.26:983][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.09.06-19.59.26:983][  0]LogLoad: (Engine Initialization) Total time: 19.89 seconds
+[2017.09.06-19.59.26:983][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.06-19.59.26:984][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.06-19.59.27:027][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.06-19.59.27:075][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-19.59.27:102][  1]LogAssetRegistry: Asset discovery search completed in 12.3022 seconds
+[2017.09.06-19.59.27:103][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.06-19.59.27:103][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.09.06-19.59.36:634][560]LogTexture: Display: Building textures: T_RetroMainBase (AutoDXT, 128X128)
+[2017.09.06-19.59.36:634][560]LogTexture: Display: Building textures: Skel_Roboto_M_Vein_RoughnessMetallic (AutoDXT, 2048X2048)
+[2017.09.06-19.59.36:634][560]LogTexture: Display: Building textures: Skel_Roboto_M_Wires_RoughnessMetallic (AutoDXT, 2048X2048)
+[2017.09.06-19.59.36:634][560]LogTexture: Display: Building textures: Skel_Roboto_M_Vein_Normal (BC5, 2048X2048)
+[2017.09.06-19.59.36:634][560]LogTexture: Display: Building textures: T_RetroMainNormal (BC5, 128X128)
+[2017.09.06-19.59.36:634][560]LogTexture: Display: Building textures: T_RetroHandleRoughMetal (AutoDXT, 128X128)
+[2017.09.06-19.59.36:645][560]LogTexture: Display: Building textures: Skel_Roboto_M_Wires_BaseColor (AutoDXT, 2048X2048)
+[2017.09.06-19.59.36:645][560]LogMaterial: Missing cached shader map for material Mat_Textures, compiling. 
+[2017.09.06-19.59.37:785][560]LogTexture: Display: Building textures: Skel_Roboto_M_Wires_Normal (BC5, 2048X2048)
+[2017.09.06-19.59.37:785][560]LogTexture: Display: Building textures: Skel_Roboto_M_Parts_BaseColor (AutoDXT, 2048X2048)
+[2017.09.06-19.59.37:785][560]LogTexture: Display: Building textures: Skel_Roboto_M_Parts_RoughnessMetallic (AutoDXT, 2048X2048)
+[2017.09.06-19.59.37:785][560]LogTexture: Display: Building textures: Skel_Roboto_M_Parts_Normal (BC5, 2048X2048)
+[2017.09.06-19.59.37:794][560]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ProtoVRHand/Animations/Anim_Fist.Anim_Fist
+[2017.09.06-19.59.39:248][560]LogTexture: Display: Building textures: Skel_Roboto_M_Vein_BaseColor (AutoDXT, 2048X2048)
+[2017.09.06-19.59.39:273][560]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ProtoVRHand/Animations/Anim_OpenHand.Anim_OpenHand
+[2017.09.06-19.59.39:277][560]LogClass: Warning: Enum '/Game/ProtoVRHand/Blueprints/Example/Enum_Grip.Enum_Grip' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.09.06-19.59.39:278][560]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ProtoVRHand/Animations/Anim_Grab.Anim_Grab
+[2017.09.06-19.59.39:288][560]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-19.59.39:804][560]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.06-19.59.39:992][560]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2017.09.06-19.59.41:196][560]LogSlate: Took 0.006858 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.06-19.59.41:480][561]LogSlate: Took 0.007024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.06-20.13.24:375][921]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.06-20.14.22:004][ 41]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.09.06-20.14.31:126][561]LogStaticMesh: Building static mesh bluelight_sword_Cube...
+[2017.09.06-20.14.31:153][561]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/bluelight_sword_Cube.bluelight_sword_Cube
+[2017.09.06-20.15.51:337][279]BlueprintLog: New page: Compile Weapon_BP
+[2017.09.06-20.15.52:051][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_BP" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Weapons/Weapon_BP.uasset" SILENT=true
+[2017.09.06-20.15.52:117][304]LogSavePackage: Save=46.87ms
+[2017.09.06-20.15.52:117][304]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Weapon_BP25AE792947E623DA6357D385AA105F89.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Weapons/Weapon_BP.uasset'
+[2017.09.06-20.15.52:123][304]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Weapons/Weapon_BP.uasset
+[2017.09.06-20.16.54:091][514]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2017.09.06-20.16.54:091][514]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.09.06-20.16.54:091][514]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.09.06-20.16.54:091][514]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2017.09.06-20.16.54:091][514]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X64)
+[2017.09.06-20.16.54:091][514]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2017.09.06-20.16.54:681][514]LogAIModule: Creating AISystem for world synth_Level
+[2017.09.06-20.16.56:112][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
+[2017.09.06-20.16.56:202][514]LogSavePackage: Save=70.22ms
+[2017.09.06-20.16.56:202][514]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_PawnF13BBE26461DFF593BDFAEA77083BB33.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset'
+[2017.09.06-20.16.56:204][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset
+[2017.09.06-20.16.56:205][514]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-20.16.56:205][514]LightingResults: New page: Lighting Build
+[2017.09.06-20.16.56:206][514]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.09.06-20.16.56:206][514]MapCheck: New page: Map Check
+[2017.09.06-20.16.56:206][514]LightingResults: New page: Lighting Build
+[2017.09.06-20.16.56:230][514]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-20.16.56:311][514]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-20.16.56:379][514]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.408ms to complete.
+[2017.09.06-20.16.56:379][514]LogFileHelpers: Loading map 'synth_Level' took 0.175
+[2017.09.06-20.17.18:929][861]LogStaticMesh: Building static mesh mountain...
+[2017.09.06-20.17.18:947][861]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/mountain.mountain
+[2017.09.06-20.17.25:870][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/mountain" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Meshes/mountain.uasset" SILENT=true
+[2017.09.06-20.17.25:886][271]LogSavePackage: Save=14.01ms
+[2017.09.06-20.17.25:886][271]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/mountain6CF2AC90472A0BE5522565B2CB2B96D0.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Meshes/mountain.uasset'
+[2017.09.06-20.17.25:889][271]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Meshes/mountain.uasset
+[2017.09.06-20.17.29:530][481]LogActorFactory: Actor Factory created mountain
+[2017.09.06-20.17.30:900][563]LogActorFactory: Actor Factory created mountain
+[2017.09.06-20.18.14:106][146]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mountain)
+[2017.09.06-20.18.20:651][537]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.09.06-20.18.22:425][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mountain)
+[2017.09.06-20.18.26:961][912]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.09.06-20.18.28:115][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mountain)
+[2017.09.06-20.18.30:292][108]LogEditorViewport: Clicking on Actor (LMB): SkySphere_Blueprint_C (SkySphere_Blueprint)
+[2017.09.06-20.19.08:116][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mountain)
+[2017.09.06-20.19.09:232][985]Cmd: DELETE
+[2017.09.06-20.19.09:232][985]Cmd: ACTOR DELETE
+[2017.09.06-20.19.09:237][985]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.06-20.19.09:251][985]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.09.06-20.25.32:193][186]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.09.06-20.25.32:197][186]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.32:280][186]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.32:294][186]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.33:765][257]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.06-20.25.33:766][257]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.25.33:766][257]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.25.44:584][905]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.44:604][905]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.45:660][964]MaterialEditorStats: Base pass shader: 79 instructions
+[2017.09.06-20.25.45:660][964]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.25.45:660][964]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.25.48:331][124]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.48:345][124]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.48:659][139]MaterialEditorStats: Base pass shader without light map: 29 instructions
+[2017.09.06-20.25.48:659][139]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.25.48:659][139]MaterialEditorStats: Texture samplers: 0/16
+[2017.09.06-20.25.51:048][282]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.51:066][282]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.25.52:796][380]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.09.06-20.25.52:796][380]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.25.52:796][380]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.26.02:102][935]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.02:115][935]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.03:158][994]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.26.03:158][994]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.26.03:158][994]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.26.12:646][560]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.12:662][560]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.13:702][618]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.26.13:702][618]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.26.13:702][618]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.26.30:743][640]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.31:786][700]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.26.31:786][700]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.26.31:786][700]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.26.37:822][ 62]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.38:876][123]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.26.38:876][123]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.26.38:876][123]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.26.39:797][178]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.40:879][241]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.26.40:879][241]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.26.40:879][241]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.26.48:068][672]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.26.49:122][732]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.26.49:122][732]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.26.49:122][732]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.27.26:143][517]LogSavePackage: Save=68.91ms
+[2017.09.06-20.27.26:143][517]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto192D30D9E448EB5CA81C869895047A92B.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap'
+[2017.09.06-20.27.26:146][517]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap
+[2017.09.06-20.27.26:148][517]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.111
+[2017.09.06-20.27.26:148][517]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.111
+[2017.09.06-20.27.26:150][517]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Materials/speakerTest] ([1] browsable assets)...
+[2017.09.06-20.27.26:180][517]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Materials/speakerTest.speakerTest]
+[2017.09.06-20.27.26:180][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/speakerTest]
+[2017.09.06-20.27.26:198][517]LogSavePackage: Save=15.16ms
+[2017.09.06-20.27.26:198][517]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/speakerTest_Auto18F9C8BAF47BD4D2BDF2D9ABD9E41C945.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Materials/speakerTest_Auto1.uasset'
+[2017.09.06-20.27.26:199][517]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Materials/speakerTest_Auto1.uasset
+[2017.09.06-20.27.26:199][517]LogFileHelpers: Auto-saving content packages took 0.050
+[2017.09.06-20.29.59:773][287]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.30.01:146][366]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.30.01:146][366]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.30.01:146][366]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.30.07:736][761]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.30.08:723][817]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.30.08:723][817]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.30.08:723][817]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.30.21:349][574]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.30.22:367][632]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.30.22:368][632]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.30.22:368][632]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.30.28:709][ 12]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.30.29:782][ 73]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.30.29:782][ 73]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.30.29:782][ 73]MaterialEditorStats: Texture samplers: 1/16
+[2017.09.06-20.31.48:355][718]LogMaterialEditor: Saving and Compiling material speakerTest
+[2017.09.06-20.31.48:838][718]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.31.48:880][718]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.31.48:910][718]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.31.48:952][718]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy speakerTest, compiling. 
+[2017.09.06-20.31.49:845][718]TextureStreamingBuild: Display: Compiling optional shaders took 0.899 seconds.
+[2017.09.06-20.31.51:416][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/speakerTest" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Materials/speakerTest.uasset" SILENT=true
+[2017.09.06-20.31.51:432][718]LogSavePackage: Save=14.05ms
+[2017.09.06-20.31.51:432][718]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/speakerTestA17928634624A6AB522F63B4409087AE.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Materials/speakerTest.uasset'
+[2017.09.06-20.31.51:437][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Materials/speakerTest.uasset
+[2017.09.06-20.31.51:446][718]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.31.51:446][718]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.31.51:446][718]MaterialEditorStats: Texture samplers: 2/16
+[2017.09.06-20.31.56:181][959]LogMaterial: Warning: Material /Game/Assets/Materials/speakerTest.speakerTest needed to have new flag set bUsedWithStaticLighting !
+[2017.09.06-20.31.56:186][959]LogMaterial: Warning: Material /Engine/Transient.speakerTest needed to have new flag set bUsedWithStaticLighting !
+[2017.09.06-20.31.56:192][959]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.31.56:207][959]LogMaterial: Missing cached shader map for material speakerTest, compiling. 
+[2017.09.06-20.31.59:728][169]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.09.06-20.31.59:728][169]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.09.06-20.31.59:729][169]MaterialEditorStats: Texture samplers: 3/16
+[2017.09.06-20.32.03:612][402]Cmd: POLY SELECT ADJACENT WALLS
+[2017.09.06-20.32.04:029][427]Cmd: POLY SELECT ADJACENT WALLS
+[2017.09.06-20.32.51:948][ 45]LogRenderer: Reallocating scene render targets to support 952x564 Format 10 NumSamples 1 (Frame:1).
+[2017.09.06-20.34.55:988][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Speaker_Cone_Body1)
+[2017.09.06-20.34.57:303][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.09.06-20.35.20:403][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Speaker_Cone_Body4)
+[2017.09.06-20.35.30:470][344]Cmd: TRANSACTION UNDO
+[2017.09.06-20.35.30:470][344]LogEditorTransaction: Undo Create Actors
+[2017.09.06-20.35.52:977][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Speaker_Cone_Body2)
+[2017.09.06-20.35.54:231][767]Cmd: DELETE
+[2017.09.06-20.35.54:231][767]Cmd: ACTOR DELETE
+[2017.09.06-20.35.54:232][767]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.06-20.35.54:251][767]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.09.06-20.36.51:877][921]MapCheck: New page: Map Check
+[2017.09.06-20.36.51:893][921]Cmd: MAP REBUILD ALLVISIBLE
+[2017.09.06-20.36.51:893][921]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.09.06-20.36.52:001][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2017.09.06-20.36.52:014][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2017.09.06-20.36.52:023][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2017.09.06-20.36.52:030][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy synthSpace, compiling. 
+[2017.09.06-20.36.52:037][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PlaneGrid, compiling. 
+[2017.09.06-20.36.52:047][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy speakerTest, compiling. 
+[2017.09.06-20.36.52:059][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_Inst, compiling. 
+[2017.09.06-20.36.52:744][921]TextureStreamingBuild: Display: Compiling optional shaders took 0.776 seconds.
+[2017.09.06-20.36.52:749][921]LogLevel: Display: Export Material TexCoord Scales took 0.005 seconds.
+[2017.09.06-20.36.52:755][921]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2017.09.06-20.36.52:771][921]LightingResults: New page: Lighting Build - Sep 6, 2017, 12:36:52 PM
+[2017.09.06-20.36.52:809][921]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.06-20.36.52:855][921]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.06-20.36.52:867][921]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.06-20.36.53:398][921]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.06-20.36.53:398][921]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6844
+[2017.09.06-20.36.56:078][921]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2017.09.06-20.36.56:078][921]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.06-20.36.56:078][921]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.06-20.36.56:078][921]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.06-20.36.56:078][921]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.06-20.36.56:078][921]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.06-20.36.56:169][921]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.09.06-20.36.56:169][921]MapCheck: New page: synth_Level - Sep 6, 2017, 12:36:56 PM
+[2017.09.06-20.36.56:170][921]MapCheck: Warning: SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.09.06-20.36.56:233][921]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 63.986ms to complete.
+[2017.09.06-20.36.56:255][921]LogEditorBuildUtils: Build time 0:04
+[2017.09.06-20.36.56:283][921]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer speakerTest, compiling. 
+[2017.09.06-20.36.56:289][921]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer speakerTest, compiling. 
+[2017.09.06-20.36.59:924][ 45]Job is a success!
+[2017.09.06-20.37.00:345][ 46]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.09.06-20.37.00:345][ 46]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.09.06-20.37.00:345][ 46]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.09.06-20.37.00:345][ 46]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.09.06-20.37.00:345][ 46]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 64X64)
+[2017.09.06-20.37.00:345][ 46]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2017.09.06-20.37.00:368][ 46]Lightmass on DESKTOP-SIJTC7B: 2.50 sec total, 162 ms importing, 36 ms setup, 934 ms photons, 1.12 sec processing, 0 ms extra exporting [4/4 mappings]. Threads: 7.74 sec total, 783 ms processing.
+[2017.09.06-20.37.00:396][ 46]LogStaticLightingSystem: Illumination: 7.29 sec (14 ms encoding lightmaps, 20 ms encoding shadowmaps)
+[2017.09.06-20.37.00:396][ 46]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.06-20.37.00:396][ 46]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.06-20.37.01:089][ 46]DumpUnbuiltLightIteractions
+[2017.09.06-20.37.01:089][ 46]Lights with unbuilt interactions: 0
+[2017.09.06-20.37.01:089][ 46]
+[2017.09.06-20.37.01:089][ 46]Primitives with unbuilt interactions: 0
+[2017.09.06-20.37.01:095][ 47]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.06-20.37.01:096][ 47]MapCheck: New page: synth_Level - Sep 6, 2017, 12:37:01 PM
+[2017.09.06-20.37.01:096][ 47]MapCheck: Warning: SkySphere_Blueprint Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.09.06-20.37.01:163][ 47]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 67.144ms to complete.
+[2017.09.06-20.37.33:098][756]LogSavePackage: Save=66.26ms
+[2017.09.06-20.37.33:098][756]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto2F1C46FC64643CC440E94E38EA5348CD5.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto2.umap'
+[2017.09.06-20.37.33:100][756]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto2.umap
+[2017.09.06-20.37.33:103][756]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.116
+[2017.09.06-20.37.33:103][756]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2017.09.06-20.37.33:105][756]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Materials/speakerTest] ([1] browsable assets)...
+[2017.09.06-20.37.33:105][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/speakerTest]
+[2017.09.06-20.37.33:128][756]LogSavePackage: Save=6.44ms
+[2017.09.06-20.37.33:128][756]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/speakerTest_Auto229A70D8842CDE8AAF72CBAB05E0AC399.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Materials/speakerTest_Auto2.uasset'
+[2017.09.06-20.37.33:129][756]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Materials/speakerTest_Auto2.uasset
+[2017.09.06-20.37.33:130][756]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/synth_Level_BuiltData] ([1] browsable assets)...
+[2017.09.06-20.37.33:130][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/synth_Level_BuiltData]
+[2017.09.06-20.37.33:155][756]LogSavePackage: Save=10.59ms
+[2017.09.06-20.37.33:155][756]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData_Auto21CAB480542DFA213CC902BA65F0A1BE3.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto2.uasset'
+[2017.09.06-20.37.33:156][756]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_BuiltData_Auto2.uasset
+[2017.09.06-20.37.33:157][756]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Models/Speaker_Cone_Body2] ([1] browsable assets)...
+[2017.09.06-20.37.33:184][756]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Models/Speaker_Cone_Body2.Speaker_Cone_Body2]
+[2017.09.06-20.37.33:184][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Models/Speaker_Cone_Body2]
+[2017.09.06-20.37.33:212][756]LogSavePackage: Save=13.87ms
+[2017.09.06-20.37.33:213][756]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Speaker_Cone_Body2_Auto297DC6E8E4160518D328A75B4A3A9DF3B.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Models/Speaker_Cone_Body2_Auto2.uasset'
+[2017.09.06-20.37.33:214][756]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Assets/Models/Speaker_Cone_Body2_Auto2.uasset
+[2017.09.06-20.37.33:214][756]LogFileHelpers: Auto-saving content packages took 0.110
+[2017.09.06-20.48.12:410][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.06-20.48.12:517][981]LogSavePackage: Save=70.24ms
+[2017.09.06-20.48.12:517][981]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level8560A0A643285741D75B97A6B9D8EF25.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.09.06-20.48.12:526][981]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.09.06-20.48.12:601][981]LogFileHelpers: Saving map 'synth_Level' took 0.260
+[2017.09.06-20.48.12:605][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.09.06-20.48.12:640][981]LogSavePackage: Save=18.68ms
+[2017.09.06-20.48.12:640][981]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltDataDA3EF5814AA147965D6EE8A97525B484.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.09.06-20.48.12:645][981]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.09.06-20.48.12:652][981]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/VR-Basic.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-20.48.12:665][981]LightingResults: New page: Lighting Build
+[2017.09.06-20.48.12:666][981]LoadErrors: New page: Loading map: VR-Basic.umap
+[2017.09.06-20.48.12:671][981]MapCheck: New page: Map Check
+[2017.09.06-20.48.12:671][981]LightingResults: New page: Lighting Build
+[2017.09.06-20.48.12:816][981]LogAIModule: Creating AISystem for world Untitled_2
+[2017.09.06-20.48.12:818][981]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_2.Untitled_2:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.09.06-20.48.12:823][981]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-20.48.12:846][981]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-20.48.12:909][981]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.919ms to complete.
+[2017.09.06-20.48.12:909][981]LogFileHelpers: Loading map 'VR-Basic' took 0.259
+[2017.09.06-20.48.17:162][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pyramid)
+[2017.09.06-20.48.43:571][813]Cmd: TRANSACTION UNDO
+[2017.09.06-20.48.43:571][813]LogEditorTransaction: Undo Create Actors
+[2017.09.06-20.58.08:385][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.018
+[2017.09.06-21.03.20:262][825]LogAIModule: Creating AISystem for world synth_Level
+[2017.09.06-21.03.22:163][825]Cmd: MAP LOAD FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.06-21.03.22:164][825]LightingResults: New page: Lighting Build
+[2017.09.06-21.03.22:165][825]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.09.06-21.03.22:166][825]MapCheck: New page: Map Check
+[2017.09.06-21.03.22:166][825]LightingResults: New page: Lighting Build
+[2017.09.06-21.03.22:186][825]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.06-21.03.22:234][825]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.06-21.03.22:307][825]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.824ms to complete.
+[2017.09.06-21.03.22:307][825]LogFileHelpers: Loading map 'synth_Level' took 0.145
+[2017.09.06-21.13.15:542][283]BlueprintLog: New page: Collapse to Function
+[2017.09.06-21.14.32:322][874]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.14.32:346][874]LogBlueprint: Error: [Compiler EQ_Controller] COMPILER ERROR: failed building connection with 'Array of EQ Cube Object References is not compatible with Array of Actor Object References.' at  Get (a copy)
+[2017.09.06-21.14.32:346][874]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Out Actors  and  Target Array : Array of Actor Object References is not compatible with Array of EQ Cube Object References.
+[2017.09.06-21.14.32:346][874]LogBlueprint: Error: [Compiler EQ_Controller] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.09.06-21.14.32:347][874]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Target Array  and  Out Actors : Array of EQ Cube Object References is not compatible with Array of Actor Object References.
+[2017.09.06-21.14.32:460][874]LogBlueprint: Warning: [Compiler EQ_Controller] [4525.37] Compile of EQ_Controller failed. 4 Fatal Issue(s) 0 Warning(s) [in 138 ms] (/Game/Synth/EQ_Controller.EQ_Controller)
+[2017.09.06-21.14.55:932][280]LogEditorTransaction: Undo Rename Variable
+[2017.09.06-21.14.57:392][365]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.14.57:416][365]LogBlueprint: Error: [Compiler EQ_Controller] COMPILER ERROR: failed building connection with 'Array of EQ Cube Object References is not compatible with Array of Actor Object References.' at  Get (a copy)
+[2017.09.06-21.14.57:416][365]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Out Actors  and  Target Array : Array of Actor Object References is not compatible with Array of EQ Cube Object References.
+[2017.09.06-21.14.57:416][365]LogBlueprint: Error: [Compiler EQ_Controller] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.09.06-21.14.57:417][365]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Target Array  and  Out Actors : Array of EQ Cube Object References is not compatible with Array of Actor Object References.
+[2017.09.06-21.14.57:514][365]LogBlueprint: Warning: [Compiler EQ_Controller] [4550.42] Compile of EQ_Controller failed. 4 Fatal Issue(s) 0 Warning(s) [in 121 ms] (/Game/Synth/EQ_Controller.EQ_Controller)
+[2017.09.06-21.14.58:690][435]LogEditorTransaction: Undo Promote To Variable
+[2017.09.06-21.14.59:097][457]LogEditorTransaction: Undo Rename Function
+[2017.09.06-21.15.00:153][518]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.15.10:407][113]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.15.10:430][113]LogBlueprint: Error: [Compiler EQ_Controller] COMPILER ERROR: failed building connection with 'Array of EQ Cube Object References is not compatible with Array of Actor Object References.' at  Get (a copy)
+[2017.09.06-21.15.10:431][113]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Out Actors  and  Target Array : Array of Actor Object References is not compatible with Array of EQ Cube Object References.
+[2017.09.06-21.15.10:431][113]LogBlueprint: Error: [Compiler EQ_Controller] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.09.06-21.15.10:431][113]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Target Array  and  Out Actors : Array of EQ Cube Object References is not compatible with Array of Actor Object References.
+[2017.09.06-21.15.10:527][113]LogBlueprint: Warning: [Compiler EQ_Controller] [4563.44] Compile of EQ_Controller failed. 4 Fatal Issue(s) 0 Warning(s) [in 119 ms] (/Game/Synth/EQ_Controller.EQ_Controller)
+[2017.09.06-21.16.23:406][610]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.16.23:428][610]LogBlueprint: Error: [Compiler EQ_Controller] COMPILER ERROR: failed building connection with 'Array of EQ Cube Object References is not compatible with Array of Actor Object References.' at  Get (a copy)
+[2017.09.06-21.16.23:428][610]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Out Actors  and  Target Array : Array of Actor Object References is not compatible with Array of EQ Cube Object References.
+[2017.09.06-21.16.23:428][610]LogBlueprint: Error: [Compiler EQ_Controller] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.09.06-21.16.23:428][610]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Target Array  and  Out Actors : Array of EQ Cube Object References is not compatible with Array of Actor Object References.
+[2017.09.06-21.16.23:527][610]LogBlueprint: Warning: [Compiler EQ_Controller] [4636.44] Compile of EQ_Controller failed. 4 Fatal Issue(s) 0 Warning(s) [in 121 ms] (/Game/Synth/EQ_Controller.EQ_Controller)
+[2017.09.06-21.16.25:003][698]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.16.25:025][698]LogBlueprint: Error: [Compiler EQ_Controller] COMPILER ERROR: failed building connection with 'Array of EQ Cube Object References is not compatible with Array of Actor Object References.' at  Get (a copy)
+[2017.09.06-21.16.25:025][698]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Out Actors  and  Target Array : Array of Actor Object References is not compatible with Array of EQ Cube Object References.
+[2017.09.06-21.16.25:025][698]LogBlueprint: Error: [Compiler EQ_Controller] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.09.06-21.16.25:025][698]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Target Array  and  Out Actors : Array of EQ Cube Object References is not compatible with Array of Actor Object References.
+[2017.09.06-21.16.25:119][698]LogBlueprint: Warning: [Compiler EQ_Controller] [4638.03] Compile of EQ_Controller failed. 4 Fatal Issue(s) 0 Warning(s) [in 115 ms] (/Game/Synth/EQ_Controller.EQ_Controller)
+[2017.09.06-21.16.26:642][789]LogEditorTransaction: Undo Remove Variable
+[2017.09.06-21.16.27:450][835]LogEditorTransaction: Undo Remove Variable
+[2017.09.06-21.16.28:052][869]LogEditorTransaction: Undo Move Node
+[2017.09.06-21.16.28:855][915]LogEditorTransaction: Undo Promote To Variable
+[2017.09.06-21.16.30:244][996]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.16.30:267][996]LogBlueprint: Error: [Compiler EQ_Controller] COMPILER ERROR: failed building connection with 'Array of EQ Cube Object References is not compatible with Array of Actor Object References.' at  Get (a copy)
+[2017.09.06-21.16.30:267][996]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Out Actors  and  Target Array : Array of Actor Object References is not compatible with Array of EQ Cube Object References.
+[2017.09.06-21.16.30:268][996]LogBlueprint: Error: [Compiler EQ_Controller] Invalid pin connection from ' Out Actors ' to ' Target Array '. You may have changed the type after the connections were made.
+[2017.09.06-21.16.30:268][996]LogBlueprint: Error: [Compiler EQ_Controller] Can't connect pins  Target Array  and  Out Actors : Array of EQ Cube Object References is not compatible with Array of Actor Object References.
+[2017.09.06-21.16.30:364][996]LogBlueprint: Warning: [Compiler EQ_Controller] [4643.27] Compile of EQ_Controller failed. 4 Fatal Issue(s) 0 Warning(s) [in 119 ms] (/Game/Synth/EQ_Controller.EQ_Controller)
+[2017.09.06-21.16.31:490][ 63]LogEditorTransaction: Undo Delete current selection
+[2017.09.06-21.16.32:447][118]LogEditorTransaction: Undo Move Node
+[2017.09.06-21.16.32:865][141]LogEditorTransaction: Undo Promote To Variable
+[2017.09.06-21.16.34:117][214]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.16.56:552][544]LogEditorTransaction: Undo Move Node
+[2017.09.06-21.17.07:180][171]BlueprintLog: New page: Compile EQ_Controller
+[2017.09.06-21.19.37:827][563]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.019
+[2017.09.06-21.19.37:829][563]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Synth/EQ_Controller] ([1] browsable assets)...
+[2017.09.06-21.19.37:829][563]OBJ SavePackage: Finished generating thumbnails for package [/Game/Synth/EQ_Controller]
+[2017.09.06-21.19.37:939][563]LogSavePackage: Save=88.76ms
+[2017.09.06-21.19.37:939][563]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/EQ_Controller_Auto3E88AB55140D4A0580F646F9592245103.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Synth/EQ_Controller_Auto3.uasset'
+[2017.09.06-21.19.37:941][563]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Synth/EQ_Controller_Auto3.uasset
+[2017.09.06-21.19.37:941][563]LogFileHelpers: Auto-saving content packages took 0.114
+[2017.09.06-21.24.57:673][733]Cmd: CLOSE_SLATE_MAINFRAME
+[2017.09.06-21.24.59:578][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/speakerTest" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Materials/speakerTest.uasset" SILENT=true
+[2017.09.06-21.24.59:604][733]LogSavePackage: Save=6.65ms
+[2017.09.06-21.24.59:604][733]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/speakerTest89FE0D774068ECD80593888013214F75.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Materials/speakerTest.uasset'
+[2017.09.06-21.24.59:612][733]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Materials/speakerTest.uasset
+[2017.09.06-21.24.59:616][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Models/Speaker_Cone_Body2" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Models/Speaker_Cone_Body2.uasset" SILENT=true
+[2017.09.06-21.24.59:638][733]LogSavePackage: Save=6.92ms
+[2017.09.06-21.24.59:638][733]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/Speaker_Cone_Body2442D15114ACC6538160861BBBA136CB2.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Models/Speaker_Cone_Body2.uasset'
+[2017.09.06-21.24.59:644][733]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Assets/Models/Speaker_Cone_Body2.uasset
+[2017.09.06-21.24.59:648][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Synth/EQ_Controller" FILE="../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Synth/EQ_Controller.uasset" SILENT=true
+[2017.09.06-21.24.59:747][733]LogSavePackage: Save=82.55ms
+[2017.09.06-21.24.59:747][733]LogSavePackage: Moving '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Saved/EQ_Controller448C94764FD0C6313E465BA3BDF7274B.tmp' to '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Synth/EQ_Controller.uasset'
+[2017.09.06-21.24.59:750][733]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/Synth/EQ_Controller.uasset
+[2017.09.06-21.24.59:941][733]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.09.06-21.24.59:942][733]LogDirectoryWatcher: A directory notification for '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Plugins/' was aborted.
+[2017.09.06-21.24.59:946][733]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.06-21.24.59:947][733]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.06-21.25.00:186][734]Cmd: QUIT_EDITOR
+[2017.09.06-21.25.00:229][734]LogExit: Preparing to exit.
+[2017.09.06-21.25.00:757][734]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/' was aborted.
+[2017.09.06-21.25.00:878][734]LogExit: Editor shut down
+[2017.09.06-21.25.00:917][734]LogExit: Transaction tracking system shut down
+[2017.09.06-21.25.01:155][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.06-21.25.01:155][734]LogDirectoryWatcher: A directory notification for '../../../../../../Users/croch/Documents/Unreal Projects/SwordVR/Content/' was aborted.
+[2017.09.06-21.25.01:155][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.06-21.25.01:155][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.06-21.25.01:155][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.06-21.25.01:312][734]LogExit: Object subsystem successfully closed.
+[2017.09.06-21.25.01:338][734]LogD3D11RHI: Shutdown
+[2017.09.06-21.25.01:338][734]LogD3D11RHI: CleanupD3DDevice
+[2017.09.06-21.25.01:343][734]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module NewLevelDialog (546)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (544)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (542)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module MaterialEditor (540)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (534)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module SceneOutliner (532)
+[2017.09.06-21.25.01:360][734]LogModuleManager: Shutting down and abandoning module AddContentDialog (530)
+[2017.09.06-21.25.01:361][734]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module WidgetCarousel (529)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module EditorWidgets (526)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module CollectionManager (524)
+[2017.09.06-21.25.01:366][734]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Collections/' was aborted.
+[2017.09.06-21.25.01:366][734]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Content/Developers/croch/Collections/' was aborted.
+[2017.09.06-21.25.01:366][734]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Saved/Collections/' was aborted.
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module StatsViewer (522)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module FoliageEdit (520)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module LandscapeEditor (518)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module MeshPaintMode (516)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (514)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module ActorPickerMode (512)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module GeometryMode (510)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module TextureAlignMode (508)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module BspMode (506)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (504)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module HardwareSurvey (502)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (500)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module AutomationWorker (498)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (496)
+[2017.09.06-21.25.01:366][734]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (494)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module PlacementMode (493)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (490)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (488)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (486)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (484)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (482)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module Media (481)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (478)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module CharacterAI (476)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module AudioCapture (474)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module SequenceRecorder (473)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module SmartSnapping (470)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module SessionServices (468)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module ViewportSnapping (466)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module ViewportInteraction (464)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module ClothPainter (462)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module LogVisualizer (460)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module IntroTutorials (458)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (457)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (454)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (452)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (450)
+[2017.09.06-21.25.01:367][734]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (449)
+[2017.09.06-21.25.01:492][734]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (446)
+[2017.09.06-21.25.01:492][734]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (444)
+[2017.09.06-21.25.01:492][734]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (442)
+[2017.09.06-21.25.01:492][734]LogModuleManager: Shutting down and abandoning module InputBindingEditor (440)
+[2017.09.06-21.25.01:492][734]LogModuleManager: Shutting down and abandoning module MergeActors (438)
+[2017.09.06-21.25.01:492][734]LogModuleManager: Shutting down and abandoning module SizeMap (436)
+[2017.09.06-21.25.01:492][734]LogModuleManager: Shutting down and abandoning module TreeMap (434)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module ReferenceViewer (432)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (430)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module LocalizationService (429)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module HardwareTargeting (426)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (424)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module UndoHistory (422)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module XmlParser (420)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module Blutility (418)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (416)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (415)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (412)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module SettingsEditor (410)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module ProjectLauncher (408)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module SessionFrontend (406)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module ProfilerClient (404)
+[2017.09.06-21.25.01:493][734]LogModuleManager: Shutting down and abandoning module DeviceManager (402)
+[2017.09.06-21.25.01:494][734]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (401)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module AutomationController (398)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module AutomationWindow (396)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module Layers (394)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (392)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module DetailCustomizations (390)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module PackagesDialog (388)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module Persona (386)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (385)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module AnimGraph (383)
+[2017.09.06-21.25.01:548][734]LogModuleManager: Shutting down and abandoning module Kismet (380)
+[2017.09.06-21.25.01:559][734]LogModuleManager: Shutting down and abandoning module ClassViewer (378)
+[2017.09.06-21.25.01:561][734]LogModuleManager: Shutting down and abandoning module Toolbox (376)
+[2017.09.06-21.25.01:561][734]LogModuleManager: Shutting down and abandoning module ModuleUI (374)
+[2017.09.06-21.25.01:561][734]LogModuleManager: Shutting down and abandoning module MovieSceneTools (372)
+[2017.09.06-21.25.01:561][734]LogModuleManager: Shutting down and abandoning module OutputLog (370)
+[2017.09.06-21.25.01:561][734]LogModuleManager: Shutting down and abandoning module GammaUI (368)
+[2017.09.06-21.25.01:561][734]LogModuleManager: Shutting down and abandoning module Documentation (366)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (364)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module MovieScene (362)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module Niagara (360)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module NiagaraEditor (359)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (356)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module LauncherPlatform (354)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module AnalyticsET (352)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module PortalServices (350)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module PortalRpc (348)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module MessagingRpc (346)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module AIModule (344)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module GameplayDebugger (343)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module AITestSuite (341)
+[2017.09.06-21.25.01:562][734]LogModuleManager: Shutting down and abandoning module ProfilerService (338)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module TaskGraph (336)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module SteamVRController (334)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module SoundVisualizations (332)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.09.06-21.25.01:794][734]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (310)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.06-21.25.01:795][734]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.06-21.25.01:796][734]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.06-21.25.01:796][734]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.06-21.25.01:797][734]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.06-21.25.01:797][734]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.06-21.25.01:798][734]LogDirectoryWatcher: A directory notification for 'C:/Users/croch/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/RunebergVRPlugin-master/Plugins/RunebergVRPlugin/Binaries/Win64' was aborted.
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.06-21.25.01:798][734]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.06-21.25.01:900][734]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.06-21.25.02:001][734]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.06-21.25.02:001][734]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.06-21.25.02:001][734]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.06-21.25.02:001][734]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.06-21.25.02:001][734]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.06-21.25.02:001][734]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.06-21.25.02:002][734]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.06-21.25.02:002][734]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.06-21.25.02:002][734]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.06-21.25.02:002][734]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.06-21.25.02:004][734]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.06-21.25.02:005][734]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.06-21.25.02:005][734]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.06-21.25.02:005][734]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.06-21.25.02:008][734]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.06-21.25.02:015][734]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.06-21.25.02:024][734]LogDerivedDataCache: Shutdown
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.06-21.25.02:024][734]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.06-21.25.02:025][734]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.06-21.25.02:026][734]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.06-21.25.02:026][734]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.06-21.25.02:026][734]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.06-21.25.02:026][734]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.06-21.25.02:026][734]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.06-21.25.02:026][734]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.06-21.25.02:026][734]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.06-21.25.02:026][734]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.06-21.25.02:026][734]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.06-21.25.02:026][734]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B626F0D9F-46A6-15EB-5756-B68241FF15D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=c19455da4e9942465a9434b53fdba419%7Cd8e1cdd51d1c479f8a85754926729c65%7C107367ae-b7ca-4457-9e4d-cb26e87773d6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.06-21.25.02:046][734]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.06-21.25.02:048][734]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.06-21.25.02:048][734]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.06-21.25.02:048][734]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.06-21.25.02:048][734]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.06-21.25.02:048][734]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.06-21.25.02:048][734]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.06-21.25.02:048][734]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.06-21.25.02:052][734]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.06-21.25.02:055][734]LogExit: Exiting.
+[2017.09.06-21.25.02:077][734]Log file closed, 09/06/17 17:25:02

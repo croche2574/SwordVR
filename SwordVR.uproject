@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{462DCB7C-4819-5342-B19F-A3A32678AF1D}",
+	"EngineAssociation": "4.17",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -11,6 +11,14 @@
 		},
 		{
 			"Name": "SoundVisualizations",
+			"Enabled": true
+		},
+		{
+			"Name": "Synthesis",
+			"Enabled": true
+		},
+		{
+			"Name": "SoundUtilities",
 			"Enabled": true
 		}
 	]

@@ -1,0 +1,441 @@
+﻿Log file open, 09/25/17 10:26:34
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: SwordVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-928096594) SRandInit(-928096594).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.161454
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundUtilities
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin RunebergVRPlugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: F:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.25-14.26.35:296][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.25-14.26.35:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.25-14.26.35:309][  0]LogInit: Computer: IST1022-14
+[2017.09.25-14.26.35:309][  0]LogInit: User: croche2574
+[2017.09.25-14.26.35:309][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.25-14.26.35:309][  0]LogInit: High frequency timer resolution =3.410079 MHz
+[2017.09.25-14.26.35:309][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.09.25-14.26.35:309][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.25-14.26.35:309][  0]LogMemory: Process Physical Memory: 278.73 MB used, 278.73 MB peak
+[2017.09.25-14.26.35:309][  0]LogMemory: Process Virtual Memory: 282.76 MB used, 282.76 MB peak
+[2017.09.25-14.26.35:309][  0]LogMemory: Physical Memory: 7229.08 MB used,  25455.20 MB free, 32684.29 MB total
+[2017.09.25-14.26.35:309][  0]LogMemory: Virtual Memory: 677.18 MB used,  25455.20 MB free, 134217728.00 MB total
+[2017.09.25-14.26.35:433][  0]LogInit: Using OS detected language (en-US).
+[2017.09.25-14.26.35:433][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.25-14.26.35:436][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.25-14.26.36:151][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.25-14.26.36:188][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.09.25-14.26.36:188][  0]LogD3D11RHI:       8076/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.09.25-14.26.36:190][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.25-14.26.36:190][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.25-14.26.36:190][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.25-14.26.36:195][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.25-14.26.36:195][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.25-14.26.36:195][  0]LogWindows: EnumDisplayDevices:
+[2017.09.25-14.26.36:195][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.09.25-14.26.36:195][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.09.25-14.26.36:195][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.09.25-14.26.36:195][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.09.25-14.26.36:196][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.25-14.26.36:196][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.09.25-14.26.36:196][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.09.25-14.26.36:196][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.09.25-14.26.36:196][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.25-14.26.36:217][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.25-14.26.36:228][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.25-14.26.36:319][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Intermediate/Shaders/WorkingDirectory/4840/).
+[2017.09.25-14.26.36:319][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croche2574/AppData/Local/Temp/UnrealShaderWorkingDir/BDC9B91849FFAD2FBA0DF8A0F2B2E92C/'.
+[2017.09.25-14.26.36:319][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.25-14.26.37:277][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.25-14.26.37:322][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.25-14.26.37:367][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.25-14.26.37:424][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.25-14.26.37:478][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.25-14.26.37:521][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.25-14.26.37:562][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.25-14.26.37:607][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.25-14.26.37:644][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.25-14.26.37:689][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.25-14.26.37:739][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.25-14.26.37:779][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.25-14.26.37:827][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.25-14.26.37:872][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.25-14.26.37:927][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.25-14.26.38:031][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.25-14.26.38:031][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.25-14.26.38:062][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.25-14.26.38:141][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.25-14.26.38:169][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.25-14.26.38:219][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.25-14.26.38:265][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.25-14.26.38:309][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.25-14.26.38:355][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.25-14.26.38:355][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.25-14.26.38:775][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.25-14.26.38:891][  0]LogDerivedDataCache: Loaded boot cache 0.12s 93MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.25-14.26.38:891][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/croche2574/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.25-14.26.38:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/croche2574/Documents/Unreal Projects/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.25-14.26.38:891][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.25-14.26.38:891][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/croche2574/Documents/Unreal Projects/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.25-14.26.38:891][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.25-14.26.38:909][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.25-14.26.38:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croche2574/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.25-14.26.38:933][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.25-14.26.38:933][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.25-14.26.38:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.25-14.26.38:934][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.25-14.26.39:248][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
+[2017.09.25-14.26.39:357][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.25-14.26.39:493][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.25-14.26.39:784][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.25-14.26.39:818][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.25-14.26.39:818][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.25-14.26.39:818][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.25-14.26.39:818][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.25-14.26.39:818][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.25-14.26.40:202][  0]LogNetVersion: SwordVR , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2726716735)
+[2017.09.25-14.26.40:423][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.077985 seconds
+[2017.09.25-14.26.40:431][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.25-14.26.40:431][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.25-14.26.40:431][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.25-14.26.40:478][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.25-14.26.42:728][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.25-14.26.42:761][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.25-14.26.43:273][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.25-14.26.43:626][  0]SourceControl: Source control is disabled
+[2017.09.25-14.26.43:626][  0]SourceControl: Source control is disabled
+[2017.09.25-14.26.43:663][  0]SourceControl: Source control is disabled
+[2017.09.25-14.26.43:699][  0]SourceControl: Source control is disabled
+[2017.09.25-14.26.44:168][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.25-14.26.44:356][  0]LogOcInput: OculusInput pre-init called
+[2017.09.25-14.26.44:640][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Synth2DSliderStyle'. Using Synth2DSliderStyle defaults instead.
+[2017.09.25-14.26.44:640][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'SynthKnobStyle'. Using SynthKnobStyle defaults instead.
+[2017.09.25-14.26.44:808][  0]LogEngine: Initializing Engine...
+[2017.09.25-14.26.44:845][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-839F7479
+[2017.09.25-14.26.45:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.25-14.26.45:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.25-14.26.45:195][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.25-14.26.45:215][  0]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.25-14.26.45:225][  0]LogInit: FAudioDevice initialized.
+[2017.09.25-14.26.45:293][  0]LogDerivedDataCache: Saved boot cache 0.07s 93MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.25-14.26.45:311][  0]LogInit: Texture streaming: Enabled
+[2017.09.25-14.26.45:398][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.25-14.26.45:585][  0]LogInit: Transaction tracking system initialized
+[2017.09.25-14.26.45:815][  0]BlueprintLog: New page: Editor Load
+[2017.09.25-14.26.46:526][  0]LocalizationService: Localization service is disabled
+[2017.09.25-14.26.47:079][  0]LogConsoleResponse: Display: 
+[2017.09.25-14.26.47:260][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.25-14.26.47:260][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.25-14.26.47:260][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.25-14.26.48:046][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/' took 0.01s
+[2017.09.25-14.26.48:085][  0]SourceControl: Source control is disabled
+[2017.09.25-14.26.48:190][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.25-14.26.48:222][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.25-14.26.57:390][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.25-14.26.57:392][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.25-14.26.59:061][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.25-14.26.59:063][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.25-14.26.59:086][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.25-14.26.59:086][  0]LightingResults: New page: Lighting Build
+[2017.09.25-14.26.59:140][  0]MapCheck: New page: Map Check
+[2017.09.25-14.26.59:140][  0]LightingResults: New page: Lighting Build
+[2017.09.25-14.26.59:321][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.09.25-14.26.59:329][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.25-14.26.59:343][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.25-14.26.59:392][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.83ms to complete.
+[2017.09.25-14.26.59:392][  0]LogFileHelpers: Loading map 'Template_Default' took 0.307
+[2017.09.25-14.26.59:532][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1754_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_10a4_0///####STATCAT_Advanced####
+[2017.09.25-14.26.59:532][  0]LogCollectionManager: Loaded 0 collections in 0.001009 seconds
+[2017.09.25-14.26.59:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Collections/' took 0.01s
+[2017.09.25-14.26.59:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Developers/croche2574/Collections/' took 0.01s
+[2017.09.25-14.26.59:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Collections/' took 0.01s
+[2017.09.25-14.26.59:632][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.25-14.26.59:645][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2419 classes and 520 folders.
+[2017.09.25-14.26.59:701][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.25-14.26.59:737][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.25-14.26.59:771][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.25-14.26.59:792][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.25-14.26.59:796][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.25-14.26.59:898][  0]LogRenderer: Reallocating scene render targets to support 1616x916 Format 10 NumSamples 1 (Frame:1).
+[2017.09.25-14.27.00:113][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.25-14.27.00:113][  0]LogLoad: (Engine Initialization) Total time: 26.39 seconds
+[2017.09.25-14.27.00:113][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.25-14.27.00:113][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.25-14.27.00:113][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.25-14.27.00:123][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.09.25-14.27.00:123][  0]LogSteamVRController: Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.09.25-14.27.00:143][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.25-14.27.00:231][  1]LogAssetRegistry: Asset discovery search completed in 21.0053 seconds
+[2017.09.25-14.27.00:233][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.25-14.27.00:233][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2017.09.25-14.27.01:162][102]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.25-14.27.07:905][879]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.25-14.27.08:239][879]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.09.25-14.27.08:977][879]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.25-14.27.09:065][880]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.25-14.27.36:294][262]LogAIModule: Creating AISystem for world synth_Level
+[2017.09.25-14.27.36:337][262]Cmd: MAP LOAD FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.25-14.27.36:337][262]LightingResults: New page: Lighting Build
+[2017.09.25-14.27.36:338][262]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.09.25-14.27.36:338][262]MapCheck: New page: Map Check
+[2017.09.25-14.27.36:339][262]LightingResults: New page: Lighting Build
+[2017.09.25-14.27.36:362][262]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.25-14.27.36:408][262]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.25-14.27.36:474][262]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.412ms to complete.
+[2017.09.25-14.27.36:474][262]LogFileHelpers: Loading map 'synth_Level' took 0.138
+[2017.09.25-14.27.38:207][449]LogEditorViewport: Clicking on Actor (LMB): Floating_Drone_C (Floating_Drone)
+[2017.09.25-14.27.50:293][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.25-14.27.50:405][573]LogSavePackage: Save=68.36ms
+[2017.09.25-14.27.50:405][573]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_Level53514C0E404388BD36C09F8268423B57.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.09.25-14.27.50:408][573]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.09.25-14.27.50:439][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level_BuiltData" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset" SILENT=true
+[2017.09.25-14.27.50:483][573]LogSavePackage: Save=24.13ms
+[2017.09.25-14.27.50:483][573]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_Level_BuiltData591966FB401C88E3BD961C85A2386A4C.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset'
+[2017.09.25-14.27.50:484][573]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level_BuiltData.uasset
+[2017.09.25-14.30.05:088][ 20]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-14.30.07:159][132]LogTemp: Repeating last play command: VR Preview
+[2017.09.25-14.30.07:220][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.30.07:221][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.25-14.30.07:221][132]PIE: New page: PIE session: synth_Level (Sep 25, 2017, 6:30:07 AM)
+[2017.09.25-14.30.07:221][132]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.09.25-14.30.07:225][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004260s)
+[2017.09.25-14.30.07:226][132]LogAIModule: Creating AISystem for world synth_Level
+[2017.09.25-14.30.07:226][132]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2017.09.25-14.30.07:226][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.005369s)
+[2017.09.25-14.30.07:260][132]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.25-14.30.07:266][132]LogInit: FAudioDevice initialized.
+[2017.09.25-14.30.07:562][132]LogLoad: Game class is 'VR_GameMode_C'
+[2017.09.25-14.30.07:565][132]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.09.25-10.30.07
+[2017.09.25-14.30.07:565][132]LogWorld: Bringing up level for play took: 0.001659
+[2017.09.25-14.30.07:602][132]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.25-14.30.07:621][132]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.125
+[2017.09.25-14.30.07:622][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.30.07:666][133]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 10 NumSamples 1 (Frame:1).
+[2017.09.25-14.30.11:751][492]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.30.11:751][492]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.32.15:352][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.32.15:560][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.33.17:098][766]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-14.33.18:454][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Floating_Drone" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Floating_Drone.uasset" SILENT=true
+[2017.09.25-14.33.18:515][836]LogSavePackage: Save=27.79ms
+[2017.09.25-14.33.18:516][836]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Floating_Drone7EC7C6884F49C3430A02BBB0F1CF37E7.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Floating_Drone.uasset'
+[2017.09.25-14.33.18:518][836]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Floating_Drone.uasset
+[2017.09.25-14.33.19:547][904]LogTemp: Repeating last play command: VR Preview
+[2017.09.25-14.33.19:568][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.33.19:568][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.25-14.33.19:568][904]PIE: New page: PIE session: synth_Level (Sep 25, 2017, 6:33:19 AM)
+[2017.09.25-14.33.19:568][904]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.09.25-14.33.19:575][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006684s)
+[2017.09.25-14.33.19:576][904]LogAIModule: Creating AISystem for world synth_Level
+[2017.09.25-14.33.19:576][904]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2017.09.25-14.33.19:577][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.008253s)
+[2017.09.25-14.33.19:622][904]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.25-14.33.19:630][904]LogInit: FAudioDevice initialized.
+[2017.09.25-14.33.19:767][904]LogLoad: Game class is 'VR_GameMode_C'
+[2017.09.25-14.33.19:769][904]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.09.25-10.33.19
+[2017.09.25-14.33.19:770][904]LogWorld: Bringing up level for play took: 0.001470
+[2017.09.25-14.33.19:781][904]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.285
+[2017.09.25-14.33.19:781][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.33.25:693][427]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.33.25:693][427]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.34.29:102][ 88]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.34.29:102][ 88]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.34.41:054][152]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.34.41:054][152]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-14.36.09:841][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.36.10:028][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.39.56:351][ 11]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-14.40.59:134][ 11]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-14.41.03:162][251]LogTemp: Repeating last play command: VR Preview
+[2017.09.25-14.41.03:178][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.41.03:178][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.25-14.41.03:178][251]PIE: New page: PIE session: synth_Level (Sep 25, 2017, 6:41:03 AM)
+[2017.09.25-14.41.03:178][251]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.09.25-14.41.03:183][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004691s)
+[2017.09.25-14.41.03:184][251]LogAIModule: Creating AISystem for world synth_Level
+[2017.09.25-14.41.03:184][251]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2017.09.25-14.41.03:184][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.006017s)
+[2017.09.25-14.41.03:223][251]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.25-14.41.03:232][251]LogInit: FAudioDevice initialized.
+[2017.09.25-14.41.03:395][251]LogLoad: Game class is 'VR_GameMode_C'
+[2017.09.25-14.41.03:398][251]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.09.25-10.41.03
+[2017.09.25-14.41.03:398][251]LogWorld: Bringing up level for play took: 0.001908
+[2017.09.25-14.41.03:415][251]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level -0.084
+[2017.09.25-14.41.03:416][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.42.08:943][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.42.09:142][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-14.42.38:748][ 95]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-14.42.39:656][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Floating_Drone" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Floating_Drone.uasset" SILENT=true
+[2017.09.25-14.42.39:703][134]LogSavePackage: Save=19.57ms
+[2017.09.25-14.42.39:703][134]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Floating_DroneF3C023B147D28B9DA31F1499A88CCC8F.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Floating_Drone.uasset'
+[2017.09.25-14.42.39:706][134]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Floating_Drone.uasset
+[2017.09.25-14.45.03:980][507]BlueprintLog: New page: Compile Base_Drone
+[2017.09.25-14.45.04:607][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Base_Drone" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Base_Drone.uasset" SILENT=true
+[2017.09.25-14.45.04:678][525]LogSavePackage: Save=36.28ms
+[2017.09.25-14.45.04:679][525]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Base_Drone4097B04C4C7EBF429E54A184890C36DE.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Base_Drone.uasset'
+[2017.09.25-14.45.04:682][525]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Base_Drone.uasset
+[2017.09.25-14.45.34:325][457]BlueprintLog: New page: Compile Base_Drone
+[2017.09.25-14.45.34:337][457]LogBlueprint: Error: [Compiler Base_Drone] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.25-14.45.34:337][457]LogBlueprint: Error: [Compiler Base_Drone] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.25-14.45.34:460][457]LogBlueprint: Warning: [Compiler Base_Drone] [1140.73] Compile of Base_Drone failed. 2 Fatal Issue(s) 0 Warning(s) [in 134 ms] (/Game/Enemies/Base_Drone.Base_Drone)
+[2017.09.25-14.45.34:912][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Base_Drone" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Base_Drone.uasset" SILENT=true
+[2017.09.25-14.45.34:963][481]LogSavePackage: Save=30.42ms
+[2017.09.25-14.45.34:963][481]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Base_Drone03A7F40B4750A61521909196F6A8CB9C.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Base_Drone.uasset'
+[2017.09.25-14.45.34:967][481]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Enemies/Base_Drone.uasset
+[2017.09.25-14.46.03:926][310]LogSavePackage: Save=69.67ms
+[2017.09.25-14.46.03:926][310]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto10374507842FF6F440061028EFBC2ADAF.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap'
+[2017.09.25-14.46.03:928][310]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap
+[2017.09.25-14.46.03:930][310]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.130
+[2017.09.25-14.46.03:930][310]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.130
+[2017.09.25-14.46.03:932][310]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemies/Floating_Drone] ([1] browsable assets)...
+[2017.09.25-14.46.03:932][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Floating_Drone]
+[2017.09.25-14.46.03:974][310]LogSavePackage: Save=21.19ms
+[2017.09.25-14.46.03:974][310]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Floating_Drone_Auto10B9A8BC74B01D5AE4491048BFE3D0411.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Enemies/Floating_Drone_Auto1.uasset'
+[2017.09.25-14.46.03:975][310]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Enemies/Floating_Drone_Auto1.uasset
+[2017.09.25-14.46.03:975][310]LogFileHelpers: Auto-saving content packages took 0.044
+[2017.09.25-14.46.22:060][468]BlueprintLog: New page: Compile Base_Drone
+[2017.09.25-14.46.22:071][468]LogBlueprint: Error: [Compiler Base_Drone] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.25-14.46.22:071][468]LogBlueprint: Error: [Compiler Base_Drone] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.09.25-14.46.22:181][468]LogBlueprint: Warning: [Compiler Base_Drone] [1188.45] Compile of Base_Drone failed. 2 Fatal Issue(s) 0 Warning(s) [in 120 ms] (/Game/Enemies/Base_Drone.Base_Drone)
+[2017.09.25-14.46.56:409][843]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-14.47.18:905][309]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-14.56.04:609][974]LogSavePackage: Save=68.65ms
+[2017.09.25-14.56.04:609][974]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto28884437143CA86DEC5EF02A11C0E9988.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto2.umap'
+[2017.09.25-14.56.04:611][974]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto2.umap
+[2017.09.25-14.56.04:613][974]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.124
+[2017.09.25-14.56.04:613][974]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2017.09.25-14.56.04:615][974]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemies/Floating_Drone] ([1] browsable assets)...
+[2017.09.25-14.56.04:615][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Floating_Drone]
+[2017.09.25-14.56.04:658][974]LogSavePackage: Save=22.20ms
+[2017.09.25-14.56.04:658][974]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Floating_Drone_Auto2B48735DA4C1C89D6CA4A0DB8910AFA2C.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Enemies/Floating_Drone_Auto2.uasset'
+[2017.09.25-14.56.04:660][974]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Enemies/Floating_Drone_Auto2.uasset
+[2017.09.25-14.56.04:660][974]LogFileHelpers: Auto-saving content packages took 0.046
+[2017.09.25-15.05.36:681][457]BlueprintLog: New page: Compile Floating_Drone
+[2017.09.25-15.05.38:524][574]LogTemp: Repeating last play command: VR Preview
+[2017.09.25-15.05.38:539][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-15.05.38:540][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.25-15.05.56:949][507]BlueprintLog: New page: Compile Base_Drone
+[2017.09.25-15.05.58:547][601]LogTemp: Repeating last play command: VR Preview
+[2017.09.25-15.05.58:576][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-15.05.58:576][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.25-15.05.58:576][601]PIE: New page: PIE session: synth_Level (Sep 25, 2017, 7:05:58 AM)
+[2017.09.25-15.05.58:577][601]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.09.25-15.05.58:581][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004495s)
+[2017.09.25-15.05.58:582][601]LogAIModule: Creating AISystem for world synth_Level
+[2017.09.25-15.05.58:582][601]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.09.25-15.05.58:582][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.005567s)
+[2017.09.25-15.05.58:616][601]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.25-15.05.58:623][601]LogInit: FAudioDevice initialized.
+[2017.09.25-15.05.58:760][601]LogLoad: Game class is 'VR_GameMode_C'
+[2017.09.25-15.05.58:762][601]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.09.25-11.05.58
+[2017.09.25-15.05.58:763][601]LogWorld: Bringing up level for play took: 0.001444
+[2017.09.25-15.05.58:772][601]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level -0.737
+[2017.09.25-15.05.58:773][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-15.06.07:868][409]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-15.06.07:868][409]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.09.25-15.06.32:927][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.09.25-15.06.33:121][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'

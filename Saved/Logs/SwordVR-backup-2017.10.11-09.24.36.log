@@ -1,0 +1,879 @@
+﻿Log file open, 10/11/17 08:41:04
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: SwordVR
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(357242904) SRandInit(357242904).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.183118
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundUtilities
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin RunebergVRPlugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: F:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.11-12.41.04:725][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.11-12.41.04:725][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.11-12.41.04:736][  0]LogInit: Computer: IST1022-14
+[2017.10.11-12.41.04:736][  0]LogInit: User: croche2574
+[2017.10.11-12.41.04:736][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.11-12.41.04:736][  0]LogInit: High frequency timer resolution =3.410075 MHz
+[2017.10.11-12.41.04:736][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.11-12.41.04:736][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-12.41.04:736][  0]LogMemory: Process Physical Memory: 278.04 MB used, 278.04 MB peak
+[2017.10.11-12.41.04:736][  0]LogMemory: Process Virtual Memory: 274.75 MB used, 274.75 MB peak
+[2017.10.11-12.41.04:736][  0]LogMemory: Physical Memory: 7844.01 MB used,  24840.27 MB free, 32684.29 MB total
+[2017.10.11-12.41.04:736][  0]LogMemory: Virtual Memory: 669.18 MB used,  24840.27 MB free, 134217728.00 MB total
+[2017.10.11-12.41.04:888][  0]LogInit: Using OS detected language (en-US).
+[2017.10.11-12.41.04:888][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.11-12.41.04:890][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.11-12.41.05:591][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.11-12.41.05:627][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.10.11-12.41.05:627][  0]LogD3D11RHI:       8076/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.10.11-12.41.05:628][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.11-12.41.05:628][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.11-12.41.05:628][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.11-12.41.05:632][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.11-12.41.05:632][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.11-12.41.05:632][  0]LogWindows: EnumDisplayDevices:
+[2017.10.11-12.41.05:632][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.10.11-12.41.05:632][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.10.11-12.41.05:632][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.10.11-12.41.05:632][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.10.11-12.41.05:633][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.11-12.41.05:633][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.10.11-12.41.05:633][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.10.11-12.41.05:633][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.10.11-12.41.05:633][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.11-12.41.05:656][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.11-12.41.05:666][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.11-12.41.05:757][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Intermediate/Shaders/WorkingDirectory/11160/).
+[2017.10.11-12.41.05:757][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/croche2574/AppData/Local/Temp/UnrealShaderWorkingDir/9F3E48724BFEC171435D8D95702AD76E/'.
+[2017.10.11-12.41.05:757][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.11-12.41.06:827][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.11-12.41.06:871][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.11-12.41.06:923][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.11-12.41.06:972][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.11-12.41.07:037][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.11-12.41.07:094][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.11-12.41.07:146][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.11-12.41.07:192][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.11-12.41.07:239][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.11-12.41.07:287][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.11-12.41.07:334][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.11-12.41.07:381][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.11-12.41.07:436][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.11-12.41.07:481][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.11-12.41.07:528][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.11-12.41.07:645][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.11-12.41.07:645][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.11-12.41.07:678][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.11-12.41.07:769][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.11-12.41.07:798][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.11-12.41.07:850][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.11-12.41.07:904][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.11-12.41.07:963][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.11-12.41.08:017][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.11-12.41.08:018][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.11-12.41.08:444][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.11-12.41.08:540][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.11-12.41.08:540][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/croche2574/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.11-12.41.08:540][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/croche2574/Documents/Unreal Projects/SwordVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.11-12.41.08:540][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.11-12.41.08:541][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/croche2574/Documents/Unreal Projects/SwordVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.11-12.41.08:541][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.11-12.41.08:561][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.11-12.41.08:573][  0]LogDerivedDataCache: Using Local data cache path C:/Users/croche2574/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.11-12.41.08:586][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.11-12.41.08:586][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.11-12.41.08:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.11-12.41.08:586][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.11-12.41.08:890][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.10.11-12.41.09:006][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.11-12.41.09:164][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.11-12.41.09:515][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.11-12.41.09:549][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.11-12.41.09:549][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.11-12.41.09:549][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.11-12.41.09:549][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.11-12.41.09:549][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.11-12.41.09:963][  0]LogNetVersion: SwordVR , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2726716735)
+[2017.10.11-12.41.10:249][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.095029 seconds
+[2017.10.11-12.41.10:260][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.11-12.41.10:260][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.11-12.41.10:260][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.11-12.41.10:326][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.11-12.41.12:698][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.11-12.41.12:730][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.11-12.41.13:281][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.11-12.41.13:645][  0]SourceControl: Source control is disabled
+[2017.10.11-12.41.13:645][  0]SourceControl: Source control is disabled
+[2017.10.11-12.41.13:683][  0]SourceControl: Source control is disabled
+[2017.10.11-12.41.13:718][  0]SourceControl: Source control is disabled
+[2017.10.11-12.41.14:204][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.11-12.41.14:385][  0]LogOcInput: OculusInput pre-init called
+[2017.10.11-12.41.14:662][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Synth2DSliderStyle'. Using Synth2DSliderStyle defaults instead.
+[2017.10.11-12.41.14:662][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'SynthKnobStyle'. Using SynthKnobStyle defaults instead.
+[2017.10.11-12.41.14:853][  0]LogEngine: Initializing Engine...
+[2017.10.11-12.41.15:410][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-839F7479
+[2017.10.11-12.41.15:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.11-12.41.15:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.11-12.41.15:743][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-12.41.15:769][  0]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.11-12.41.15:782][  0]LogInit: FAudioDevice initialized.
+[2017.10.11-12.41.15:841][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/croche2574/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.11-12.41.15:858][  0]LogInit: Texture streaming: Enabled
+[2017.10.11-12.41.15:948][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.11-12.41.16:115][  0]LogInit: Transaction tracking system initialized
+[2017.10.11-12.41.16:367][  0]BlueprintLog: New page: Editor Load
+[2017.10.11-12.41.17:042][  0]LocalizationService: Localization service is disabled
+[2017.10.11-12.41.17:558][  0]LogConsoleResponse: Display: 
+[2017.10.11-12.41.17:706][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.11-12.41.17:706][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.11-12.41.17:706][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.11-12.41.18:478][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/' took 0.02s
+[2017.10.11-12.41.18:520][  0]SourceControl: Source control is disabled
+[2017.10.11-12.41.18:520][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-12.41.18:521][  0]LightingResults: New page: Lighting Build
+[2017.10.11-12.41.18:551][  0]MapCheck: New page: Map Check
+[2017.10.11-12.41.18:551][  0]LightingResults: New page: Lighting Build
+[2017.10.11-12.41.18:719][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.11-12.41.18:725][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-12.41.18:737][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-12.41.18:775][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.401ms to complete.
+[2017.10.11-12.41.18:775][  0]LogFileHelpers: Loading map 'Template_Default' took 0.255
+[2017.10.11-12.41.18:866][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.11-12.41.18:967][  0]LogCollectionManager: Loaded 0 collections in 0.001347 seconds
+[2017.10.11-12.41.19:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Collections/' took 0.01s
+[2017.10.11-12.41.19:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Developers/croche2574/Collections/' took 0.01s
+[2017.10.11-12.41.19:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Collections/' took 0.01s
+[2017.10.11-12.41.19:064][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.11-12.41.19:073][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2419 classes and 520 folders.
+[2017.10.11-12.41.19:121][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.11-12.41.19:156][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.11-12.41.19:189][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.11-12.41.19:307][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.11-12.41.19:307][  0]LogLoad: (Engine Initialization) Total time: 16.12 seconds
+[2017.10.11-12.41.19:307][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.11-12.41.19:308][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.11-12.41.19:308][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.11-12.41.19:317][  0]LogSteamVRController: Controller role for device 3 is 2 (invalid=0, left=1, right=2).
+[2017.10.11-12.41.19:317][  0]LogSteamVRController: Warning: Controller device 3 is being assigned to its prefered role 'right'.
+[2017.10.11-12.41.19:317][  0]LogSteamVRController: Controller role for device 4 is 1 (invalid=0, left=1, right=2).
+[2017.10.11-12.41.19:317][  0]LogSteamVRController: Putting controller 4 on the left hand because there is already a controller for the right.
+[2017.10.11-12.41.19:335][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.11-12.41.19:336][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.11-12.41.19:338][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.11-12.41.19:342][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.11-12.41.19:481][  1]LogRenderer: Reallocating scene render targets to support 796x328 Format 10 NumSamples 1 (Frame:1).
+[2017.10.11-12.41.19:499][  1]LogAssetRegistry: Asset discovery search completed in 10.6302 seconds
+[2017.10.11-12.41.19:502][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.11-12.41.19:502][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
+[2017.10.11-12.41.20:352][ 92]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.11-12.41.21:981][279]LogRenderer: Reallocating scene render targets to support 1616x916 Format 10 NumSamples 1 (Frame:263).
+[2017.10.11-12.41.35:799][855]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.11-12.41.36:357][855]LogAIModule: Creating AISystem for world synth_Level
+[2017.10.11-12.41.36:379][855]Cmd: MAP LOAD FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-12.41.36:379][855]LightingResults: New page: Lighting Build
+[2017.10.11-12.41.36:380][855]LoadErrors: New page: Loading map: synth_Level.umap
+[2017.10.11-12.41.36:380][855]MapCheck: New page: Map Check
+[2017.10.11-12.41.36:380][855]LightingResults: New page: Lighting Build
+[2017.10.11-12.41.36:394][855]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-12.41.36:444][855]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-12.41.36:506][855]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.011ms to complete.
+[2017.10.11-12.41.36:506][855]LogFileHelpers: Loading map 'synth_Level' took 0.128
+[2017.10.11-12.41.38:733][ 97]LogTemp: Repeating last play command: VR Preview
+[2017.10.11-12.41.38:776][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.41.38:776][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-12.41.38:776][ 97]PIE: New page: PIE session: synth_Level (Oct 11, 2017, 4:41:38 AM)
+[2017.10.11-12.41.38:776][ 97]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.10.11-12.41.38:780][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004401s)
+[2017.10.11-12.41.38:781][ 97]LogAIModule: Creating AISystem for world synth_Level
+[2017.10.11-12.41.38:781][ 97]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.10.11-12.41.38:781][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.005469s)
+[2017.10.11-12.41.38:806][ 97]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.11-12.41.38:813][ 97]LogInit: FAudioDevice initialized.
+[2017.10.11-12.41.38:991][ 97]LogLinker: Warning: Can't find file '/Game/TurretTargetComponent'
+[2017.10.11-12.41.38:991][ 97]LogLinker: Warning: Can't find file for asset '/Game/TurretTargetComponent' while loading C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset.
+[2017.10.11-12.41.38:991][ 97]LoadErrors: Error: /Game/MyRunebergVR_Pawn : Can't find file for asset. /Game/TurretTargetComponent
+[2017.10.11-12.41.39:019][ 97]LogLinker: Warning: Can't find file '/Game/TurretTargetComponent'
+[2017.10.11-12.41.39:019][ 97]LogLinker: Warning: Can't find file for asset '/Game/TurretTargetComponent' while loading C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset.
+[2017.10.11-12.41.39:022][ 97]LogLinker: Warning: Can't find file '/Game/TurretTargetComponent'
+[2017.10.11-12.41.39:022][ 97]LogLinker: Warning: Can't find file for asset '/Game/TurretTargetComponent' while loading C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VR_GameMode.uasset.
+[2017.10.11-12.41.39:022][ 97]LoadErrors: Error: /Game/VR_GameMode : Can't find file for asset. /Game/TurretTargetComponent
+[2017.10.11-12.41.39:022][ 97]LogLinker: Warning: Can't find file '/Game/TurretTargetComponent'
+[2017.10.11-12.41.39:022][ 97]LogLinker: Warning: Can't find file for asset '/Game/TurretTargetComponent' while loading C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VR_GameMode.uasset.
+[2017.10.11-12.41.39:023][ 97]LogLinker: Warning: Can't find file '/Game/TurretTargetComponent'
+[2017.10.11-12.41.39:023][ 97]LogLinker: Warning: Can't find file for asset '/Game/TurretTargetComponent' while loading C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VR_GameMode.uasset.
+[2017.10.11-12.41.39:069][ 97]LogLoad: Game class is 'VR_GameMode_C'
+[2017.10.11-12.41.39:072][ 97]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.10.11-08.41.39
+[2017.10.11-12.41.39:073][ 97]LogWorld: Bringing up level for play took: 0.001878
+[2017.10.11-12.41.39:107][ 97]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.10.11-12.41.39:120][ 97]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.537
+[2017.10.11-12.41.39:121][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.41.39:167][ 98]LogRenderer: Reallocating scene render targets to support 3024x1680 Format 10 NumSamples 1 (Frame:1).
+[2017.10.11-12.42.27:262][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.42.27:445][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.43.03:014][336]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.10.11-12.43.03:716][336]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.11-12.43.03:781][336]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.11-12.43.03:901][337]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.11-12.43.59:119][310]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.10.11-12.43.59:828][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
+[2017.10.11-12.43.59:911][349]LogSavePackage: Save=63.72ms
+[2017.10.11-12.43.59:911][349]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_Pawn131BFAC842C61ECA827544AFB9544D00.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset'
+[2017.10.11-12.43.59:914][349]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset
+[2017.10.11-12.44.52:413][438]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.10.11-12.44.54:379][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
+[2017.10.11-12.44.54:458][623]LogSavePackage: Save=64.75ms
+[2017.10.11-12.44.54:458][623]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_PawnF95B697A4144F68A8A7F13BBAB4FC334.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset'
+[2017.10.11-12.44.54:461][623]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset
+[2017.10.11-12.46.46:476][352]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.10.11-12.46.47:214][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
+[2017.10.11-12.46.47:294][397]LogSavePackage: Save=65.26ms
+[2017.10.11-12.46.47:294][397]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_PawnD55615124C33EDE2A8369CBAE7495C9E.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset'
+[2017.10.11-12.46.47:297][397]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset
+[2017.10.11-12.46.48:462][528]LogTemp: Repeating last play command: VR Preview
+[2017.10.11-12.46.48:493][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.46.48:493][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-12.46.48:494][528]PIE: New page: PIE session: synth_Level (Oct 11, 2017, 4:46:48 AM)
+[2017.10.11-12.46.48:494][528]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.10.11-12.46.48:501][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006890s)
+[2017.10.11-12.46.48:502][528]LogAIModule: Creating AISystem for world synth_Level
+[2017.10.11-12.46.48:502][528]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2017.10.11-12.46.48:502][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.008563s)
+[2017.10.11-12.46.48:545][528]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.11-12.46.48:553][528]LogInit: FAudioDevice initialized.
+[2017.10.11-12.46.48:677][528]LogLoad: Game class is 'VR_GameMode_C'
+[2017.10.11-12.46.48:679][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.10.11-08.46.48
+[2017.10.11-12.46.48:679][528]LogWorld: Bringing up level for play took: 0.001651
+[2017.10.11-12.46.48:685][528]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.103
+[2017.10.11-12.46.48:686][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.49.19:040][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.49.19:214][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.49.35:261][784]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.10.11-12.49.36:456][888]LogTemp: Repeating last play command: VR Preview
+[2017.10.11-12.49.36:473][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.49.36:473][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-12.49.36:473][888]PIE: New page: PIE session: synth_Level (Oct 11, 2017, 4:49:36 AM)
+[2017.10.11-12.49.36:473][888]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.10.11-12.49.36:478][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004613s)
+[2017.10.11-12.49.36:479][888]LogAIModule: Creating AISystem for world synth_Level
+[2017.10.11-12.49.36:479][888]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2017.10.11-12.49.36:479][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.005753s)
+[2017.10.11-12.49.36:514][888]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.11-12.49.36:521][888]LogInit: FAudioDevice initialized.
+[2017.10.11-12.49.36:645][888]LogLoad: Game class is 'VR_GameMode_C'
+[2017.10.11-12.49.36:647][888]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.10.11-08.49.36
+[2017.10.11-12.49.36:648][888]LogWorld: Bringing up level for play took: 0.001533
+[2017.10.11-12.49.36:653][888]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.07
+[2017.10.11-12.49.36:653][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.50.11:782][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.50.11:951][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.55.36:318][101]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 F:/UE_4.17/FeaturePacks/TP_VirtualRealityBP.upack)
+[2017.10.11-12.55.36:322][101]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.10.11-12.55.36:344][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset"
+[2017.10.11-12.55.36:358][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Grab.uasset"
+[2017.10.11-12.55.36:373][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_Open.uasset"
+[2017.10.11-12.55.36:387][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Animations/RightGrip_BS.uasset"
+[2017.10.11-12.55.36:402][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Animations/RightHand_AnimBP.uasset"
+[2017.10.11-12.55.36:413][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Character/Materials/M_HandMat.uasset"
+[2017.10.11-12.55.36:431][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.uasset"
+[2017.10.11-12.55.36:441][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_PhysicsAsset.uasset"
+[2017.10.11-12.55.36:447][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right_Skeleton.uasset"
+[2017.10.11-12.55.36:468][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset"
+[2017.10.11-12.55.36:513][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Character/Textures/UE4_Mannequin__normals.uasset"
+[2017.10.11-12.55.36:531][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/GenericHMDMaterial.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/GenericHMDMaterial.uasset"
+[2017.10.11-12.55.36:550][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/MF_OccludedPixels.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/MF_OccludedPixels.uasset"
+[2017.10.11-12.55.36:575][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/MI_BaseMaterial2.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/MI_BaseMaterial2.uasset"
+[2017.10.11-12.55.36:591][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/MI_BaseMaterial3.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/MI_BaseMaterial3.uasset"
+[2017.10.11-12.55.36:609][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/MI_ChaperoneOutline.uasset"
+[2017.10.11-12.55.36:623][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/MI_SmallCubes.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/MI_SmallCubes.uasset"
+[2017.10.11-12.55.36:640][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/MI_TeleportCylinderPreview.uasset"
+[2017.10.11-12.55.36:651][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/M_ArcEndpoint.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/M_ArcEndpoint.uasset"
+[2017.10.11-12.55.36:664][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/M_BaseMaterial.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/M_BaseMaterial.uasset"
+[2017.10.11-12.55.36:683][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/M_SplineArcMat.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/M_SplineArcMat.uasset"
+[2017.10.11-12.55.36:699][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/M_TeleportPreviews.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/M_TeleportPreviews.uasset"
+[2017.10.11-12.55.36:704][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Materials/TeleportMCP.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Materials/TeleportMCP.uasset"
+[2017.10.11-12.55.36:716][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Meshes/1x1_cube.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Meshes/1x1_cube.uasset"
+[2017.10.11-12.55.36:731][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Meshes/BeaconDirection.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Meshes/BeaconDirection.uasset"
+[2017.10.11-12.55.36:746][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Meshes/BeamMesh.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Meshes/BeamMesh.uasset"
+[2017.10.11-12.55.36:770][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Meshes/GenericHMD.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Meshes/GenericHMD.uasset"
+[2017.10.11-12.55.36:790][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualReality/Meshes/SM_FatCylinder.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Meshes/SM_FatCylinder.uasset"
+[2017.10.11-12.55.36:821][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset"
+[2017.10.11-12.55.36:839][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/BP_PickupCube.uasset"
+[2017.10.11-12.55.36:850][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/GripEnum.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/GripEnum.uasset"
+[2017.10.11-12.55.36:866][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/HMDLocomotionPawn.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/HMDLocomotionPawn.uasset"
+[2017.10.11-12.55.36:870][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/MotionControllerHaptics.uasset"
+[2017.10.11-12.55.36:882][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset"
+[2017.10.11-12.55.36:896][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/PickupActorInterface.uasset"
+[2017.10.11-12.55.36:900][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Blueprints/VirtualRealityPawn.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/VirtualRealityPawn.uasset"
+[2017.10.11-12.55.36:919][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Maps/HMDLocomotionMap.umap"
+[2017.10.11-12.55.36:951][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Maps/HMDLocomotionMap_BuiltData.uasset"
+[2017.10.11-12.55.36:979][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Maps/MotionControllerMap.umap"
+[2017.10.11-12.55.37:014][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset"
+[2017.10.11-12.55.37:028][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Maps/StartupMap.umap" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Maps/StartupMap.umap"
+[2017.10.11-12.55.37:043][101]LogPackFactory: Copied "../../../Templates/TP_VirtualRealityBP/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset" to "C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Maps/StartupMap_BuiltData.uasset"
+[2017.10.11-12.55.37:144][101]LogMaterial: Missing cached shader map for material M_HandMat, compiling. 
+[2017.10.11-12.55.37:262][101]LogSavePackage: Save=17.60ms
+[2017.10.11-12.55.37:262][101]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MannequinHand_Right_CanGrab69555444432DA23F185C8FAA4AC9C833.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset'
+[2017.10.11-12.55.37:268][101]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualReality/Mannequin/Animations/MannequinHand_Right_CanGrab.uasset
+[2017.10.11-12.55.37:272][101]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/VirtualReality'
+[2017.10.11-12.55.37:273][101]LogLinker: Warning: Can't find file '/Game/VirtualRealityBP/VirtualReality'
+[2017.10.11-12.55.37:273][101]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/VirtualRealityBP/VirtualReality.VirtualReality'
+[2017.10.11-12.56.05:469][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2017.10.11-12.56.05:469][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_Y' for  Get MotionControllerThumbRight_Y
+[2017.10.11-12.56.05:469][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
+[2017.10.11-12.56.05:469][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
+[2017.10.11-12.56.05:469][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2017.10.11-12.56.05:470][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2017.10.11-12.56.05:470][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2017.10.11-12.56.05:470][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2017.10.11-12.56.05:479][945]LogBlueprint: Warning: [Compiler MotionControllerPawn] [0902.29] Compile of MotionControllerPawn successful, but with 8 Warning(s) [in 23 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2017.10.11-12.56.05:594][945]LogMaterial: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2017.10.11-12.56.05:665][945]LogMaterial: Missing cached shader map for material M_TeleportPreviews, compiling. 
+[2017.10.11-12.56.05:681][945]LogMaterial: Missing cached shader map for material M_SplineArcMat, compiling. 
+[2017.10.11-12.56.39:440][763]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.11-12.56.39:500][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2017.10.11-12.56.39:500][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_Y' for  Get MotionControllerThumbRight_Y
+[2017.10.11-12.56.39:501][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
+[2017.10.11-12.56.39:501][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
+[2017.10.11-12.56.39:501][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2017.10.11-12.56.39:501][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2017.10.11-12.56.39:501][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2017.10.11-12.56.39:501][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2017.10.11-12.56.39:734][763]LogBlueprint: Warning: [Compiler MotionControllerPawn] [0936.55] Compile of MotionControllerPawn successful, but with 8 Warning(s) [in 294 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2017.10.11-12.56.56:331][150]BlueprintLog: New page: Compile MyRunebergVR_Pawn
+[2017.10.11-12.58.03:520][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.11-12.58.06:502][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.11-12.58.12:719][769]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SwordVR
+[2017.10.11-12.58.12:719][769]LogTemp: CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.11-12.58.12:719][769]LogTemp: Initial Dir: F:\UE_4.17
+[2017.10.11-12.58.12:719][769]LogTemp: Env CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.11-12.58.12:719][769]LogTemp: BranchPath = IST1022-14/F/UE_4.17/Engine/Binaries --- GameBranchPath = IST1022-14/F/UE_4.17/Engine/Binaries
+[2017.10.11-12.58.12:719][769]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\croche2574\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.11-12.58.48:608][795]LogTemp: Repeating last play command: VR Preview
+[2017.10.11-12.58.48:631][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.58.48:631][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-12.58.48:632][795]PIE: New page: PIE session: synth_Level (Oct 11, 2017, 4:58:48 AM)
+[2017.10.11-12.58.48:632][795]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.10.11-12.58.48:638][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006617s)
+[2017.10.11-12.58.48:639][795]LogAIModule: Creating AISystem for world synth_Level
+[2017.10.11-12.58.48:640][795]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2017.10.11-12.58.48:640][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.008023s)
+[2017.10.11-12.58.48:692][795]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.11-12.58.48:702][795]LogInit: FAudioDevice initialized.
+[2017.10.11-12.58.48:842][795]LogLoad: Game class is 'VR_GameMode_C'
+[2017.10.11-12.58.48:844][795]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.10.11-08.58.48
+[2017.10.11-12.58.48:844][795]LogWorld: Bringing up level for play took: 0.001424
+[2017.10.11-12.58.48:853][795]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 0.27
+[2017.10.11-12.58.48:853][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-12.58.58:712][674]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.10.11-12.58.58:712][674]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.10.11-13.00.33:105][ 99]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-13.00.33:262][ 99]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-13.00.42:968][ 25]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.11-13.00.43:032][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_X' for  Get MotionControllerThumbRight_X
+[2017.10.11-13.00.43:032][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbRight_Y' for  Get MotionControllerThumbRight_Y
+[2017.10.11-13.00.43:032][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_Y' for  Get MotionControllerThumbLeft_Y
+[2017.10.11-13.00.43:032][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] Get Input Axis references unknown Axis 'MotionControllerThumbLeft_X' for  Get MotionControllerThumbLeft_X
+[2017.10.11-13.00.43:033][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2017.10.11-13.00.43:033][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2017.10.11-13.00.43:033][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2017.10.11-13.00.43:033][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2017.10.11-13.00.43:246][ 25]LogBlueprint: Warning: [Compiler MotionControllerPawn] [1180.06] Compile of MotionControllerPawn successful, but with 8 Warning(s) [in 277 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2017.10.11-13.02.33:485][860]LogEditorTransaction: Undo Delete current selection
+[2017.10.11-13.05.26:373][224]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SwordVR
+[2017.10.11-13.05.26:373][224]LogTemp: CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.11-13.05.26:373][224]LogTemp: Initial Dir: F:\UE_4.17
+[2017.10.11-13.05.26:373][224]LogTemp: Env CWD: F:\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.11-13.05.26:373][224]LogTemp: BranchPath = IST1022-14/F/UE_4.17/Engine/Binaries --- GameBranchPath = IST1022-14/F/UE_4.17/Engine/Binaries
+[2017.10.11-13.05.26:400][225]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\croche2574\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.11-13.07.23:836][585]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.11-13.07.23:925][585]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2017.10.11-13.07.23:926][585]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2017.10.11-13.07.23:926][585]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2017.10.11-13.07.23:926][585]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabLeft' for  InputAction GrabLeft
+[2017.10.11-13.07.24:127][585]LogBlueprint: Warning: [Compiler MotionControllerPawn] [1580.94] Compile of MotionControllerPawn successful, but with 4 Warning(s) [in 291 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2017.10.11-13.07.42:967][775]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.11-13.07.43:026][775]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2017.10.11-13.07.43:026][775]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2017.10.11-13.07.43:026][775]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'GrabRight' for  InputAction GrabRight
+[2017.10.11-13.07.43:220][775]LogBlueprint: Warning: [Compiler MotionControllerPawn] [1600.03] Compile of MotionControllerPawn successful, but with 3 Warning(s) [in 253 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2017.10.11-13.08.15:624][581]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.11-13.08.15:684][581]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportRight' for  InputAction TeleportRight
+[2017.10.11-13.08.15:684][581]LogBlueprint: Warning: [Compiler MotionControllerPawn] InputAction Event references unknown Action 'TeleportLeft' for  InputAction TeleportLeft
+[2017.10.11-13.08.15:888][581]LogBlueprint: Warning: [Compiler MotionControllerPawn] [1632.70] Compile of MotionControllerPawn successful, but with 2 Warning(s) [in 263 ms] (/Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn)
+[2017.10.11-13.08.55:556][138]LogSavePackage: Save=69.62ms
+[2017.10.11-13.08.55:556][138]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_Level_Auto1E71CBDAA496E80DE6BC53783397F94E5.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap'
+[2017.10.11-13.08.55:558][138]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Maps/synth_Level_Auto1.umap
+[2017.10.11-13.08.55:560][138]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/synth_Level' took 0.126
+[2017.10.11-13.08.55:560][138]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.126
+[2017.10.11-13.08.55:561][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Weapons/Weapon_BP] ([1] browsable assets)...
+[2017.10.11-13.08.55:577][138]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Weapons/Weapon_BP.Weapon_BP]
+[2017.10.11-13.08.55:577][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Weapons/Weapon_BP]
+[2017.10.11-13.08.55:577][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_BP" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Weapons/Weapon_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.11-13.08.55:639][138]LogSavePackage: Save=42.33ms
+[2017.10.11-13.08.55:639][138]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Weapon_BP_Auto156C3B3C9418A2F0D2E10D69690681FF2.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Weapons/Weapon_BP_Auto1.uasset'
+[2017.10.11-13.08.55:640][138]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/Weapons/Weapon_BP_Auto1.uasset
+[2017.10.11-13.08.55:640][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VR_GameMode] ([1] browsable assets)...
+[2017.10.11-13.08.55:641][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/VR_GameMode]
+[2017.10.11-13.08.55:641][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_GameMode" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/VR_GameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.11-13.08.55:671][138]LogSavePackage: Save=13.00ms
+[2017.10.11-13.08.55:671][138]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/VR_GameMode_Auto1F3A59DFA4657F954DA3102A9DC217744.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/VR_GameMode_Auto1.uasset'
+[2017.10.11-13.08.55:672][138]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/VR_GameMode_Auto1.uasset
+[2017.10.11-13.08.55:673][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyRunebergVR_Pawn] ([1] browsable assets)...
+[2017.10.11-13.08.55:685][138]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyRunebergVR_Pawn.MyRunebergVR_Pawn]
+[2017.10.11-13.08.55:685][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyRunebergVR_Pawn]
+[2017.10.11-13.08.55:685][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/MyRunebergVR_Pawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.11-13.08.55:751][138]LogSavePackage: Save=46.96ms
+[2017.10.11-13.08.55:751][138]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_Pawn_Auto1B9860FB848BEB3349CE1E28E21329F28.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/MyRunebergVR_Pawn_Auto1.uasset'
+[2017.10.11-13.08.55:752][138]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/MyRunebergVR_Pawn_Auto1.uasset
+[2017.10.11-13.08.55:760][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2017.10.11-13.08.55:761][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2017.10.11-13.08.55:930][138]LogSavePackage: Save=148.26ms
+[2017.10.11-13.08.55:930][138]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MotionControllerPawn_Auto13A686E3149AF77D14AABD193D6235831.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset'
+[2017.10.11-13.08.55:931][138]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto1.uasset
+[2017.10.11-13.08.55:931][138]LogFileHelpers: Auto-saving content packages took 0.370
+[2017.10.11-13.22.03:371][205]BlueprintLog: New page: Compile BP_MotionController
+[2017.10.11-13.22.06:007][400]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.11-13.22.13:119][ 64]LogTemp: Repeating last play command: VR Preview
+[2017.10.11-13.22.13:146][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-13.22.13:146][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.11-13.22.13:146][ 64]PIE: New page: PIE session: synth_Level (Oct 11, 2017, 5:22:13 AM)
+[2017.10.11-13.22.13:146][ 64]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_synth_Level
+[2017.10.11-13.22.13:151][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004902s)
+[2017.10.11-13.22.13:152][ 64]LogAIModule: Creating AISystem for world synth_Level
+[2017.10.11-13.22.13:152][ 64]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2017.10.11-13.22.13:152][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/synth_Level.synth_Level to /Game/Maps/UEDPIE_0_synth_Level.synth_Level (0.006117s)
+[2017.10.11-13.22.13:192][ 64]LogInit: XAudio2 using 'Speakers (7- HTC Vive)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.11-13.22.13:202][ 64]LogInit: FAudioDevice initialized.
+[2017.10.11-13.22.13:859][ 64]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-839F7479
+[2017.10.11-13.22.13:903][ 64]LogLoad: Game class is 'VR_GameMode_C'
+[2017.10.11-13.22.13:905][ 64]LogWorld: Bringing World /Game/Maps/UEDPIE_0_synth_Level.synth_Level up for play (max tick rate 0) at 2017.10.11-09.22.13
+[2017.10.11-13.22.13:905][ 64]LogWorld: Bringing up level for play took: 0.001568
+[2017.10.11-13.22.13:918][ 64]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_synth_Level 1.339
+[2017.10.11-13.22.13:918][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-13.22.24:036][964]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.10.11-13.22.24:036][964]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{6088532d-0c9c-42fe-a0f3-f67b2956ad53} was removed. Shutting down audio device.
+[2017.10.11-13.23.28:938][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-13.23.29:097][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/synth_Level.synth_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level' with GeneratedClass '/Game/Maps/synth_Level.synth_Level_C' with ClassGeneratedBy '/Game/Maps/synth_Level.synth_Level:PersistentLevel.synth_Level'
+[2017.10.11-13.23.40:329][803]BlueprintLog: New page: Compile MotionControllerPawn
+[2017.10.11-13.23.41:237][847]LogSavePackage: Save=150.05ms
+[2017.10.11-13.23.41:237][847]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MotionControllerPawn07B805C74AD5A2D7024A1F9EE6889339.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2017.10.11-13.23.41:245][847]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2017.10.11-13.23.45:064][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/synth_Level" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.11-13.23.45:177][133]LogSavePackage: Save=72.54ms
+[2017.10.11-13.23.45:177][133]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/synth_Level7D4ACC58477E002D938AB5BA035F1D20.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap'
+[2017.10.11-13.23.45:182][133]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Maps/synth_Level.umap
+[2017.10.11-13.23.45:217][133]LogFileHelpers: Saving map 'synth_Level' took 0.215
+[2017.10.11-13.23.45:218][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyRunebergVR_Pawn" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset" SILENT=true
+[2017.10.11-13.23.45:279][133]LogSavePackage: Save=41.94ms
+[2017.10.11-13.23.45:280][133]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/MyRunebergVR_Pawn213CCFB945F1FE17E3621BA9F1FB7F05.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset'
+[2017.10.11-13.23.45:285][133]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/MyRunebergVR_Pawn.uasset
+[2017.10.11-13.23.45:288][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_GameMode" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VR_GameMode.uasset" SILENT=true
+[2017.10.11-13.23.45:323][133]LogSavePackage: Save=15.36ms
+[2017.10.11-13.23.45:323][133]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/VR_GameModeB421451B4ECFD87CE4D0529C83600881.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VR_GameMode.uasset'
+[2017.10.11-13.23.45:329][133]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/VR_GameMode.uasset
+[2017.10.11-13.23.45:332][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/Weapon_BP" FILE="C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Weapons/Weapon_BP.uasset" SILENT=true
+[2017.10.11-13.23.45:407][133]LogSavePackage: Save=50.35ms
+[2017.10.11-13.23.45:407][133]LogSavePackage: Moving 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Weapon_BP01560BD14CD00A724378E5B3C88DA100.tmp' to 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Weapons/Weapon_BP.uasset'
+[2017.10.11-13.23.45:410][133]LogSavePackage: Display: Finished SavePackage C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Weapons/Weapon_BP.uasset
+[2017.10.11-13.23.45:565][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.11-13.23.45:649][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.11-13.23.45:942][134]Cmd: QUIT_EDITOR
+[2017.10.11-13.23.46:664][134]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.11-13.23.46:677][134]LogExit: Preparing to exit.
+[2017.10.11-13.23.47:907][134]LogExit: Editor shut down
+[2017.10.11-13.23.47:912][134]LogExit: Transaction tracking system shut down
+[2017.10.11-13.23.48:104][134]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.11-13.23.48:104][134]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/' was aborted.
+[2017.10.11-13.23.48:104][134]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.11-13.23.48:104][134]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.11-13.23.48:105][134]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.11-13.23.48:105][134]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Synthesis/Content/' was aborted.
+[2017.10.11-13.23.48:203][134]LogExit: Object subsystem successfully closed.
+[2017.10.11-13.23.48:228][134]LogD3D11RHI: Shutdown
+[2017.10.11-13.23.48:228][134]LogD3D11RHI: CleanupD3DDevice
+[2017.10.11-13.23.48:231][134]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.11-13.23.48:239][134]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (550)
+[2017.10.11-13.23.48:239][134]LogModuleManager: Shutting down and abandoning module BlueprintGraph (548)
+[2017.10.11-13.23.48:239][134]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (546)
+[2017.10.11-13.23.48:239][134]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (544)
+[2017.10.11-13.23.48:239][134]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (542)
+[2017.10.11-13.23.48:239][134]LogModuleManager: Shutting down and abandoning module SceneOutliner (540)
+[2017.10.11-13.23.48:239][134]LogModuleManager: Shutting down and abandoning module AddContentDialog (538)
+[2017.10.11-13.23.48:239][134]LogDirectoryWatcher: A directory notification for 'F:/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module WidgetCarousel (537)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module EditorWidgets (534)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module CollectionManager (532)
+[2017.10.11-13.23.48:240][134]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Collections/' was aborted.
+[2017.10.11-13.23.48:240][134]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Content/Developers/croche2574/Collections/' was aborted.
+[2017.10.11-13.23.48:240][134]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Saved/Collections/' was aborted.
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module StatsViewer (530)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module FoliageEdit (528)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module LandscapeEditor (526)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module MeshPaintMode (524)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (522)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module ActorPickerMode (520)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module GeometryMode (518)
+[2017.10.11-13.23.48:240][134]LogModuleManager: Shutting down and abandoning module TextureAlignMode (516)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module BspMode (514)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (512)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module HardwareSurvey (510)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (508)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AutomationWorker (506)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (504)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (502)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module PlacementMode (501)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (498)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (496)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module Media (489)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (486)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module CharacterAI (484)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AudioCapture (482)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module SequenceRecorder (481)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module SmartSnapping (478)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module SessionServices (476)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module ViewportSnapping (474)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module ViewportInteraction (472)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module ClothPainter (470)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.10.11-13.23.48:241][134]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.10.11-13.23.48:875][134]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.10.11-13.23.48:876][134]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.10.11-13.23.48:876][134]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.10.11-13.23.48:876][134]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.10.11-13.23.48:876][134]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.10.11-13.23.48:876][134]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.10.11-13.23.48:876][134]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.10.11-13.23.48:940][134]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.10.11-13.23.48:940][134]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.10.11-13.23.48:940][134]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.10.11-13.23.48:940][134]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.10.11-13.23.48:940][134]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.10.11-13.23.48:940][134]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.10.11-13.23.48:941][134]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.10.11-13.23.48:941][134]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.10.11-13.23.48:941][134]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.10.11-13.23.48:941][134]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.10.11-13.23.48:949][134]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.10.11-13.23.48:951][134]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.10.11-13.23.48:951][134]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.10.11-13.23.48:951][134]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.10.11-13.23.48:952][134]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.10.11-13.23.48:952][134]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.10.11-13.23.48:952][134]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.10.11-13.23.48:952][134]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.10.11-13.23.48:952][134]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.10.11-13.23.48:952][134]LogModuleManager: Shutting down and abandoning module Niagara (368)
+[2017.10.11-13.23.48:952][134]LogModuleManager: Shutting down and abandoning module NiagaraEditor (367)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (364)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module LauncherPlatform (362)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module AnalyticsET (360)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module PortalServices (358)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module PortalRpc (356)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module MessagingRpc (354)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module AIModule (352)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module GameplayDebugger (351)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module AITestSuite (349)
+[2017.10.11-13.23.48:953][134]LogModuleManager: Shutting down and abandoning module ProfilerService (346)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module TaskGraph (344)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (342)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module SynthesisEditor (340)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module Synthesis (338)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module SteamVRController (336)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module SoundVisualizations (334)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module SoundUtilitiesEditor (332)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module SoundUtilities (330)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.11-13.23.49:044][134]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.11-13.23.49:045][134]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.11-13.23.49:046][134]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.11-13.23.49:046][134]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.11-13.23.49:046][134]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.11-13.23.49:046][134]LogDirectoryWatcher: A directory notification for 'C:/Users/croche2574/Documents/Unreal Projects/SwordVR/Plugins/Marketplace/RunebergVRPlugin-master/Plugins/RunebergVRPlugin/Binaries/Win64' was aborted.
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.11-13.23.49:047][134]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.11-13.23.49:149][134]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.11-13.23.49:250][134]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.11-13.23.49:250][134]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.11-13.23.49:250][134]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.11-13.23.49:250][134]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.11-13.23.49:250][134]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.11-13.23.49:250][134]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.11-13.23.49:251][134]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.11-13.23.49:252][134]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.11-13.23.49:253][134]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.11-13.23.49:253][134]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.11-13.23.49:253][134]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.11-13.23.49:254][134]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.11-13.23.49:255][134]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.11-13.23.49:273][134]LogDerivedDataCache: Shutdown
+[2017.10.11-13.23.49:273][134]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.11-13.23.49:273][134]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.11-13.23.49:273][134]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.11-13.23.49:273][134]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.11-13.23.49:273][134]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.11-13.23.49:273][134]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.11-13.23.49:273][134]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.11-13.23.49:274][134]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.11-13.23.49:274][134]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.11-13.23.49:275][134]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.11-13.23.49:275][134]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.11-13.23.49:275][134]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9E5E6C8B-4C88-5E4F-F49F-47BDEF75A827%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=2d17982343701310f2bb1fabc21e4b44%7C%7C12586e77-4266-4c82-b3f1-2966cd209827&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.11-13.23.49:299][134]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.11-13.23.49:300][134]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.11-13.23.49:300][134]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.11-13.23.49:300][134]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.11-13.23.49:300][134]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.11-13.23.49:300][134]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.11-13.23.49:300][134]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.11-13.23.49:300][134]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.11-13.23.49:302][134]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.11-13.23.49:305][134]LogExit: Exiting.
+[2017.10.11-13.23.49:321][134]Log file closed, 10/11/17 09:23:49
